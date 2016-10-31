@@ -1,14 +1,14 @@
 .menu {
-	margin: 2% 15%;
-	padding-bottom: 5em;
+	margin: 2% 10%;
+	padding-bottom: 2em;
 }
 
 div .brand-logo, i.medium.material-icons {
-	font-size: 3.8rem;
+	font-size: 2.25rem;
 }
 
 .right a {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 /*.menu h1 {
@@ -31,7 +31,7 @@ div .brand-logo, i.medium.material-icons {
 }
 
 .explorer h2 {
-	font-size: 6em;
+	font-size: 3em;
 	display: inline;
 }
 
@@ -40,7 +40,7 @@ div .brand-logo, i.medium.material-icons {
 }
 
 .explorer li {
-	font-size: 2.25em;
+	font-size: 1.5em;
 	font-style: italic;
 }
 
@@ -50,12 +50,15 @@ div .brand-logo, i.medium.material-icons {
 }
 
 div.wrapper {
-	margin-left: 19%;
+	/*margin-left: 19%;*/
+	width: 50%;
+	margin: auto;
 	padding-top: 5em;
 }
 
 div.card-panel {
-	width: 450px;
+	width: 260px;
+	height: 275px;
 	margin: 0 3%;
 	float: left;
 	display: inline-block;
@@ -63,11 +66,12 @@ div.card-panel {
 }
 
 .measures {
-	padding: 2em;
+	/*padding: 2em;*/
+	font-size: 2em;
 	text-align: center;
 }
 
 .info-circle {
-	margin-left: 94%;
+	margin: 27% 0 0 95%;
 	color: white;
 }
