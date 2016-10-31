@@ -1,0 +1,73 @@
+.menu {
+	margin: 2% 15%;
+	padding-bottom: 5em;
+}
+
+div .brand-logo, i.medium.material-icons {
+	font-size: 3.8rem;
+}
+
+.right a {
+	font-size: 2rem;
+}
+
+/*.menu h1 {
+	float: left;
+}
+
+.menu ul {
+	list-style-type: none;
+	float: right;
+}
+
+.menu li {
+	display: inline;
+	padding: 10px;
+	font-size: 32px;
+}*/
+
+.explorer {
+	text-align: center;
+}
+
+.explorer h2 {
+	font-size: 6em;
+	display: inline;
+}
+
+.explorer ul {
+	list-style-type: none;
+}
+
+.explorer li {
+	font-size: 2.25em;
+	font-style: italic;
+}
+
+.pro-tips {
+	width: 50%;
+	margin: auto;
+}
+
+div.wrapper {
+	margin-left: 19%;
+	padding-top: 5em;
+}
+
+div.card-panel {
+	width: 450px;
+	margin: 0 3%;
+	float: left;
+	display: inline-block;
+	padding-top: 5em;
+}
+
+.measures {
+	padding: 2em;
+	text-align: center;
+}
+
+.info-circle {
+	margin-left: 94%;
+	color: white;
+}
