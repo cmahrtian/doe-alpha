@@ -3,7 +3,7 @@
 	padding-bottom: 2em;
 }
 
-div .brand-logo, i.medium.material-icons {
+div.brand-logo, i.medium.material-icons {
 	font-size: 2.25rem;
 }
 
@@ -11,7 +11,19 @@ div .brand-logo, i.medium.material-icons {
 	font-size: 1.5rem;
 }
 
-.explorer {
+nav.nav-extended {
+	height: 128px;
+}
+
+img.growth-explorer {
+	height: 128px;
+}
+
+/*a.brand-logo, i.medium.material-icons {
+	height: 64px;
+}*/
+
+/*.explorer {
 	text-align: center;
 }
 
@@ -57,4 +69,4 @@ div.card-panel {
 .info-circle {
 	margin: 27% 0 0 95%;
 	color: white;
-}
+}*/
