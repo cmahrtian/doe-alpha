@@ -11,6 +11,21 @@ div .brand-logo, i.medium.material-icons {
 	font-size: 1.5rem;
 }
 
+/*.menu h1 {
+	float: left;
+}
+
+.menu ul {
+	list-style-type: none;
+	float: right;
+}
+
+.menu li {
+	display: inline;
+	padding: 10px;
+	font-size: 32px;
+}*/
+
 .explorer {
 	text-align: center;
 }
@@ -35,6 +50,7 @@ div .brand-logo, i.medium.material-icons {
 }
 
 div.wrapper {
+	/*margin-left: 19%;*/
 	width: 50%;
 	margin: auto;
 	padding-top: 5em;
@@ -50,6 +66,7 @@ div.card-panel {
 }
 
 .measures {
+	/*padding: 2em;*/
 	font-size: 2em;
 	text-align: center;
 }
