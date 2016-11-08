@@ -19,6 +19,26 @@ img.growth-explorer {
 	height: 128px;
 }
 
+.row .col {
+	float: none;
+}
+
+.row .col.m5 {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.card-panel {
+	text-align: center;
+	font-size: 25px;
+}
+/*.row.col {
+	clear: both;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}*/
+
 /*a.brand-logo, i.medium.material-icons {
 	height: 64px;
 }*/
