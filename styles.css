@@ -32,6 +32,27 @@ img.growth-explorer {
 	text-align: center;
 	font-size: 25px;
 }
+
+.row.portals {
+	width: 40%;
+	margin: 60px auto;
+}
+
+.row .col.m6 {
+	float: left;
+}
+
+.card-content {
+	text-align: center;
+}
+
+.card .card-title {
+	font-size: 40px;
+}
+
+.card .card-content p {
+	margin: 70px 0;
+}
 /*.row.col {
 	clear: both;
 	width: 50%;
