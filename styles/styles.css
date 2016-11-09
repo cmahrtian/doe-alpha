@@ -1,7 +1,22 @@
+/*custom fonts*/
+@font-face {
+	font-family: MuseoSans;
+	src: url('fonts/MuseoSans_500.otf');
+}
+
+@font-face {
+	font-family: MuseoSlab;
+	src: url('fonts/Museo_Slab_500.otf');
+}
+
 /*navbar*/
 .menu {
-	margin: 2% 15%;
-	padding-bottom: 2em;
+	margin: 1% 15%;
+	padding-bottom: 1em;
+}
+
+nav .brand-logo.right {
+	font-family: MuseoSlab;
 }
 
 div.brand-logo, i.medium.material-icons {
@@ -10,6 +25,7 @@ div.brand-logo, i.medium.material-icons {
 
 .right a {
 	font-size: 1.5rem;
+	font-family: MuseoSans;
 }
 
 nav.nav-extended {
@@ -41,13 +57,14 @@ i.right {
 }
 
 .row .col.m5 {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 }
 
 .card-panel {
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
+	font-family: MuseoSlab;
 }
 
 /*TP and SL portals*/
