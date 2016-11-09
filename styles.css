@@ -1,5 +1,6 @@
+/*navbar*/
 .menu {
-	margin: 2% 10%;
+	margin: 2% 15%;
 	padding-bottom: 2em;
 }
 
@@ -13,12 +14,28 @@ div.brand-logo, i.medium.material-icons {
 
 nav.nav-extended {
 	height: 128px;
+	box-shadow: none;
+	line-height: 56px;
 }
 
 img.growth-explorer {
 	height: 128px;
 }
 
+nav ul a {
+	color: black;
+	padding: 0 10px;
+}
+
+.dropdown-content li>a {
+	color: black;
+}
+
+i.right {
+	margin-left: 0px;
+}
+
+/*Growth Explorer tagline*/
 .row .col {
 	float: none;
 }
@@ -33,6 +50,7 @@ img.growth-explorer {
 	font-size: 25px;
 }
 
+/*TP and SL portals*/
 .row.portals {
 	width: 40%;
 	margin: 60px auto;
