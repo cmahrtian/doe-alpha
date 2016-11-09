@@ -57,7 +57,7 @@ i.right {
 }
 
 .row .col.m5 {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -67,14 +67,30 @@ i.right {
 	font-family: MuseoSlab;
 }
 
+/*tips icon*/
+.cloud img {
+	position: relative;
+	width: 100%;
+}
+
+.cloud p {
+	position: absolute;
+	top: 578px;
+	left: 365px;
+	font-family: MuseoSlab;
+	font-size: 19px;
+	text-align: center;
+}
+
 /*TP and SL portals*/
 .row.portals {
-	width: 40%;
+	width: 70%;
 	margin: 60px auto;
 }
 
 .row .col.m6 {
 	float: left;
+	width: 30%;
 }
 
 .card-content {
