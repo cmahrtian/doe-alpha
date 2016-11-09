@@ -71,11 +71,12 @@ i.right {
 .cloud img {
 	position: relative;
 	width: 100%;
+	top: -45px;
 }
 
 .cloud p {
 	position: absolute;
-	top: 578px;
+	top: 533px;
 	left: 365px;
 	font-family: MuseoSlab;
 	font-size: 19px;
@@ -93,16 +94,34 @@ i.right {
 	width: 30%;
 }
 
+.card {
+	border-radius: 25px;
+}
+
 .card-content {
 	text-align: center;
 }
 
-.card .card-title {
-	font-size: 40px;
+.card .card-content p {
+	margin: 50px 0;
+	font-family: MuseoSlab;
+	font-size: 15px;
 }
 
-.card .card-content p {
-	margin: 70px 0;
+.card .card-title {
+	font-size: 40px;
+	font-family: MuseoSans;
+}
+
+.card .card-action {
+	border-radius: 0 0 25px 25px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+	color: white;
+	text-transform: none;
+	font-weight: bold;
+	font-size: 20px;
 }
 /*.row.col {
 	clear: both;
