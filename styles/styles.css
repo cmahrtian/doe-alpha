@@ -20,10 +20,10 @@
 	padding-bottom: 1em;
 }
 
-@media only screen and (max-width: 992px) { 
+@media only screen and (max-width: 992px) {
 	nav .brand-logo {
 		left: 19%;
-	}	
+	}
 }
 
 nav .brand-logo.right {
@@ -87,18 +87,12 @@ i.right {
 }
 
 .cloud p {
-	position: absolute;
-	top: 482px;
-	left: 515px;
+	position: relative;
+	top: -238px;
+	left: -8px;
 	font-family: MuseoSlab;
 	font-size: 17px;
 	text-align: center;
-}
-
-@media only print, screen and (max-width: 992px) { 
-	.cloud p {
-		left: 48px;
-	}	
 }
 
 /*TP and SL portals*/
