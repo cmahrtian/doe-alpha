@@ -9,10 +9,21 @@
 	src: url('fonts/Museo_Slab_500.otf');
 }
 
+/*container width*/
+.container {
+	width: 984px;
+}
+
 /*navbar*/
 .menu {
-	margin: 1% 15%;
+	margin-top: 1%;
 	padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 992px) { 
+	nav .brand-logo {
+		left: 19%;
+	}	
 }
 
 nav .brand-logo.right {
@@ -57,7 +68,7 @@ i.right {
 }
 
 .row .col.m5 {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -70,40 +81,49 @@ i.right {
 /*tips icon*/
 .cloud img {
 	position: relative;
-	width: 100%;
+	width: 110%;
 	top: -45px;
+	left: -25px;
 }
 
 .cloud p {
 	position: absolute;
-	top: 533px;
-	left: 365px;
+	top: 482px;
+	left: 515px;
 	font-family: MuseoSlab;
-	font-size: 19px;
+	font-size: 17px;
 	text-align: center;
+}
+
+@media only print, screen and (max-width: 992px) { 
+	.cloud p {
+		left: 48px;
+	}	
 }
 
 /*TP and SL portals*/
 .row.portals {
-	width: 70%;
+	width: 100%;
 	margin: 60px auto;
 }
 
 .row .col.m6 {
 	float: left;
 	width: 30%;
+	margin-left: 25px;
 }
 
 .card {
 	border-radius: 25px;
 }
 
-.card-content {
+.card .card-content {
+	padding: 8px;
 	text-align: center;
 }
 
 .card .card-content p {
-	margin: 50px 0;
+	margin: 30px 0;
 	font-family: MuseoSlab;
 	font-size: 15px;
 }
@@ -115,6 +135,7 @@ i.right {
 
 .card .card-action {
 	border-radius: 0 0 25px 25px;
+	padding: 8px;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
@@ -123,61 +144,3 @@ i.right {
 	font-weight: bold;
 	font-size: 20px;
 }
-/*.row.col {
-	clear: both;
-	width: 50%;
-	margin: 0 auto;
-	text-align: center;
-}*/
-
-/*a.brand-logo, i.medium.material-icons {
-	height: 64px;
-}*/
-
-/*.explorer {
-	text-align: center;
-}
-
-.explorer h2 {
-	font-size: 3em;
-	display: inline;
-}
-
-.explorer ul {
-	list-style-type: none;
-}
-
-.explorer li {
-	font-size: 1.5em;
-	font-style: italic;
-}
-
-.pro-tips {
-	width: 50%;
-	margin: auto;
-}
-
-div.wrapper {
-	width: 50%;
-	margin: auto;
-	padding-top: 5em;
-}
-
-div.card-panel {
-	width: 260px;
-	height: 275px;
-	margin: 0 3%;
-	float: left;
-	display: inline-block;
-	padding-top: 5em;
-}
-
-.measures {
-	font-size: 2em;
-	text-align: center;
-}
-
-.info-circle {
-	margin: 27% 0 0 95%;
-	color: white;
-}*/
