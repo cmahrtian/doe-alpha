@@ -10,18 +10,28 @@ img.growth-explorer {
 }
 
 /*login section*/
+.row {
+	margin-bottom: 0px;
+}
+
 .container .row {
 	margin-left: 0;
 	margin-right: 0;
 }
 
 .row.login-form {
-	margin-top: 1em;
+	margin-top: 0.5em;
 	width: 45%;
 	border: 5px solid #aeea00;
 	position: relative;
 }
 
-.row.col.s11 {
-	margin: 0;
+.row .col.s11 {
+	left: 7%;
+}
+
+.btn.logon {
+	width: 75%;
+	margin-left: 11%;
+	margin-bottom: 4%;
 }
