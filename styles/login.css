@@ -1,0 +1,27 @@
+/*container width*/
+.container {
+	width: 984px;
+}
+
+/*growth explorer logo*/
+img.growth-explorer {
+	height: 128px;
+	margin-top: 1%;
+}
+
+/*login section*/
+.container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row.login-form {
+	margin-top: 1em;
+	width: 45%;
+	border: 5px solid #aeea00;
+	position: relative;
+}
+
+.row.col.s11 {
+	margin: 0;
+}
