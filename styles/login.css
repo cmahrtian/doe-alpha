@@ -10,42 +10,38 @@ img.growth-explorer {
 }
 
 /*login section*/
-.row {
-	margin-bottom: 0px;
-}
 
-.container .row {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.row.login-form {
-	margin-top: 0.5em;
+.login-form {
 	width: 45%;
+	margin-left: 2%;
 	border: 5px solid #aeea00;
-	position: relative;
+	padding-left: 2%;
+	display: inline-block;
+	float: left;
 }
 
-.row .col.s11 {
-	left: 7%;
-}
-
-.btn.logon {
-	width: 75%;
-	margin-left: 11%;
-	margin-bottom: 4%;
-}
-
-.signup {
-	margin-left: 11%;
+a.logon, div.signup {
+	width: 87%;
+	margin-left: .75rem;
 }
 
 .signup p {
-	font-size: 16px;
 	font-weight: bold;
+	font-size: 15px;
 }
 
 .signup .btn {
-	width: 62%;
 	font-weight: normal;
+	font-size: 15px;
+	width: 78%;
+}
+
+img.laptop {
+	width: 50%;
+	margin-top: -1%;
+	margin-left: 3%;
+}
+
+hr {
+	height: 6px;
 }
