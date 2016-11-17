@@ -1,3 +1,14 @@
+/*custom fonts*/
+@font-face {
+	font-family: MuseoSans;
+	src: url('fonts/MuseoSans_500.otf');
+}
+
+@font-face {
+	font-family: MuseoSlab;
+	src: url('fonts/Museo_Slab_500.otf');
+}
+
 /*container width*/
 .container {
 	width: 984px;
@@ -10,7 +21,6 @@ img.growth-explorer {
 }
 
 /*login section*/
-
 .login-form {
 	width: 45%;
 	margin-left: 2%;
@@ -18,11 +28,21 @@ img.growth-explorer {
 	padding-left: 2%;
 	display: inline-block;
 	float: left;
+	font-family: MuseoSlab;
+}
+
+.col.s12 .row {
+	margin-bottom: 0;
+}
+
+.input-field label {
+	font-size: 1.2rem;
 }
 
 a.logon, div.signup {
 	width: 87%;
 	margin-left: .75rem;
+	text-transform: none;
 }
 
 .signup p {
@@ -33,13 +53,14 @@ a.logon, div.signup {
 .signup .btn {
 	font-weight: normal;
 	font-size: 15px;
-	width: 78%;
+	width: 76.5%;
+	text-transform: none;
 }
 
 img.laptop {
-	width: 50%;
-	margin-top: -1%;
-	margin-left: 3%;
+	width: 46%;
+	margin-top: -1.5%;
+	margin-left: 4%;
 }
 
 hr {
@@ -71,6 +92,13 @@ hr {
 
 .row.tasks span {
 	font-size: 22px;
+	font-family: MuseoSans;
+	font-weight: bold;
+}
+
+.row.tasks p {
+	font-family: MuseoSlab;
+	font-size: 16px;
 }
 
 /*FAQs/Contact footer*/
@@ -93,8 +121,17 @@ footer.page-footer {
 	margin-left: 3%;
 }
 
+.page-footer h5 {
+	font-family: MuseoSans;
+	font-weight: bold;
+}
+
+.page-footer p, span {
+	font-family: MuseoSlab;
+}
+
 .page-footer li {
-	font-size: 20px;
+	font-size: 18px;
 	padding-bottom: 15px;
 }
 
