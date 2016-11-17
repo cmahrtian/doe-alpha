@@ -45,3 +45,13 @@ img.laptop {
 hr {
 	height: 6px;
 }
+
+.row.tasks {
+	margin: 3% 1%;
+}
+
+.row.tasks .col.s4 {
+	margin: 0 1%;
+	width: 31%;
+	border-radius: 25px;
+}
