@@ -107,8 +107,9 @@ i.right {
 	margin-left: 25px;
 }
 
-.card {
+.measures .card {
 	border-radius: 25px;
+	background-color: #8ad43f;
 }
 
 .card .card-content {
