@@ -72,3 +72,32 @@ hr {
 .row.tasks span {
 	font-size: 22px;
 }
+
+/*FAQs/Contact footer*/
+
+footer.page-footer {
+	padding-top: 12px;
+	background-color: white;
+	border: 5px solid #93c0ed;
+}
+
+.page-footer .container {
+	width: 870px;
+}
+
+.page-footer .s6 {
+	border-right: 5px solid #93c0ed;
+}
+
+.page-footer .row .col.s5 {
+	margin-left: 3%;
+}
+
+.page-footer li {
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.page-footer i.small {
+	float: left;
+}
