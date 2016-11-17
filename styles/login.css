@@ -14,7 +14,7 @@ img.growth-explorer {
 .login-form {
 	width: 45%;
 	margin-left: 2%;
-	border: 5px solid #aeea00;
+	border: 5px solid #8ad43f;
 	padding-left: 2%;
 	display: inline-block;
 	float: left;
@@ -46,6 +46,8 @@ hr {
 	height: 6px;
 }
 
+/*task cards*/
+
 .row.tasks {
 	margin: 3% 1%;
 }
@@ -54,4 +56,19 @@ hr {
 	margin: 0 1%;
 	width: 31%;
 	border-radius: 25px;
+	text-align: center;
+	border:	5px solid #ff9819;
+}
+
+.row.tasks img {
+	margin-top: 6%;
+	height: 100px;
+}
+
+.row.tasks .card-content {
+	padding: 0 15px 20px;
+}
+
+.row.tasks span {
+	font-size: 22px;
 }
