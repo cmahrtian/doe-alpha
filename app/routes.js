@@ -21,6 +21,6 @@ module.exports = function(app) {
 	// route to handle all angular requests
 	app.get('*', function(req, res) {
 		// load our public/index.html file
-		res.sendfile('./public/views/index.html');
+		res.sendfile('./public/index.html');
 	});
 };
