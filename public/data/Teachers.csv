@@ -1,406 +1,406 @@
-EmployeeID	FirstName	LastName	Email	SchoolDBN	LocationDescription	FiscalYear	MOTPOptionID	MOTPOptionDescription	num_of_obs	num_of_missing_obs
-570714	XIU WEN	ZHOU	XZhou@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-570714	XIU WEN	ZHOU	XZhou@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-628127	JANET	BRISSETT	JBrissett2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-628127	JANET	BRISSETT	JBrissett2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-628127	JANET	BRISSETT	JBrissett2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-628127	JANET	BRISSETT	JBrissett2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-633596	DEBBIE	KHAN	DKhan6@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-633596	DEBBIE	KHAN	DKhan6@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-633596	DEBBIE	KHAN	DKhan6@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-633596	DEBBIE	KHAN	DKhan6@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-761667	ELAINE	HAYNESWORTH	EHaynesworth@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-761667	ELAINE	HAYNESWORTH	EHaynesworth@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-761667	ELAINE	HAYNESWORTH	EHaynesworth@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-761667	ELAINE	HAYNESWORTH	EHaynesworth@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-779828	DIOBEL	ZAPATA	DZapata@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-779828	DIOBEL	ZAPATA	DZapata@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-779828	DIOBEL	ZAPATA	DZapata@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-779828	DIOBEL	ZAPATA	DZapata@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-818987	MICHELLE	COTA	MCota@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-818987	MICHELLE	COTA	MCota@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-818987	MICHELLE	COTA	MCota@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-818987	MICHELLE	COTA	MCota@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-875870	ALEXIS	GARCIA	AGarcia13@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-875870	ALEXIS	GARCIA	AGarcia13@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-875870	ALEXIS	GARCIA	AGarcia13@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-875870	ALEXIS	GARCIA	AGarcia13@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-879487	ALLISON	REYNOLDS	AReynolds7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-879487	ALLISON	REYNOLDS	AReynolds7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-879487	ALLISON	REYNOLDS	AReynolds7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-879487	ALLISON	REYNOLDS	AReynolds7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-885231	LAURA	SHERMAN	LSherma2@schools.nyc.gov	30Q150	P.S. 154 Jonathan D. Hyatt	2014	B	Option 2: 6 informal observations	4	0
-885231	LAURA	SHERMAN	LSherma2@schools.nyc.gov	30Q150	P.S. 154 Jonathan D. Hyatt	2015	B	Option 2: 6 informal observations	4	0
-885231	LAURA	SHERMAN	LSherma2@schools.nyc.gov	30Q150	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-885231	LAURA	SHERMAN	LSherma2@schools.nyc.gov	30Q150	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-891324	SONELIS	SEVERINO	SSeveri@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-891324	SONELIS	SEVERINO	SSeveri@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-891324	SONELIS	SEVERINO	SSeveri@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-891324	SONELIS	SEVERINO	SSeveri@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-893686	KENDRA	BROWN	KBrown22@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-893686	KENDRA	BROWN	KBrown22@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-893686	KENDRA	BROWN	KBrown22@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-893686	KENDRA	BROWN	KBrown22@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-893713	CHRISTINE	GABBARD	CGabbard@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-893713	CHRISTINE	GABBARD	CGabbard@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-893713	CHRISTINE	GABBARD	CGabbard@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-893713	CHRISTINE	GABBARD	CGabbard@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-909575	ADRIANNE	MAZZEO	AMazzeo@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	B	Option 2: 6 informal observations	4	0
-909575	ADRIANNE	MAZZEO	AMazzeo@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-909575	ADRIANNE	MAZZEO	AMazzeo@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-930374	JOSE	FERNANDEZ	JFernandez5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	3	0
-930374	JOSE	FERNANDEZ	JFernandez5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	3	0
-930374	JOSE	FERNANDEZ	JFernandez5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-930374	JOSE	FERNANDEZ	JFernandez5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	3	0
-933441	JENNIFER	MILLIRON	JMilliron@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-933441	JENNIFER	SATTAUR	JSattaur@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-933441	JENNIFER	MILLIRON	JMilliron@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-933441	JENNIFER	SATTAUR	JSattaur@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-933441	JENNIFER	SATTAUR	JSattaur@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-933441	JENNIFER	MILLIRON	JMilliron@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-933441	JENNIFER	MILLIRON	JMilliron@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-933441	JENNIFER	SATTAUR	JSattaur@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-947312	ZULEIKA	MALDONADO	ZMaldonado@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-947312	ZULEIKA	MALDONADO	ZMaldonado@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-947312	ZULEIKA	MALDONADO	ZMaldonado@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-947312	ZULEIKA	MALDONADO	ZMaldonado@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-955968	YOLI ANN	BARRETT	YMcleod@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	3	0
-955968	YOLI ANN	BARRETT	YMcleod@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	3	0
-955968	YOLI ANN	BARRETT	YMcleod@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-955968	YOLI ANN	BARRETT	YMcleod@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	3	0
-959574	HEATHER	GREENE	HGreene@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-959574	HEATHER	GREENE	HGreene@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-959574	HEATHER	GREENE	HGreene@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-989452	TERRACE	GRANT	TGrant5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-989452	TERRACE	GRANT	TGrant5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-989452	TERRACE	GRANT	TGrant5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-989452	TERRACE	GRANT	TGrant5@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-991648	KIMEISHA	REID	KReid4@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-991648	KIMEISHA	REID	KReid4@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-991648	KIMEISHA	REID	KReid4@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-991648	KIMEISHA	REID	KReid4@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-1031175	CARRIE	CALLENDER	CCallender2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1031175	CARRIE	CALLENDER	CCallender2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1031175	CARRIE	CALLENDER	CCallender2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1031175	CARRIE	CALLENDER	CCallender2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1032699	JENNIFER	BAUM	JBaum5@schools.nyc.gov	02M002	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1032699	JENNIFER	BAUM	JBaum5@schools.nyc.gov	02M002	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1032699	JENNIFER	BAUM	JBaum5@schools.nyc.gov	02M002	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-1267388	VIVIANA	GOMEZ	VGomez2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1267388	VIVIANA	GOMEZ	VGomez2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1267388	VIVIANA	GOMEZ	VGomez2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1267388	VIVIANA	GOMEZ	VGomez2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1285142	MICHEL	IMMEDIATO	MImmediato@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1285142	MICHEL	IMMEDIATO	MImmediato@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-1285142	MICHEL	IMMEDIATO	MImmediato@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-1285142	MICHEL	IMMEDIATO	MImmediato@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-1323268	MINJI	LEE	MLee33@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1323268	MINJI	LEE	MLee33@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1323268	MINJI	LEE	MLee33@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-1323268	MINJI	LEE	MLee33@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-1351650	JEANETTE	SIEBER	JSieber@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	B	Option 2: 6 informal observations	4	0
-1351650	JEANETTE	SIEBER	JSieber@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-1351650	JEANETTE	SIEBER	JSieber@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-1351650	JEANETTE	SIEBER	JSieber@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1356247	MARGARET	BECKER	MBecker8@schools.nyc.gov	04M964	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	NULL	NULL
-1356247	MARGARET	BECKER	MBecker8@schools.nyc.gov	04M964	P.S. 154 Jonathan D. Hyatt	2015	B	Option 2: 6 informal observations	NULL	NULL
-1356247	MARGARET	BECKER	MBecker8@schools.nyc.gov	04M964	P.S. 154 Jonathan D. Hyatt	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	NULL	NULL
-1410341	MEGAN	HALLAN	MHallan2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	B	Option 2: 6 informal observations	4	0
-1410341	MEGAN	HALLAN	MHallan2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	E	Option 4: 4 informal observations 	4	0
-1410341	MEGAN	HALLAN	MHallan2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-1410341	MEGAN	HALLAN	MHallan2@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1415702	ELANA	BAKST	EBakst2@schools.nyc.gov	01M315	P.S. 154 Jonathan D. Hyatt	2014	B	Option 2: 6 informal observations	4	0
-1415702	ELANA	BAKST	EBakst2@schools.nyc.gov	01M315	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1415702	ELANA	BAKST	EBakst2@schools.nyc.gov	01M315	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1415702	ELANA	BAKST	EBakst2@schools.nyc.gov	01M315	P.S. 154 Jonathan D. Hyatt	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1418831	NATHALI	ROSADO	NRosado7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	B	Option 2: 6 informal observations	4	0
-1418831	NATHALI	ROSADO	NRosado7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1418831	NATHALI	ROSADO	NRosado7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1418831	NATHALI	ROSADO	NRosado7@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-1436272	SAMUEL	SOTSKY	SSotsky@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1436272	SAMUEL	SOTSKY	SSotsky@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1436272	SAMUEL	SOTSKY	SSotsky@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1436272	SAMUEL	SOTSKY	SSotsky@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1446504	HEATHER	TULLOCH	HTulloch@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1446504	HEATHER	TULLOCH	HTulloch@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1462878	JANELLE	ADAMS	JAdams19@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1462878	JANELLE	ADAMS	JAdams19@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1462878	JANELLE	ADAMS	JAdams19@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1463478	NICOLE	DABE	NDabe@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1463478	NICOLE	DABE	NDabe@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	E	Option 4: 4 informal observations 	4	0
-1463478	NICOLE	DABE	NDabe@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1467188	RACHEL	KING	RKing14@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1467188	RACHEL	KING	RKing14@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1467188	RACHEL	KING	RKing14@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	E	Option 4: 4 informal observations 	4	0
-1480879	STEVEN	ASTOR	SAstor@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1480879	STEVEN	ASTOR	SAstor@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1480879	STEVEN	ASTOR	SAstor@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1485140	SARAH	HENDRY	SHendry@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1485140	SARAH	HENDRY	SHendry@schools.nyc.gov	07X154	P.S. 154 Jonathan D. Hyatt	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-343494	LATESHIA	JONES WALKER	LJonesW@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-343494	LATESHIA	JONES WALKER	LJonesW@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-343494	LATESHIA	JONES WALKER	LJonesW@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-343494	LATESHIA	JONES WALKER	LJonesW@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-397392	JOSEPH	VALENTIN	JValentin3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-397392	JOSEPH	VALENTIN	JValentin3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-397392	JOSEPH	VALENTIN	JValentin3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-397392	JOSEPH	VALENTIN	JValentin3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-448483	ASNATH	FLEURIOT BERTIN	AFleuriotBertin@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-448483	ASNATH	FLEURIOT BERTIN	AFleuriotBertin@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-448483	ASNATH	FLEURIOT BERTIN	AFleuriotBertin@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-448483	ASNATH	FLEURIOT BERTIN	AFleuriotBertin@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-526263	JOSHUA	KRUPITSKY	JKrupitsky@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-526263	JOSHUA	KRUPITSKY	JKrupitsky@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-526263	JOSHUA	KRUPITSKY	JKrupitsky@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-526263	JOSHUA	KRUPITSKY	JKrupitsky@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-658657	MARY	HOGAN	MHogan3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-658657	MARY	HOGAN	MHogan3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-658657	MARY	HOGAN	MHogan3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-658657	MARY	HOGAN	MHogan3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-721577	RICHARD	GREENBLATT	RGreenblatt2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-721577	RICHARD	GREENBLATT	RGreenblatt2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-721577	RICHARD	GREENBLATT	RGreenblatt2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-721577	RICHARD	GREENBLATT	RGreenblatt2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-730456	EDGAR	CAMP	ECamp2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-730456	EDGAR	CAMP	ECamp2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-730456	EDGAR	CAMP	ECamp2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-730456	EDGAR	CAMP	ECamp2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-755452	BARBARA	BUCHALTER	BBuchalter@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-755452	BARBARA	BUCHALTER	BBuchalter@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-755452	BARBARA	BUCHALTER	BBuchalter@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-755452	BARBARA	BUCHALTER	BBuchalter@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-762628	DAVID	STREKO	DStreko@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-762628	DAVID	STREKO	DStreko@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-762628	DAVID	STREKO	DStreko@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-762628	DAVID	STREKO	DStreko@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-763055	MARGARET	CATAPANO	MCatapa@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-763055	MARGARET	CATAPANO	MCatapa@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-763055	MARGARET	CATAPANO	MCatapa@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-763055	MARGARET	CATAPANO	MCatapa@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-776407	GINGER	LAFORESTRIE	GLaforestrie@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-776407	GINGER	LAFORESTRIE	GLaforestrie@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-776407	GINGER	LAFORESTRIE	GLaforestrie@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-776407	GINGER	LAFORESTRIE	GLaforestrie@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-790999	ANTHONY	GOZZO	AGozzo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-790999	ANTHONY	GOZZO	AGozzo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-790999	ANTHONY	GOZZO	AGozzo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-790999	ANTHONY	GOZZO	AGozzo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-797461	ANNA	LIPPOLIS	ALippol@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-797461	ANNA	LIPPOLIS	ALippol@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-797461	ANNA	LIPPOLIS	ALippol@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-797461	ANNA	LIPPOLIS	ALippol@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-799064	SHELLY	CUNNINGHAM	SCunningham2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-799064	SHELLY	CUNNINGHAM	SCunningham2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-799064	SHELLY	CUNNINGHAM	SCunningham2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-799064	SHELLY	CUNNINGHAM	SCunningham2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-817800	ANNA MARIA	CUCCIA	ACuccia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-817800	ANNA MARIA	CUCCIA	ACuccia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-817800	ANNA MARIA	CUCCIA	ACuccia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-817800	ANNA MARIA	CUCCIA	ACuccia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-842388	JOHN	MCENENY	JMceneny@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-842388	JOHN	MCENENY	JMceneny@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-842388	JOHN	MCENENY	JMceneny@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-842388	JOHN	MCENENY	JMceneny@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-843951	ANDREW	HORNBERGER	AHornberger@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-843951	ANDREW	HORNBERGER	AHornberger@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-843951	ANDREW	HORNBERGER	AHornberger@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-843951	ANDREW	HORNBERGER	AHornberger@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-847477	RENAH	FELDMAN	RFeldma4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-847477	RENAH	FELDMAN	RFeldma4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-847477	RENAH	FELDMAN	RFeldma4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-847477	RENAH	FELDMAN	RFeldma4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-863440	CATHERINE	BROWN ARROYO	CBrownArroyo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	5	0
-863440	CATHERINE	BROWN ARROYO	CBrownArroyo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	5	0
-863440	CATHERINE	BROWN ARROYO	CBrownArroyo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	5	0
-863440	CATHERINE	BROWN ARROYO	CBrownArroyo@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	5	0
-864331	GIULIA	SAKA	GSaka@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-864331	GIULIA	SAKA	GSaka@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-864331	GIULIA	SAKA	GSaka@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-864331	GIULIA	SAKA	GSaka@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-865094	CHRISTOPHE	GORDON	CGordon3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-865094	CHRISTOPHE	GORDON	CGordon3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-865094	CHRISTOPHE	GORDON	CGordon3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-865094	CHRISTOPHE	GORDON	CGordon3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-865356	DENISE	GALANG	DGalang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-865356	DENISE	GALANG	DGalang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-865356	DENISE	GALANG	DGalang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-865356	DENISE	GALANG	DGalang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-865828	SHARON	MAIER	SMaier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-865828	SHARON	MAIER	SMaier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-865828	SHARON	MAIER	SMaier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-865828	SHARON	MAIER	SMaier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-882648	MITCHELL	PORCELAN	MPorcel@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-882648	MITCHELL	PORCELAN	MPorcel@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-882648	MITCHELL	PORCELAN	MPorcel@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-882648	MITCHELL	PORCELAN	MPorcel@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-886503	JEFFREY	LEVY	jlevy3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-886503	JEFFREY	LEVY	jlevy3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-886503	JEFFREY	LEVY	jlevy3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-886503	JEFFREY	LEVY	jlevy3@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-888067	ROBERT	OSBORNE	ROsborne@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-888067	ROBERT	OSBORNE	ROsborne@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-888067	ROBERT	OSBORNE	ROsborne@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-888067	ROBERT	OSBORNE	ROsborne@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-890081	BRIGITTE	DE WEVER	BDeWeve@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-890081	BRIGITTE	DE WEVER	BDeWeve@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-890081	BRIGITTE	DE WEVER	BDeWeve@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-890081	BRIGITTE	DE WEVER	BDeWeve@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-891342	RACHEL	REAR	RRear@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-891342	RACHEL	REAR	RRear@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-891342	RACHEL	REAR	RRear@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-895447	FELICIA	OHARA	FOhara@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-895447	FELICIA	OHARA	FOhara@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-895447	FELICIA	OHARA	FOhara@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-895447	FELICIA	OHARA	FOhara@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-897452	ALEXANDER	KUNHARDT	AKunhar@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-897452	ALEXANDER	KUNHARDT	AKunhar@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-897452	ALEXANDER	KUNHARDT	AKunhar@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-897452	ALEXANDER	KUNHARDT	AKunhar@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-903338	LILY	YIP	LYip2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-903338	LILY	YIP	LYip2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-903338	LILY	YIP	LYip2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-903338	LILY	YIP	LYip2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-911893	ADAM	GOLDSTEIN	AGoldst2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-911893	ADAM	GOLDSTEIN	AGoldst2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-911893	ADAM	GOLDSTEIN	AGoldst2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-911893	ADAM	GOLDSTEIN	AGoldst2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-912824	DANIELLE	ISAACS	DIsaacs@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-912824	DANIELLE	ISAACS	DIsaacs@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-912824	DANIELLE	ISAACS	DIsaacs@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-912824	DANIELLE	ISAACS	DIsaacs@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-914919	FREDERICA	DE LEO	FDeLeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-914919	FREDERICA	DE LEO	FDeLeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-914919	FREDERICA	DE LEO	FDeLeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-914919	FREDERICA	DE LEO	FDeLeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-919135	ALESSANDRA	DE MEO	ADeMeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-919135	ALESSANDRA	DE MEO	ADeMeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-919135	ALESSANDRA	DE MEO	ADeMeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-919135	ALESSANDRA	DE MEO	ADeMeo2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-933920	JULIE	GIBSON	JGibson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-933920	JULIE	GIBSON	JGibson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-933920	JULIE	GIBSON	JGibson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-933920	JULIE	GIBSON	JGibson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-944673	KACHUN	NG	KNg2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-944673	KACHUN	NG	KNg2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	3	0
-944673	KACHUN	NG	KNg2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-944673	KACHUN	NG	KNg2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-946839	KATHERIN	CONNELLY	KConnelly@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-946839	KATHERIN	CONNELLY	KConnelly@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-946839	KATHERIN	CONNELLY	KConnelly@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-946839	KATHERIN	CONNELLY	KConnelly@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-951218	AIMEE	FOURNIER	AFournier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-951218	AIMEE	FOURNIER	AFournier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-951218	AIMEE	FOURNIER	AFournier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-951218	AIMEE	FOURNIER	AFournier@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-952267	MYRNA	GONZALEZ ROJAS	MGonzalezrojas@schools.nyc.gov	15K821	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	NULL	NULL
-952267	MYRNA	GONZALEZ ROJAS	MGonzalezrojas@schools.nyc.gov	15K821	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	NULL	NULL
-952267	MYRNA	GONZALEZ ROJAS	MGonzalezrojas@schools.nyc.gov	15K821	M.S. 51 William Alexander	2016	B	Option 2: 6 informal observations	NULL	NULL
-952267	MYRNA	GONZALEZ ROJAS	MGonzalezrojas@schools.nyc.gov	15K821	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	NULL	NULL
-962424	RYAN	HEALEY	RHealey@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	6	0
-962424	RYAN	HEALEY	RHealey@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	6	0
-962424	RYAN	HEALEY	RHealey@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	B	Option 2: 6 informal observations	6	0
-962424	RYAN	HEALEY	RHealey@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	6	0
-964118	AMY	SOLOMON	ASolomon4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-964118	AMY	SOLOMON	ASolomon4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-964118	AMY	SOLOMON	ASolomon4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-964432	MARK	CARON	MCaron@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-964432	MARK	CARON	MCaron@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-964432	MARK	CARON	MCaron@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-964432	MARK	CARON	MCaron@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-964655	REBECCA	WEXLER	RWexler2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	6	0
-964655	REBECCA	WEXLER	RWexler2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	6	0
-964655	REBECCA	WEXLER	RWexler2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	B	Option 2: 6 informal observations	6	0
-964655	REBECCA	WEXLER	RWexler2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	6	0
-967065	KRISTEN	WARREN	KRobbins@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-967065	KRISTEN	WARREN	KWarren8@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-967065	KRISTEN	WARREN	KRobbins@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-967065	KRISTEN	WARREN	KWarren8@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-967065	KRISTEN	WARREN	KWarren8@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-967065	KRISTEN	WARREN	KRobbins@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-967065	KRISTEN	WARREN	KRobbins@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-967065	KRISTEN	WARREN	KWarren8@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-968671	ARIEL	ARROYO	AArroyo6@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-968671	ARIEL	ARROYO	AArroyo6@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-968671	ARIEL	ARROYO	AArroyo6@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-971992	DANIEL	GORDON	DGordon11@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-971992	DANIEL	GORDON	DGordon11@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-971992	DANIEL	GORDON	DGordon11@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-971992	DANIEL	GORDON	DGordon11@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-992530	SARAH	BIANCO	SBianco@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-992530	SARAH	BIANCO	SBianco@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-992530	SARAH	BIANCO	SBianco@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1004214	JOANNA	SANTARPIA	JSantarpia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1004214	JOANNA	SANTARPIA	JSantarpia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1004214	JOANNA	SANTARPIA	JSantarpia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1004214	JOANNA	SANTARPIA	JSantarpia@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1011158	MAURA	OBERCIAN	MObercian@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1011158	MAURA	OBERCIAN	MObercian@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1011158	MAURA	OBERCIAN	MObercian@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1011158	MAURA	OBERCIAN	MObercian@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1019780	PATRICIA	EVERS	PEvers@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1019780	PATRICIA	EVERS	PEvers@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1019780	PATRICIA	EVERS	PEvers@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1019780	PATRICIA	EVERS	PEvers@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1027469	JARED	COHEN	JCohen56@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1027469	JARED	COHEN	JCohen56@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1027469	JARED	COHEN	JCohen56@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1027469	JARED	COHEN	JCohen56@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1035320	ANNA	GREENAWALT	AGreenawalt@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	3	0
-1035320	ANNA	GREENAWALT	AGreenawalt@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-1035320	ANNA	GREENAWALT	AGreenawalt@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-1035320	ANNA	GREENAWALT	AGreenawalt@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	3	0
-1066649	EFRAIN	MARINE	EMarine@schools.nyc.gov	12X384	M.S. 51 William Alexander	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1066649	EFRAIN	MARINE	EMarine@schools.nyc.gov	12X384	M.S. 51 William Alexander	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1066649	EFRAIN	MARINE	EMarine@schools.nyc.gov	12X384	M.S. 51 William Alexander	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1080044	LAUREN	KAAN	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1080044	LAUREN	FARRELL	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1080044	LAUREN	KAAN	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1080044	LAUREN	FARRELL	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1080044	LAUREN	FARRELL	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1080044	LAUREN	KAAN	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1080044	LAUREN	FARRELL	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1080044	LAUREN	KAAN	LKaan@schools.nyc.gov	31R048	M.S. 51 William Alexander	2017	A	Option 1: 1 Formal 3 informal observations	4	0
-1114504	KATIE	DEPALMA	KDePalma@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	B	Option 2: 6 informal observations	4	0
-1114504	KATIE	DEPALMA	KDePalma@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1114504	KATIE	DEPALMA	KDePalma@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1114751	AMY	FLATOW	AFlatow@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1114751	AMY	FLATOW	AFlatow@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1114751	AMY	FLATOW	AFlatow@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1114751	AMY	FLATOW	AFlatow@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1121437	KIMBERLY	HESDRA	KDiaz4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1121437	KIMBERLY	HESDRA	KDiaz4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1121437	KIMBERLY	HESDRA	KDiaz4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1121437	KIMBERLY	HESDRA	KDiaz4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1158211	LIZA	KASPRZYK	LKasprzyk@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1158211	LIZA	KASPRZYK	LKasprzyk@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1158211	LIZA	KASPRZYK	LKasprzyk@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	A	Option 1: 1 Formal 3 informal observations	4	0
-1158211	LIZA	KASPRZYK	LKasprzyk@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1158303	MARIA	KALINKOS	MKalinkos@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1158303	MARIA	KALINKOS	MKalinkos@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1158303	MARIA	KALINKOS	MKalinkos@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1158303	MARIA	KALINKOS	MKalinkos@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1158659	YESSICA	LOPEZ	YLopez10@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	B	Option 2: 6 informal observations	6	0
-1158659	YESSICA	LOPEZ	YLopez10@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	B	Option 2: 6 informal observations	6	0
-1209536	KRISTIN	MARK	KMark3@schools.nyc.gov	15K656	M.S. 51 William Alexander	2015	A	Option 1: 1 Formal 3 informal observations	9	0
-1209536	KRISTIN	MARK	KMark3@schools.nyc.gov	15K656	M.S. 51 William Alexander	2016	A	Option 1: 1 Formal 3 informal observations	9	0
-1209536	KRISTIN	MARK	KMark3@schools.nyc.gov	15K656	M.S. 51 William Alexander	2017	A	Option 1: 1 Formal 3 informal observations	9	0
-1270912	MERIDA	LANG	MLang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1270912	MERIDA	LANG	MLang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1270912	MERIDA	LANG	MLang@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1272028	JOANNA	GOLEBIOWSKI	JGolebiowski@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1272028	JOANNA	GOLEBIOWSKI	JGolebiowski@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1272028	JOANNA	GOLEBIOWSKI	JGolebiowski@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1272028	JOANNA	GOLEBIOWSKI	JGolebiowski@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1315674	STEVEN	SANDMAN	SSandman@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	B	Option 2: 6 informal observations	4	0
-1315674	STEVEN	SANDMAN	SSandman@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	E	Option 4: 4 informal observations 	4	0
-1315674	STEVEN	SANDMAN	SSandman@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1315674	STEVEN	SANDMAN	SSandman@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1355587	JONATHAN	LEVINSON	JLevinson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	B	Option 2: 6 informal observations	4	0
-1355587	JONATHAN	LEVINSON	JLevinson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1355587	JONATHAN	LEVINSON	JLevinson4@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	E	Option 4: 4 informal observations 	4	0
-1434241	ANNA	PLESKOVA	APleskova@schools.nyc.gov	15K051	M.S. 51 William Alexander	2014	A	Option 1: 1 Formal 3 informal observations	4	0
-1434241	ANNA	PLESKOVA	APleskova@schools.nyc.gov	15K051	M.S. 51 William Alexander	2015	A	Option 1: 1 Formal 3 informal observations	4	0
-1434241	ANNA	PLESKOVA	APleskova@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	E	Option 4: 4 informal observations 	4	0
-1434241	ANNA	PLESKOVA	APleskova@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	4	0
-1505281	MICHELLE	ARNIELLA	MArniella2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2016	B	Option 2: 6 informal observations	6	0
-1505281	MICHELLE	ARNIELLA	MArniella2@schools.nyc.gov	15K051	M.S. 51 William Alexander	2017	C	Option 3: 3 Informals; 3 Non-Evaluative Classroom Visits	6	0
+﻿EmployeeID,FirstName,LastName,Email,SchoolDBN,LocationDescription,FiscalYear,MOTPOptionID,MOTPOptionDescription,num_of_obs,num_of_missing_obs
+0570714,XIU WEN,ZHOU,XZhou@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0570714,XIU WEN,ZHOU,XZhou@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0628127,JANET,BRISSETT,JBrissett2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0628127,JANET,BRISSETT,JBrissett2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+0628127,JANET,BRISSETT,JBrissett2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0628127,JANET,BRISSETT,JBrissett2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0633596,DEBBIE,KHAN,DKhan6@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0633596,DEBBIE,KHAN,DKhan6@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0633596,DEBBIE,KHAN,DKhan6@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0633596,DEBBIE,KHAN,DKhan6@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0761667,ELAINE,HAYNESWORTH,EHaynesworth@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0761667,ELAINE,HAYNESWORTH,EHaynesworth@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0761667,ELAINE,HAYNESWORTH,EHaynesworth@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0761667,ELAINE,HAYNESWORTH,EHaynesworth@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0779828,DIOBEL,ZAPATA,DZapata@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0779828,DIOBEL,ZAPATA,DZapata@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0779828,DIOBEL,ZAPATA,DZapata@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0779828,DIOBEL,ZAPATA,DZapata@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+0818987,MICHELLE,COTA,MCota@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0818987,MICHELLE,COTA,MCota@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0818987,MICHELLE,COTA,MCota@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0818987,MICHELLE,COTA,MCota@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0875870,ALEXIS,GARCIA,AGarcia13@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0875870,ALEXIS,GARCIA,AGarcia13@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+0875870,ALEXIS,GARCIA,AGarcia13@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0875870,ALEXIS,GARCIA,AGarcia13@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+0879487,ALLISON,REYNOLDS,AReynolds7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0879487,ALLISON,REYNOLDS,AReynolds7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+0879487,ALLISON,REYNOLDS,AReynolds7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0879487,ALLISON,REYNOLDS,AReynolds7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0885231,LAURA,SHERMAN,LSherma2@schools.nyc.gov,30Q150,P.S. 154 Jonathan D. Hyatt,2014,B,Option 2: 6 informal observations,4,0
+0885231,LAURA,SHERMAN,LSherma2@schools.nyc.gov,30Q150,P.S. 154 Jonathan D. Hyatt,2015,B,Option 2: 6 informal observations,4,0
+0885231,LAURA,SHERMAN,LSherma2@schools.nyc.gov,30Q150,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0885231,LAURA,SHERMAN,LSherma2@schools.nyc.gov,30Q150,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+0891324,SONELIS,SEVERINO,SSeveri@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0891324,SONELIS,SEVERINO,SSeveri@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0891324,SONELIS,SEVERINO,SSeveri@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0891324,SONELIS,SEVERINO,SSeveri@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0893686,KENDRA,BROWN,KBrown22@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0893686,KENDRA,BROWN,KBrown22@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+0893686,KENDRA,BROWN,KBrown22@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0893686,KENDRA,BROWN,KBrown22@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0893713,CHRISTINE,GABBARD,CGabbard@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0893713,CHRISTINE,GABBARD,CGabbard@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+0893713,CHRISTINE,GABBARD,CGabbard@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0893713,CHRISTINE,GABBARD,CGabbard@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0909575,ADRIANNE,MAZZEO,AMazzeo@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,B,Option 2: 6 informal observations,4,0
+0909575,ADRIANNE,MAZZEO,AMazzeo@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0909575,ADRIANNE,MAZZEO,AMazzeo@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0930374,JOSE,FERNANDEZ,JFernandez5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,3,0
+0930374,JOSE,FERNANDEZ,JFernandez5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,3,0
+0930374,JOSE,FERNANDEZ,JFernandez5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0930374,JOSE,FERNANDEZ,JFernandez5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,3,0
+0933441,JENNIFER,MILLIRON,JMilliron@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0933441,JENNIFER,SATTAUR,JSattaur@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0933441,JENNIFER,MILLIRON,JMilliron@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0933441,JENNIFER,SATTAUR,JSattaur@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0933441,JENNIFER,SATTAUR,JSattaur@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0933441,JENNIFER,MILLIRON,JMilliron@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0933441,JENNIFER,MILLIRON,JMilliron@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0933441,JENNIFER,SATTAUR,JSattaur@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+0947312,ZULEIKA,MALDONADO,ZMaldonado@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0947312,ZULEIKA,MALDONADO,ZMaldonado@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0947312,ZULEIKA,MALDONADO,ZMaldonado@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0947312,ZULEIKA,MALDONADO,ZMaldonado@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+0955968,YOLI ANN,BARRETT,YMcleod@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,3,0
+0955968,YOLI ANN,BARRETT,YMcleod@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,3,0
+0955968,YOLI ANN,BARRETT,YMcleod@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0955968,YOLI ANN,BARRETT,YMcleod@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,3,0
+0959574,HEATHER,GREENE,HGreene@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0959574,HEATHER,GREENE,HGreene@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+0959574,HEATHER,GREENE,HGreene@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0989452,TERRACE,GRANT,TGrant5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0989452,TERRACE,GRANT,TGrant5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0989452,TERRACE,GRANT,TGrant5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0989452,TERRACE,GRANT,TGrant5@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+0991648,KIMEISHA,REID,KReid4@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0991648,KIMEISHA,REID,KReid4@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+0991648,KIMEISHA,REID,KReid4@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+0991648,KIMEISHA,REID,KReid4@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+1031175,CARRIE,CALLENDER,CCallender2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1031175,CARRIE,CALLENDER,CCallender2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1031175,CARRIE,CALLENDER,CCallender2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1031175,CARRIE,CALLENDER,CCallender2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1032699,JENNIFER,BAUM,JBaum5@schools.nyc.gov,02M002,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1032699,JENNIFER,BAUM,JBaum5@schools.nyc.gov,02M002,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1032699,JENNIFER,BAUM,JBaum5@schools.nyc.gov,02M002,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+1267388,VIVIANA,GOMEZ,VGomez2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1267388,VIVIANA,GOMEZ,VGomez2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1267388,VIVIANA,GOMEZ,VGomez2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1267388,VIVIANA,GOMEZ,VGomez2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1285142,MICHEL,IMMEDIATO,MImmediato@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1285142,MICHEL,IMMEDIATO,MImmediato@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+1285142,MICHEL,IMMEDIATO,MImmediato@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+1285142,MICHEL,IMMEDIATO,MImmediato@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+1323268,MINJI,LEE,MLee33@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1323268,MINJI,LEE,MLee33@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1323268,MINJI,LEE,MLee33@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+1323268,MINJI,LEE,MLee33@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+1351650,JEANETTE,SIEBER,JSieber@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,B,Option 2: 6 informal observations,4,0
+1351650,JEANETTE,SIEBER,JSieber@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+1351650,JEANETTE,SIEBER,JSieber@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+1351650,JEANETTE,SIEBER,JSieber@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1356247,MARGARET,BECKER,MBecker8@schools.nyc.gov,04M964,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,NULL,NULL
+1356247,MARGARET,BECKER,MBecker8@schools.nyc.gov,04M964,P.S. 154 Jonathan D. Hyatt,2015,B,Option 2: 6 informal observations,NULL,NULL
+1356247,MARGARET,BECKER,MBecker8@schools.nyc.gov,04M964,P.S. 154 Jonathan D. Hyatt,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,NULL,NULL
+1410341,MEGAN,HALLAN,MHallan2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,B,Option 2: 6 informal observations,4,0
+1410341,MEGAN,HALLAN,MHallan2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,E,Option 4: 4 informal observations,4,0
+1410341,MEGAN,HALLAN,MHallan2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+1410341,MEGAN,HALLAN,MHallan2@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1415702,ELANA,BAKST,EBakst2@schools.nyc.gov,01M315,P.S. 154 Jonathan D. Hyatt,2014,B,Option 2: 6 informal observations,4,0
+1415702,ELANA,BAKST,EBakst2@schools.nyc.gov,01M315,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1415702,ELANA,BAKST,EBakst2@schools.nyc.gov,01M315,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1415702,ELANA,BAKST,EBakst2@schools.nyc.gov,01M315,P.S. 154 Jonathan D. Hyatt,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1418831,NATHALI,ROSADO,NRosado7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,B,Option 2: 6 informal observations,4,0
+1418831,NATHALI,ROSADO,NRosado7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1418831,NATHALI,ROSADO,NRosado7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1418831,NATHALI,ROSADO,NRosado7@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+1436272,SAMUEL,SOTSKY,SSotsky@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1436272,SAMUEL,SOTSKY,SSotsky@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1436272,SAMUEL,SOTSKY,SSotsky@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1436272,SAMUEL,SOTSKY,SSotsky@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1446504,HEATHER,TULLOCH,HTulloch@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1446504,HEATHER,TULLOCH,HTulloch@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1462878,JANELLE,ADAMS,JAdams19@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1462878,JANELLE,ADAMS,JAdams19@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1462878,JANELLE,ADAMS,JAdams19@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1463478,NICOLE,DABE,NDabe@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1463478,NICOLE,DABE,NDabe@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,E,Option 4: 4 informal observations,4,0
+1463478,NICOLE,DABE,NDabe@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1467188,RACHEL,KING,RKing14@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1467188,RACHEL,KING,RKing14@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1467188,RACHEL,KING,RKing14@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,E,Option 4: 4 informal observations,4,0
+1480879,STEVEN,ASTOR,SAstor@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1480879,STEVEN,ASTOR,SAstor@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1480879,STEVEN,ASTOR,SAstor@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1485140,SARAH,HENDRY,SHendry@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1485140,SARAH,HENDRY,SHendry@schools.nyc.gov,07X154,P.S. 154 Jonathan D. Hyatt,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+0343494,LATESHIA,JONES WALKER,LJonesW@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0343494,LATESHIA,JONES WALKER,LJonesW@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0343494,LATESHIA,JONES WALKER,LJonesW@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0343494,LATESHIA,JONES WALKER,LJonesW@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0397392,JOSEPH,VALENTIN,JValentin3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0397392,JOSEPH,VALENTIN,JValentin3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0397392,JOSEPH,VALENTIN,JValentin3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0397392,JOSEPH,VALENTIN,JValentin3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0448483,ASNATH,FLEURIOT BERTIN,AFleuriotBertin@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0448483,ASNATH,FLEURIOT BERTIN,AFleuriotBertin@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0448483,ASNATH,FLEURIOT BERTIN,AFleuriotBertin@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0448483,ASNATH,FLEURIOT BERTIN,AFleuriotBertin@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0526263,JOSHUA,KRUPITSKY,JKrupitsky@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0526263,JOSHUA,KRUPITSKY,JKrupitsky@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0526263,JOSHUA,KRUPITSKY,JKrupitsky@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0526263,JOSHUA,KRUPITSKY,JKrupitsky@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0658657,MARY,HOGAN,MHogan3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0658657,MARY,HOGAN,MHogan3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0658657,MARY,HOGAN,MHogan3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0658657,MARY,HOGAN,MHogan3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+0721577,RICHARD,GREENBLATT,RGreenblatt2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0721577,RICHARD,GREENBLATT,RGreenblatt2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0721577,RICHARD,GREENBLATT,RGreenblatt2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0721577,RICHARD,GREENBLATT,RGreenblatt2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0730456,EDGAR,CAMP,ECamp2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0730456,EDGAR,CAMP,ECamp2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0730456,EDGAR,CAMP,ECamp2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0730456,EDGAR,CAMP,ECamp2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0755452,BARBARA,BUCHALTER,BBuchalter@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0755452,BARBARA,BUCHALTER,BBuchalter@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0755452,BARBARA,BUCHALTER,BBuchalter@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0755452,BARBARA,BUCHALTER,BBuchalter@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0762628,DAVID,STREKO,DStreko@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0762628,DAVID,STREKO,DStreko@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0762628,DAVID,STREKO,DStreko@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0762628,DAVID,STREKO,DStreko@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0763055,MARGARET,CATAPANO,MCatapa@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0763055,MARGARET,CATAPANO,MCatapa@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0763055,MARGARET,CATAPANO,MCatapa@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0763055,MARGARET,CATAPANO,MCatapa@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+0776407,GINGER,LAFORESTRIE,GLaforestrie@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0776407,GINGER,LAFORESTRIE,GLaforestrie@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0776407,GINGER,LAFORESTRIE,GLaforestrie@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0776407,GINGER,LAFORESTRIE,GLaforestrie@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+0790999,ANTHONY,GOZZO,AGozzo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0790999,ANTHONY,GOZZO,AGozzo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0790999,ANTHONY,GOZZO,AGozzo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0790999,ANTHONY,GOZZO,AGozzo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0797461,ANNA,LIPPOLIS,ALippol@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0797461,ANNA,LIPPOLIS,ALippol@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0797461,ANNA,LIPPOLIS,ALippol@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0797461,ANNA,LIPPOLIS,ALippol@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0799064,SHELLY,CUNNINGHAM,SCunningham2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0799064,SHELLY,CUNNINGHAM,SCunningham2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0799064,SHELLY,CUNNINGHAM,SCunningham2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0799064,SHELLY,CUNNINGHAM,SCunningham2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0817800,ANNA MARIA,CUCCIA,ACuccia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0817800,ANNA MARIA,CUCCIA,ACuccia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0817800,ANNA MARIA,CUCCIA,ACuccia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0817800,ANNA MARIA,CUCCIA,ACuccia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+0842388,JOHN,MCENENY,JMceneny@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0842388,JOHN,MCENENY,JMceneny@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0842388,JOHN,MCENENY,JMceneny@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0842388,JOHN,MCENENY,JMceneny@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0843951,ANDREW,HORNBERGER,AHornberger@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0843951,ANDREW,HORNBERGER,AHornberger@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0843951,ANDREW,HORNBERGER,AHornberger@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0843951,ANDREW,HORNBERGER,AHornberger@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0847477,RENAH,FELDMAN,RFeldma4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0847477,RENAH,FELDMAN,RFeldma4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0847477,RENAH,FELDMAN,RFeldma4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0847477,RENAH,FELDMAN,RFeldma4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0863440,CATHERINE,BROWN ARROYO,CBrownArroyo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,5,0
+0863440,CATHERINE,BROWN ARROYO,CBrownArroyo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,5,0
+0863440,CATHERINE,BROWN ARROYO,CBrownArroyo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,5,0
+0863440,CATHERINE,BROWN ARROYO,CBrownArroyo@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,5,0
+0864331,GIULIA,SAKA,GSaka@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0864331,GIULIA,SAKA,GSaka@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0864331,GIULIA,SAKA,GSaka@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0864331,GIULIA,SAKA,GSaka@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0865094,CHRISTOPHE,GORDON,CGordon3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0865094,CHRISTOPHE,GORDON,CGordon3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0865094,CHRISTOPHE,GORDON,CGordon3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0865094,CHRISTOPHE,GORDON,CGordon3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0865356,DENISE,GALANG,DGalang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0865356,DENISE,GALANG,DGalang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0865356,DENISE,GALANG,DGalang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0865356,DENISE,GALANG,DGalang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0865828,SHARON,MAIER,SMaier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0865828,SHARON,MAIER,SMaier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0865828,SHARON,MAIER,SMaier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0865828,SHARON,MAIER,SMaier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0882648,MITCHELL,PORCELAN,MPorcel@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0882648,MITCHELL,PORCELAN,MPorcel@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0882648,MITCHELL,PORCELAN,MPorcel@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0882648,MITCHELL,PORCELAN,MPorcel@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0886503,JEFFREY,LEVY,jlevy3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0886503,JEFFREY,LEVY,jlevy3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0886503,JEFFREY,LEVY,jlevy3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0886503,JEFFREY,LEVY,jlevy3@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+0888067,ROBERT,OSBORNE,ROsborne@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0888067,ROBERT,OSBORNE,ROsborne@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0888067,ROBERT,OSBORNE,ROsborne@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0888067,ROBERT,OSBORNE,ROsborne@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0890081,BRIGITTE,DE WEVER,BDeWeve@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0890081,BRIGITTE,DE WEVER,BDeWeve@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0890081,BRIGITTE,DE WEVER,BDeWeve@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0890081,BRIGITTE,DE WEVER,BDeWeve@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0891342,RACHEL,REAR,RRear@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0891342,RACHEL,REAR,RRear@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0891342,RACHEL,REAR,RRear@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0895447,FELICIA,OHARA,FOhara@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0895447,FELICIA,OHARA,FOhara@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0895447,FELICIA,OHARA,FOhara@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0895447,FELICIA,OHARA,FOhara@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0897452,ALEXANDER,KUNHARDT,AKunhar@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0897452,ALEXANDER,KUNHARDT,AKunhar@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0897452,ALEXANDER,KUNHARDT,AKunhar@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0897452,ALEXANDER,KUNHARDT,AKunhar@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0903338,LILY,YIP,LYip2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0903338,LILY,YIP,LYip2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0903338,LILY,YIP,LYip2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0903338,LILY,YIP,LYip2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0911893,ADAM,GOLDSTEIN,AGoldst2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0911893,ADAM,GOLDSTEIN,AGoldst2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0911893,ADAM,GOLDSTEIN,AGoldst2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0911893,ADAM,GOLDSTEIN,AGoldst2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0912824,DANIELLE,ISAACS,DIsaacs@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0912824,DANIELLE,ISAACS,DIsaacs@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0912824,DANIELLE,ISAACS,DIsaacs@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0912824,DANIELLE,ISAACS,DIsaacs@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0914919,FREDERICA,DE LEO,FDeLeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+0914919,FREDERICA,DE LEO,FDeLeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0914919,FREDERICA,DE LEO,FDeLeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0914919,FREDERICA,DE LEO,FDeLeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0919135,ALESSANDRA,DE MEO,ADeMeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0919135,ALESSANDRA,DE MEO,ADeMeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0919135,ALESSANDRA,DE MEO,ADeMeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0919135,ALESSANDRA,DE MEO,ADeMeo2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+0933920,JULIE,GIBSON,JGibson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0933920,JULIE,GIBSON,JGibson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0933920,JULIE,GIBSON,JGibson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0933920,JULIE,GIBSON,JGibson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0944673,KACHUN,NG,KNg2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+0944673,KACHUN,NG,KNg2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,3,0
+0944673,KACHUN,NG,KNg2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0944673,KACHUN,NG,KNg2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+0946839,KATHERIN,CONNELLY,KConnelly@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0946839,KATHERIN,CONNELLY,KConnelly@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0946839,KATHERIN,CONNELLY,KConnelly@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0946839,KATHERIN,CONNELLY,KConnelly@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0951218,AIMEE,FOURNIER,AFournier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0951218,AIMEE,FOURNIER,AFournier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0951218,AIMEE,FOURNIER,AFournier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0951218,AIMEE,FOURNIER,AFournier@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0952267,MYRNA,GONZALEZ ROJAS,MGonzalezrojas@schools.nyc.gov,15K821,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,NULL,NULL
+0952267,MYRNA,GONZALEZ ROJAS,MGonzalezrojas@schools.nyc.gov,15K821,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,NULL,NULL
+0952267,MYRNA,GONZALEZ ROJAS,MGonzalezrojas@schools.nyc.gov,15K821,M.S. 51 William Alexander,2016,B,Option 2: 6 informal observations,NULL,NULL
+0952267,MYRNA,GONZALEZ ROJAS,MGonzalezrojas@schools.nyc.gov,15K821,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,NULL,NULL
+0962424,RYAN,HEALEY,RHealey@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,6,0
+0962424,RYAN,HEALEY,RHealey@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,6,0
+0962424,RYAN,HEALEY,RHealey@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,B,Option 2: 6 informal observations,6,0
+0962424,RYAN,HEALEY,RHealey@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,6,0
+0964118,AMY,SOLOMON,ASolomon4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0964118,AMY,SOLOMON,ASolomon4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0964118,AMY,SOLOMON,ASolomon4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0964432,MARK,CARON,MCaron@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0964432,MARK,CARON,MCaron@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0964432,MARK,CARON,MCaron@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0964432,MARK,CARON,MCaron@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0964655,REBECCA,WEXLER,RWexler2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,6,0
+0964655,REBECCA,WEXLER,RWexler2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,6,0
+0964655,REBECCA,WEXLER,RWexler2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,B,Option 2: 6 informal observations,6,0
+0964655,REBECCA,WEXLER,RWexler2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,6,0
+0967065,KRISTEN,WARREN,KRobbins@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0967065,KRISTEN,WARREN,KWarren8@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0967065,KRISTEN,WARREN,KRobbins@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0967065,KRISTEN,WARREN,KWarren8@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0967065,KRISTEN,WARREN,KWarren8@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0967065,KRISTEN,WARREN,KRobbins@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0967065,KRISTEN,WARREN,KRobbins@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0967065,KRISTEN,WARREN,KWarren8@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0968671,ARIEL,ARROYO,AArroyo6@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0968671,ARIEL,ARROYO,AArroyo6@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0968671,ARIEL,ARROYO,AArroyo6@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0971992,DANIEL,GORDON,DGordon11@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0971992,DANIEL,GORDON,DGordon11@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0971992,DANIEL,GORDON,DGordon11@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+0971992,DANIEL,GORDON,DGordon11@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+0992530,SARAH,BIANCO,SBianco@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+0992530,SARAH,BIANCO,SBianco@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+0992530,SARAH,BIANCO,SBianco@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1004214,JOANNA,SANTARPIA,JSantarpia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1004214,JOANNA,SANTARPIA,JSantarpia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1004214,JOANNA,SANTARPIA,JSantarpia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1004214,JOANNA,SANTARPIA,JSantarpia@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1011158,MAURA,OBERCIAN,MObercian@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1011158,MAURA,OBERCIAN,MObercian@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1011158,MAURA,OBERCIAN,MObercian@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1011158,MAURA,OBERCIAN,MObercian@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1019780,PATRICIA,EVERS,PEvers@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1019780,PATRICIA,EVERS,PEvers@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1019780,PATRICIA,EVERS,PEvers@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1019780,PATRICIA,EVERS,PEvers@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1027469,JARED,COHEN,JCohen56@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1027469,JARED,COHEN,JCohen56@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1027469,JARED,COHEN,JCohen56@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1027469,JARED,COHEN,JCohen56@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1035320,ANNA,GREENAWALT,AGreenawalt@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,3,0
+1035320,ANNA,GREENAWALT,AGreenawalt@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+1035320,ANNA,GREENAWALT,AGreenawalt@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+1035320,ANNA,GREENAWALT,AGreenawalt@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,3,0
+1066649,EFRAIN,MARINE,EMarine@schools.nyc.gov,12X384,M.S. 51 William Alexander,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1066649,EFRAIN,MARINE,EMarine@schools.nyc.gov,12X384,M.S. 51 William Alexander,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1066649,EFRAIN,MARINE,EMarine@schools.nyc.gov,12X384,M.S. 51 William Alexander,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1080044,LAUREN,KAAN,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1080044,LAUREN,FARRELL,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1080044,LAUREN,KAAN,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1080044,LAUREN,FARRELL,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1080044,LAUREN,FARRELL,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1080044,LAUREN,KAAN,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1080044,LAUREN,FARRELL,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1080044,LAUREN,KAAN,LKaan@schools.nyc.gov,31R048,M.S. 51 William Alexander,2017,A,Option 1: 1 Formal 3 informal observations,4,0
+1114504,KATIE,DEPALMA,KDePalma@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,B,Option 2: 6 informal observations,4,0
+1114504,KATIE,DEPALMA,KDePalma@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1114504,KATIE,DEPALMA,KDePalma@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1114751,AMY,FLATOW,AFlatow@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1114751,AMY,FLATOW,AFlatow@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1114751,AMY,FLATOW,AFlatow@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1114751,AMY,FLATOW,AFlatow@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1121437,KIMBERLY,HESDRA,KDiaz4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1121437,KIMBERLY,HESDRA,KDiaz4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1121437,KIMBERLY,HESDRA,KDiaz4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1121437,KIMBERLY,HESDRA,KDiaz4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1158211,LIZA,KASPRZYK,LKasprzyk@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1158211,LIZA,KASPRZYK,LKasprzyk@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1158211,LIZA,KASPRZYK,LKasprzyk@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,A,Option 1: 1 Formal 3 informal observations,4,0
+1158211,LIZA,KASPRZYK,LKasprzyk@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1158303,MARIA,KALINKOS,MKalinkos@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1158303,MARIA,KALINKOS,MKalinkos@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1158303,MARIA,KALINKOS,MKalinkos@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1158303,MARIA,KALINKOS,MKalinkos@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1158659,YESSICA,LOPEZ,YLopez10@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,B,Option 2: 6 informal observations,6,0
+1158659,YESSICA,LOPEZ,YLopez10@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,B,Option 2: 6 informal observations,6,0
+1209536,KRISTIN,MARK,KMark3@schools.nyc.gov,15K656,M.S. 51 William Alexander,2015,A,Option 1: 1 Formal 3 informal observations,9,0
+1209536,KRISTIN,MARK,KMark3@schools.nyc.gov,15K656,M.S. 51 William Alexander,2016,A,Option 1: 1 Formal 3 informal observations,9,0
+1209536,KRISTIN,MARK,KMark3@schools.nyc.gov,15K656,M.S. 51 William Alexander,2017,A,Option 1: 1 Formal 3 informal observations,9,0
+1270912,MERIDA,LANG,MLang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1270912,MERIDA,LANG,MLang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1270912,MERIDA,LANG,MLang@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1272028,JOANNA,GOLEBIOWSKI,JGolebiowski@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1272028,JOANNA,GOLEBIOWSKI,JGolebiowski@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1272028,JOANNA,GOLEBIOWSKI,JGolebiowski@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1272028,JOANNA,GOLEBIOWSKI,JGolebiowski@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1315674,STEVEN,SANDMAN,SSandman@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,B,Option 2: 6 informal observations,4,0
+1315674,STEVEN,SANDMAN,SSandman@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,E,Option 4: 4 informal observations,4,0
+1315674,STEVEN,SANDMAN,SSandman@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1315674,STEVEN,SANDMAN,SSandman@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1355587,JONATHAN,LEVINSON,JLevinson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,B,Option 2: 6 informal observations,4,0
+1355587,JONATHAN,LEVINSON,JLevinson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1355587,JONATHAN,LEVINSON,JLevinson4@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,E,Option 4: 4 informal observations,4,0
+1434241,ANNA,PLESKOVA,APleskova@schools.nyc.gov,15K051,M.S. 51 William Alexander,2014,A,Option 1: 1 Formal 3 informal observations,4,0
+1434241,ANNA,PLESKOVA,APleskova@schools.nyc.gov,15K051,M.S. 51 William Alexander,2015,A,Option 1: 1 Formal 3 informal observations,4,0
+1434241,ANNA,PLESKOVA,APleskova@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,E,Option 4: 4 informal observations,4,0
+1434241,ANNA,PLESKOVA,APleskova@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,4,0
+1505281,MICHELLE,ARNIELLA,MArniella2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2016,B,Option 2: 6 informal observations,6,0
+1505281,MICHELLE,ARNIELLA,MArniella2@schools.nyc.gov,15K051,M.S. 51 William Alexander,2017,C,Option 3: 3 Informals 3 Non-Evaluative Classroom Visits,6,0
