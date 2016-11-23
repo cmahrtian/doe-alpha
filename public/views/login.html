@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="../styles/login.css">
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
-	<script type="text/javascript">
-    var teachers = $.csv.toObjects('data/Teachers.csv');
-    console.log(teachers[0]);
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript">
+    var teachers = d3.csv('/data/Teachers.csv', function(data) {
+      console.log(data);
+    });
   </script>
 </head>
 <body>
