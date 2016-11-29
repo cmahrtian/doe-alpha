@@ -12,7 +12,23 @@
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript">
     var teachers = d3.csv('/data/Teachers.csv', function(data) {
-      console.log(data);
+      console.log(data[1]);
+    });
+    
+    var observationSelections = d3.csv('data/Observation_Selections.csv', function(data) {
+        console.log(data[17]);
+    });
+
+    var observations = d3.csv('/data/Observations.csv', function(data) {
+      console.log(data[0]);
+    });
+
+    var components = d3.csv('/data/Components.csv', function(data) {
+      console.log(data[15]);
+    });
+
+    var yoyScores = d3.csv('/data/YOY_Scores.csv', function(data) {
+      console.log(data[0]);
     });
   </script>
 </head>
