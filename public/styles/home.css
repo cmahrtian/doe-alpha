@@ -12,11 +12,11 @@
 /*container width*/
 .container {
 	width: 984px;
+	margin-top: 1%;
 }
 
 /*navbar*/
 .menu {
-	margin-top: 1%;
 	padding-bottom: 1em;
 }
 
