@@ -12,7 +12,7 @@
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript">
     var teachers = d3.csv('data/Teachers.csv', function(data) {
-      console.log(data);
+      console.log(data[1]);
     });
     
     var observationSelections = d3.csv('data/Observation_Selections.csv', function(data) {
@@ -47,9 +47,9 @@
 		  <li><a href="#!">T-three</a></li>
 		</ul>
 		<nav class="nav-extended">
-	    <div class="nav-wrapper white">
+	    <div class="nav-wrapper">
 	    	<a href="#" class="brand-logo"><img src="images/growth_explorer_large.png" class="growth-explorer"></a>
-	      <a href="#" class="brand-logo right black-text"><i class="medium material-icons">perm_identity</i>Welcome Myrna</a>
+	      <a href="#" class="brand-logo right"><i class="medium material-icons">perm_identity</i>Welcome Myrna</a>
 	      <br>
 	      <ul id="nav-mobile" class="right">
 		      <li class="active"><a href="#">Home</a></li>

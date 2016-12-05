@@ -163,9 +163,45 @@ footer.page-footer {
 	padding-bottom: 1em;
 }
 
+nav.nav-extended {
+	height: 128px;
+	box-shadow: none;
+	line-height: 56px;
+}
+
+nav .nav-wrapper {
+	background-color: white;
+}
+
+/*Growth Explorer logo*/
 @media only screen and (max-width: 992px) {
 	nav .brand-logo {
 		left: 19%;
 	}
 }
 
+img.growth-explorer {
+	height: 128px;
+}
+
+/*Welcome message and name*/
+nav .brand-logo.right {
+	font-family: MuseoSlab;
+	color: black;
+	font-size: 2.25rem;
+}
+
+/*dropdown menu*/
+nav ul a {
+	padding: 0 10px;
+}
+
+ul.right a {
+	font-size: 1.5rem;
+	font-family: MuseoSans;
+	color: black;
+}
+
+i.right {
+	margin-left: 0px;
+}
