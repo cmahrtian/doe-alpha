@@ -11,8 +11,8 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript">
-    var teachers = d3.csv('/data/Teachers.csv', function(data) {
-      console.log(data[1]);
+    var teachers = d3.csv('data/Teachers.csv', function(data) {
+      console.log(data);
     });
     
     var observationSelections = d3.csv('data/Observation_Selections.csv', function(data) {
