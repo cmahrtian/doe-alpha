@@ -3,13 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home</title>
+  <base href="/">
+	<title>Growth Explorer</title>
+
+	<!-- CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="styles/styles.css">
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- JavaScript libraries/frameworks -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script type="text/javascript" src="scripts/materialize.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="libs/angular-route/angular-route.min.js"></script>
+  
+  <!-- Angular custom -->
+  <script src="scripts/controllers/HomeCtrl.js"></script>
+  <script src="scripts/controllers/LoginCtrl.js"></script>
+  <script src="scripts/services/LoginService.js"></script>
+  <script src="scripts/appRoutes.js"></script>
+  <script src="scripts/app.js"></script>
+
+  <!-- custom D3 script for calling CSV files -->
   <script type="text/javascript">
     var teachers = d3.csv('data/Teachers.csv', function(data) {
       console.log(data[1]);
@@ -31,76 +48,13 @@
       console.log(data[0]);
     });
   </script>
+
 </head>
-<body>
+<body ng-app="growthExplorer" ng-controller="LoginController">
 
-<div class="container">		
-	<div class="menu">
-		<ul id="dropdown1" class="dropdown-content">
-		  <li><a href="#!">P-one</a></li>
-		  <li><a href="#!">P-two</a></li>
-		  <li><a href="#!">P-three</a></li>
-		</ul>
-		<ul id="dropdown2" class="dropdown-content">
-		  <li><a href="#!">T-one</a></li>
-		  <li><a href="#!">T-two</a></li>
-		  <li><a href="#!">T-three</a></li>
-		</ul>
-		<nav class="nav-extended">
-	    <div class="nav-wrapper">
-	    	<a href="#" class="brand-logo"><img src="images/growth_explorer_large.png" class="growth-explorer"></a>
-	      <a href="#" class="brand-logo right"><i class="medium material-icons">perm_identity</i>Welcome Myrna</a>
-	      <br>
-	      <ul id="nav-mobile" class="right">
-		      <li class="active"><a href="#">Home</a></li>
-		      <li><a class="dropdown-button" href="#" data-activates="dropdown1">Practice<i class="material-icons right">arrow_drop_down</i></a></li>
-		      <li><a class="dropdown-button" href="#" data-activates="dropdown2">Learning<i class="material-icons right">arrow_drop_down</i></a></li>
-		    </ul>
-	    </div>
-	  </nav>
-	</div>
-
-  <div class="card-panel s12 tagline">
-    <span>Quickly see your past.<br>Browse and reflect on your present.<br>Analyze trends.
-    </span>
-  </div>
-  
-  <div class="row portals">
-    <div class="col s4 cloud">
-    	<img src="images/cloud_2.png">
-    	<p>Reflect daily on your <br>own progess, practice, <br>and prep for meetings <a href="#">here</a>.</p>
-    </div>
-
-    <div class="col s4 measures">
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Teacher Practice</span>
-          <p>View your past ratings, notes from your evaluators, and resources to continually learn and improve your practice.</p>
-        </div>
-        <div class="card-action right-align">
-          <a href="#">Let's Explore &nbsp; &#8594;</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s4 measures">
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Student Learning</span>
-          <p>See how your students are doing.</p>
-          <br>
-          <br>
-          <br>
-        </div>
-        <div class="card-action right-align">
-          <a href="#">Let's Explore &nbsp; &#8594;</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container">
+	<div ng-view></div>
 </div>
-
+	
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-<script type="text/javascript" src="scripts/materialize.js"></script>
 </html>

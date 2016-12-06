@@ -1,0 +1,1 @@
+angular.module('growthExplorer', ['ngRoute', 'appRoutes', 'HomeCtrl', 'LoginCtrl', 'LoginService']);

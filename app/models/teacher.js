@@ -9,13 +9,7 @@ module.exports = function(sequelize, DataTypes) {
 			employeeID: DataTypes.INTEGER,
 			firstName: DataTypes.STRING,
 			lastName: DataTypes.STRING,
-			schoolDBN: DataTypes.STRING,
-			locationDescription: DataTypes.STRING,
-			fiscalYear: DataTypes.INTEGER,
-			motpOptionID: DataTypes.STRING,
-			motpOptionDescription: DataTypes.STRING,
-			numOfObs: DataTypes.INTEGER,
-			numOfMissingObs: DataTypes.INTEGER
+			email: DataTypes.STRING
 		}
 	);
 }

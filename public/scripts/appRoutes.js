@@ -2,15 +2,15 @@ angular.module('appRoutes', [])
 			.config(['$routeProvider', '$locationProvider', 
 				function($routeProvider, $locationProvider) {
 					$routeProvider
-					// home page
-						.when('/', {
-							templateUrl: 'index.html',
-							controller: 'IndexController'
-						})
 					// login page that will use the LoginController
-						.when('/login', {
+						.when('/', {
 							templateUrl: 'views/login.html',
 							controller: 'LoginController'
+						})
+						.when('/home', {
+					// home page
+							templateUrl: 'views/home.html',
+							controller: 'HomeController'
 						});
 					$locationProvider.html5Mode(true);		
 				}]);
