@@ -34,7 +34,7 @@ img.growth-explorer {
 	width: 45%;
 	margin-left: 2%;
 	border: 5px solid #8ad43f;
-	padding-left: 2%;
+	padding: 1%;
 	display: inline-block;
 	float: left;
 	font-family: MuseoSlab;
@@ -73,7 +73,7 @@ a.btn.logon, .signup a.btn {
 /*MacBook image*/
 img.laptop {
 	width: 46%;
-	margin-top: -1.5%;
+	margin-top: -0.5%;
 	margin-left: 4%;
 }
 
@@ -141,7 +141,7 @@ footer.page-footer {
 	font-weight: bold;
 }
 
-.page-footer p, span {
+.page-footer p, .page-footer span {
 	font-family: MuseoSlab;
 }
 
@@ -205,3 +205,84 @@ ul.right a {
 i.right {
 	margin-left: 0px;
 }
+
+/*Growth Explorer tagline*/
+.card-panel.tagline {
+	text-align: center;
+	font-size: 30px;
+	font-family: MuseoSlab;
+	color: white;
+	background-color: #616161;
+}
+
+/*Teacer Practice and Student Learning section*/
+.row.portals {
+	margin: 60px auto;
+}
+
+/*tips icon*/
+.row .col.s4.cloud {
+	margin-left: .75%;
+}
+
+.cloud img {
+	position: relative;
+	width: 110%;
+	top: -45px;
+	left: -25px;
+}
+
+.cloud p {
+	position: relative;
+	top: -255px;
+	left: -8px;
+	font-family: MuseoSlab;
+	font-size: 17px;
+	text-align: center;
+}
+
+/*Teacher Practice and Student Learning cards*/
+.row .col.s4.measures {
+	width: 30%;
+	margin-left: 2%;
+}
+
+.measures .card {
+	border-radius: 25px;
+	background-color: #8ad43f;
+}
+
+.measures .card .card-content {
+	padding: 8px;
+	text-align: center;
+	color: white;
+}
+
+.measures .card .card-title {
+	font-size: 40px;
+	font-family: MuseoSans;
+}
+
+.measures .card .card-content p {
+	margin: 30px 0;
+	font-family: MuseoSlab;
+	font-size: 15px;
+}
+
+.measures .card .card-action {
+	border-radius: 0 0 25px 25px;
+	padding: 8px;
+}
+
+/*controls non-hover and hover elements of "Let's Explore" button*/
+.measures .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+	color: white;
+	text-transform: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.measures .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+		color: #ff9819;
+}
+
