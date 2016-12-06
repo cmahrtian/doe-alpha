@@ -1,110 +1,83 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Login</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="../styles/styles.css">
+<img src="../images/growth_explorer_large.png" class="growth-explorer">
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="http://d3js.org/d3.v3.min.js"></script>
-  <script type="text/javascript">
-    var teachers = d3.csv('/data/Teachers.csv', function(data) {
-      console.log(data[0]);
-    });
-  </script>
-</head>
-<body>
+<div class="row">
+	<div class="login-form">	
+		<form class="col s12">
+			<div class="row">
+				<div class="input-field col s11">
+					<input id="user_name" type="text" class="validate">
+					<label for="user_name">User ID</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s11">
+					<input id="password" type="text" class="validate">
+					<label for="password">Password</label>
+				</div>
+			</div>
+		</form>
+		<a class="waves-effect waves-light btn logon">Log In</a>
+		<div class="signup">
+			<p>New User? &nbsp;<a class="waves-effect waves-light btn">Sign Up</a></p>
+		</div>
+	</div>
+	<img src="../images/laptop.png" class="laptop">	
+</div>
 
-	<div class="container"> -->
-		<img src="../images/growth_explorer_large.png" class="growth-explorer">
+<hr>
 
+<div class="row tasks">
+	<a href="#">
+		<div class="card col s4">
+			<img src="../images/computer_screen.png">
+			<div class="card-content">
+				<span class="card-title">Quickly see your past.</span>
+				<p>Access your observations and data from your past in a snapshot view.</p>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<div class="card col s4">
+			<img src="../images/mag_glass.png">
+			<div class="card-content">
+				<span class="card-title">Broswe your present.</span>
+				<p>See how you are doing today and begin to reflect on your practice.</p>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<div class="card col s4">
+			<img src="../images/graph.png">
+			<div class="card-content">
+				<span class="card-title">Analyze trends.</span>
+				<p>Use simple data to better prepare for your students today.</p>
+			</div>
+		</div>
+	</a>
+</div>
+
+<footer class="page-footer">
+	<div class="container">
 		<div class="row">
-			<div class="login-form">	
-				<form class="col s12">
-					<div class="row">
-						<div class="input-field col s11">
-							<input id="user_name" type="text" class="validate">
-							<label for="user_name">User ID</label>
-						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s11">
-							<input id="password" type="text" class="validate">
-							<label for="password">Password</label>
-						</div>
-					</div>
-				</form>
-				<a class="waves-effect waves-light btn logon">Log In</a>
-				<div class="signup">
-					<p>New User? &nbsp;<a class="waves-effect waves-light btn">Sign Up</a></p>
-				</div>
+			<div class="col 16 s6">
+				<h5>Frequently Asked Questions</h5>
+				<p>Question 1</p>
+				<p>Question 2</p>
+				<p>Question 3</p>
 			</div>
-			<img src="../images/laptop.png" class="laptop">	
-		</div>
-
-		<hr>
-
-		<div class="row tasks">
-			<a href="#">
-				<div class="card col s4">
-					<img src="../images/computer_screen.png">
-					<div class="card-content">
-						<span class="card-title">Quickly see your past.</span>
-						<p>Access your observations and data from your past in a snapshot view.</p>
-					</div>
-				</div>
-			</a>
-			<a href="#">
-				<div class="card col s4">
-					<img src="../images/mag_glass.png">
-					<div class="card-content">
-						<span class="card-title">Broswe your present.</span>
-						<p>See how you are doing today and begin to reflect on your practice.</p>
-					</div>
-				</div>
-			</a>
-			<a href="#">
-				<div class="card col s4">
-					<img src="../images/graph.png">
-					<div class="card-content">
-						<span class="card-title">Analyze trends.</span>
-						<p>Use simple data to better prepare for your students today.</p>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<footer class="page-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col 16 s6">
-						<h5>Frequently Asked Questions</h5>
-						<p>Question 1</p>
-						<p>Question 2</p>
-						<p>Question 3</p>
-					</div>
-					<div class="col 14 offset-12 s5">
-						<h5>Contact Us</h5>
-						<ul>
-							<li>
-								<i class="small material-icons">phone</i>
-								<span>&nbsp; 212-555-5555</span>
-							</li>
-							<li>
-								<i class="small material-icons">email</i>
-								<span>&nbsp; <a href="mailto:growthexplorer@schools.nyc.gov">GrowthExplorer@schools.nyc.gov</a></span>
-							</li>
-						</ul>
-					</div>
-				</div>
+			<div class="col 14 offset-12 s5">
+				<h5>Contact Us</h5>
+				<ul>
+					<li>
+						<i class="small material-icons">phone</i>
+						<span>&nbsp; 212-555-5555</span>
+					</li>
+					<li>
+						<i class="small material-icons">email</i>
+						<span>&nbsp; <a href="mailto:growthexplorer@schools.nyc.gov">GrowthExplorer@schools.nyc.gov</a></span>
+					</li>
+				</ul>
 			</div>
-		</footer>
-
-	<!-- </div>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-<script type="text/javascript" src="../scripts/materialize.js"></script>
-</html> -->
+		</div>
+	</div>
+</footer>
