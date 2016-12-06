@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <base href="/">
+	<base href="/">
 	<title>Growth Explorer</title>
 
 	<!-- CSS -->
@@ -13,48 +13,49 @@
 
 	<!-- JavaScript libraries/frameworks -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="libs/angular-route/angular-route.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-	<script type="text/javascript" src="scripts/materialize.js"></script>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-  <script src="libs/angular/angular.min.js"></script>
-  <script src="libs/angular-route/angular-route.min.js"></script>
-  
-  <!-- Angular custom -->
-  <script src="scripts/controllers/HomeCtrl.js"></script>
-  <script src="scripts/controllers/LoginCtrl.js"></script>
-  <script src="scripts/services/LoginService.js"></script>
-  <script src="scripts/appRoutes.js"></script>
-  <script src="scripts/app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.1/angular-materialize.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="scripts/materialize.js"></script>  
+	
+	<!-- Angular custom -->
+	<script src="scripts/controllers/HomeCtrl.js"></script>
+	<script src="scripts/controllers/LoginCtrl.js"></script>
+	<script src="scripts/services/LoginService.js"></script>
+	<script src="scripts/appRoutes.js"></script>
+	<script src="scripts/app.js"></script>
 
-  <!-- custom D3 script for calling CSV files -->
-  <script type="text/javascript">
-    var teachers = d3.csv('data/Teachers.csv', function(data) {
-      console.log(data[1]);
-    });
-    
-    var observationSelections = d3.csv('data/Observation_Selections.csv', function(data) {
-        console.log(data[17]);
-    });
+	<!-- custom D3 script for calling CSV files -->
+	<script type="text/javascript">
+		var teachers = d3.csv('data/Teachers.csv', function(data) {
+			console.log(data[1]);
+		});
+		
+		var observationSelections = d3.csv('data/Observation_Selections.csv', function(data) {
+				console.log(data[17]);
+		});
 
-    var observations = d3.csv('/data/Observations.csv', function(data) {
-      console.log(data[0]);
-    });
+		var observations = d3.csv('/data/Observations.csv', function(data) {
+			console.log(data[0]);
+		});
 
-    var components = d3.csv('/data/Components.csv', function(data) {
-      console.log(data[15]);
-    });
+		var components = d3.csv('/data/Components.csv', function(data) {
+			console.log(data[15]);
+		});
 
-    var yoyScores = d3.csv('/data/YOY_Scores.csv', function(data) {
-      console.log(data[0]);
-    });
-  </script>
+		var yoyScores = d3.csv('/data/YOY_Scores.csv', function(data) {
+			console.log(data[0]);
+		});
+	</script>
 
 </head>
-<body ng-app="growthExplorer" ng-controller="LoginController">
+	<body ng-app="growthExplorer">
 
-<div class="container">
-	<div ng-view></div>
-</div>
-	
-</body>
+		<div class="container">
+			<div ng-view></div>
+		</div>
+		
+	</body>
 </html>

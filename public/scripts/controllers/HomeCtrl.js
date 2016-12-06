@@ -1,4 +1,6 @@
 angular.module('HomeCtrl', [])
 			.controller('HomeController', function($scope) {
-				$scope.tagline = 'To the moon and back!';
+				setTimeout(function() {
+					jQuery('.dropdown-button').dropdown();
+				}, 0);
 			});
