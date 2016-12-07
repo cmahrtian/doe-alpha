@@ -312,3 +312,20 @@ img.weteach {
 .measures .card.weteach .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
 		color: black;
 }
+
+/***********************/
+/*TEACHER PRACTICE - PAGE 1*/
+/***********************/
+
+h3 {
+	text-align: center;
+	font-family: MuseoSans;
+}
+
+.card-panel.tagline p {
+	margin: 10px;
+}
+
+.card-panel.tagline span {
+	color: #ff9819;
+}
