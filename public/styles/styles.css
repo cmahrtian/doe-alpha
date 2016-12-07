@@ -317,6 +317,7 @@ img.weteach {
 /*TEACHER PRACTICE - PAGE 1*/
 /***********************/
 
+/*Teaching Practice title and observations summary*/
 h3 {
 	text-align: center;
 	font-family: MuseoSans;
@@ -328,4 +329,41 @@ h3 {
 
 .card-panel.tagline span {
 	color: #ff9819;
+}
+
+/*observation cards*/
+.observation-cards {
+	margin-top: 5%;
+}
+
+/*previous year's MOTP score and rating*/
+.previous-motp {
+	text-align: center;
+	background-color: #8ad43f;
+	margin-top: 20%; 
+	padding: 1px;
+}
+
+.previous-motp h5 {
+	font-family: MuseoSans;
+}
+
+.previous-motp .score, .previous-motp .rating {
+	font-family: MuseoSlab;
+	font-weight: bold;
+}
+
+.previous-motp .score {
+	font-size: 2em;
+
+}
+
+.previous-motp .rating {
+	font-size: 1.5em;
+}
+
+/*vertical separating line*/
+.row .col.s2.previous-year {
+	border-right: 1px solid gray;
+	height: 300px;
 }
