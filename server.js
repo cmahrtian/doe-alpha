@@ -16,6 +16,10 @@ var port = process.env.PORT || 3000;
 // uncomment after entering in credentials in config/db.js
 // sequelize.connect(db.url) ???
 
+// set the view engine to ejs
+app.set('views', './public/views');
+app.set('view engine', 'ejs');
+
 // get all data/stuff of the body (POST) parameters
 // parse application/json
 app.use(bodyParser.json());
@@ -34,7 +38,7 @@ app.use(bodyParser.urlencoded({
 app.use(methodOverride('X-HTTP-Method-Override'));
 
 // set the static files location; e.g. "/public/img" will be "/img" for users
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname, '/public'));
 
 // routes =====================================================================
 require('./app/routes')(app); // configure our routes
