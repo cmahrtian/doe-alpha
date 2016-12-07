@@ -2,6 +2,7 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
+var ejs = require('ejs');
 var methodOverride = require('method-override');
 
 // configuration ==============================================================

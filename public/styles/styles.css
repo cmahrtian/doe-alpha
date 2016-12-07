@@ -242,14 +242,17 @@ i.right {
 }
 
 /*Teacher Practice and Student Learning cards*/
-.row .col.s4.measures {
+.row .col.measures {
 	width: 30%;
 	margin-left: 2%;
 }
 
-.measures .card {
-	border-radius: 25px;
+.measures .card.portal {
 	background-color: #8ad43f;
+}
+
+.measures .card.portal, .measures .card.weteach {
+	border-radius: 25px;
 }
 
 .measures .card .card-content {
@@ -286,3 +289,26 @@ i.right {
 		color: #ff9819;
 }
 
+/*WeTeach card*/
+.measures .card.weteach {
+	margin-top: 10%;
+	border: 5px solid #93c0ed;
+}
+
+.measures .card.weteach .card-content p {
+	color: black;
+	font-size: 13px;
+	margin: 3px 0;
+}
+
+img.weteach {
+	width: 75%;
+}
+
+.card.weteach .card-action {
+	border-top: none;
+}
+
+.measures .card.weteach .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+		color: black;
+}
