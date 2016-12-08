@@ -333,7 +333,17 @@ h3 {
 
 /*observation cards*/
 .observation-cards {
-	margin-top: 5%;
+	margin-top: 3%;
+}
+
+.row.observation-cards .col.s2 {
+	margin: 0 1%;
+}
+
+.row.observation-cards .score {
+	font-size: 2em;
+	font-family: MuseoSlab;
+	font-weight: bold;
 }
 
 /*previous year's MOTP score and rating*/
@@ -348,22 +358,53 @@ h3 {
 	font-family: MuseoSans;
 }
 
-.previous-motp .score, .previous-motp .rating {
+.previous-motp .rating {
 	font-family: MuseoSlab;
 	font-weight: bold;
-}
-
-.previous-motp .score {
-	font-size: 2em;
-
-}
-
-.previous-motp .rating {
 	font-size: 1.5em;
 }
 
 /*vertical separating line*/
-.row .col.s2.previous-year {
+.previous-year {
 	border-right: 1px solid gray;
 	height: 300px;
+}
+
+/*completed and pending observations*/
+.row .col.s2.completed-observation, .row .col.s2.pending-observation {
+	border-radius: 25px;
+	height: 285px;
+	width: 14%;
+	padding: 1.25rem 0.75rem;
+}
+
+/*completed observations*/
+.completed-observation {
+	text-align: center;
+	background-color: #93c0ed;
+}
+
+.completed-observation h5 {
+	font-family: MuseoSans;
+	font-size: 18px;
+}
+
+.completed-observation p.domain {
+	font-size: 14px;
+	font-family: MuseoSans;
+	margin-bottom: 0px;
+}
+
+.completed-observation p.score {
+	margin: 0;
+}
+
+.completed-observation hr {
+	height: 1px;
+	background-color: black;
+}
+
+/*pending observations*/
+.pending-observation {
+	border: 2px dashed #616161;
 }
