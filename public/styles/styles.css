@@ -434,15 +434,19 @@ h3 {
 
 /*Dig In icon*/
 .motp-summary .dig-in {
-	background-color: #8ad43f;
+	background: 
+		linear-gradient(135deg, transparent 0px, #8ad43f 0) top left,
+		linear-gradient(225deg, transparent 52px, #8ad43f 0) top right,
+		linear-gradient(315deg, transparent 52px, #8ad43f 0) bottom right,
+		linear-gradient(45deg, transparent 0px, #8ad43f 0) bottom left;
+	background-size: 51%;
+	background-repeat: no-repeat;
 	height: 150px;
 	padding: 3%;
-	border-top-style: bevel;
 }
 
 .motp-summary .dig-in h3 {
 	position: absolute;
-	/*font-weight: bold;*/
 }
 
 .motp-summary .dig-in img {
