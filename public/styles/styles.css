@@ -220,27 +220,6 @@ i.right {
 	margin: 60px auto;
 }
 
-/*tips icon*/
-.row .col.s4.cloud {
-	margin-left: .75%;
-}
-
-.cloud img {
-	position: relative;
-	width: 110%;
-	top: -45px;
-	left: -25px;
-}
-
-.cloud p {
-	position: relative;
-	top: -255px;
-	left: -8px;
-	font-family: MuseoSlab;
-	font-size: 17px;
-	text-align: center;
-}
-
 /*Teacher Practice and Student Learning cards*/
 .row .col.measures {
 	width: 30%;
@@ -380,6 +359,7 @@ h3 {
 
 /*completed observations*/
 .completed-observation {
+	color: black;
 	text-align: center;
 	background-color: #93c0ed;
 }
@@ -407,4 +387,66 @@ h3 {
 /*pending observations*/
 .pending-observation {
 	border: 2px dashed #616161;
+}
+
+/*summary section*/
+.row.motp-summary .col {
+	margin: 0 1%;
+}
+
+/*tips cloud*/
+.motp-summary .tips-cloud img {
+	position: relative;
+	width: 100%;
+}
+
+.motp-summary .tips-cloud p {
+	position: relative;
+	font-size: 18px;
+	font-family: MuseoSlab;
+	text-align: center;
+	top: -130px;
+}
+
+/*current MOTP score*/
+.motp-summary .current-score {
+	background-color: #616161;
+	color: white;
+	font-family: MuseoSans;
+	height: 150px;
+	padding: 2% 3%;
+}
+
+.motp-summary .current-score h4 {
+	position: absolute;
+	margin: 0;
+	padding: 11px 30px 18px 10px;
+	border-right: 1px solid white;
+}
+
+.motp-summary .current-score p {
+	float: right;
+	font-size: 45px;
+	margin: 0;
+	padding: 20px 20px 16px;
+	border-left: 1px solid white;
+}
+
+/*Dig In icon*/
+.motp-summary .dig-in {
+	background-color: #8ad43f;
+	height: 150px;
+	padding: 3%;
+	border-top-style: bevel;
+}
+
+.motp-summary .dig-in h3 {
+	position: absolute;
+	/*font-weight: bold;*/
+}
+
+.motp-summary .dig-in img {
+	float: right;
+	width: 35%;
+	margin-right: 15%;
 }
