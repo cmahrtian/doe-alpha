@@ -12,6 +12,7 @@ angular.module('TeacherCtrl', [])
 					return element.EmployeeID === employeeID;
 				};
 
+				// Previous Year's MOTP Score and Rating
 				d3.csv('../data/Teachers.csv', function(data) {
 					// select our teacher
 					var teacher = data.find(teacherLookup);
@@ -20,12 +21,24 @@ angular.module('TeacherCtrl', [])
 					d3.select('.previous-motp .rating').text(teacher['Y16_MOTP_Rating']);
 				});
 
+				// Current fiscal year's observations (completed and pending)
 				d3.csv('../data/Observations.csv', function(data) {
+					// returns array of all observations for teacher since FY 2014
 					var teacher = data.filter(teacherLookup);
 					teacher.forEach(function(element) {
+						count = 0;
 						if (element.FiscalYear === fiscalYear) {
-							d3.select('.observation-cards').append("div")
-								.classed("col s2 completed-observation", true);
+							count++;
+							// appends completed observation element to page for every 
+							// observation completed thus far in current fiscal year
+							d3.select('.completed-observations').append('div')
+								.classed('col s2 completed-observation', true);
+							// appends pending observation element to page for every 
+							// observation expected in rest of current fiscal year
+							for (var i = 0; i < element.expected_obs - count; i++) {
+								d3.select('.pending-observations').append('div')
+									.classed('col s2 pending-observation', true);
+							};
 						};
 					});
 				});
