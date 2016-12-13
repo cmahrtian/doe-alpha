@@ -20,7 +20,7 @@ module.exports = function(app) {
 	// frontend routes ==========================================================
 	// route to handle all angular requests
 	app.get('*', function(req, res) {
-		// load our public/index.html file
+		// load our public/index.ejs file
 		res.render('index');
 	});
 };
