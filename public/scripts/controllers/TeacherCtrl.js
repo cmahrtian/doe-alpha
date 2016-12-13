@@ -25,8 +25,8 @@ angular.module('TeacherCtrl', [])
 		d3.csv('../data/Observations.csv', function(data) {
 			// returns array of all observations for teacher since FY 2014
 			var teacher = data.filter(teacherLookup);
+			count = 0;
 			teacher.forEach(function(element) {
-				count = 0;
 				if (element.FiscalYear === fiscalYear) {
 					count++;
 					// appends completed observation element to page for every 
@@ -35,14 +35,17 @@ angular.module('TeacherCtrl', [])
 															.append('div')
 															.classed('col s2 completed-observation', true);
 					observation.append('h5').text(element.MOTPMonth +' '+ element.MOTPDay);
-
-					// appends pending observation element to page for every 
-					// observation expected in rest of current fiscal year
-					for (var i = 0; i < element.expected_obs - count; i++) {
-						d3.select('.pending-observations').append('div')
-							.classed('col s2 pending-observation', true);
-					};
 				};
 			});
+			function currentFiscalYear(element) {
+				return element.FiscalYear === fiscalYear;
+			};
+			var expectedObservations = teacher.find(currentFiscalYear)['expected_obs'];
+			// appends pending observation element to page for every 
+			// observation expected in rest of current fiscal year
+			for (var i = 0; i < expectedObservations - count; i++) {
+				d3.select('.pending-observations').append('div')
+							.classed('col s2 pending-observation', true);
+			};
 		});
 	});
