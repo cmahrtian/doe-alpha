@@ -26,10 +26,10 @@ angular.module('TeacherCtrl', [])
 			// returns array of all observations for teacher since FY 2014
 			var teacher = data.filter(teacherLookup);
 			var count = 0;
-			var distinctMOTPID = [];
+			var currentYearComponents = [];
 			teacher.forEach(function(element) {
-				if ((element.FiscalYear === fiscalYear) && (!distinctMOTPID.includes(element.MOTPID))) {	
-					distinctMOTPID.push(element.MOTPID);
+				if (element.FiscalYear === fiscalYear) {	
+					currentYearComponents.push(element);
 					count++;
 					// appends completed observation element to page for every 
 					// observation completed thus far in current fiscal year
