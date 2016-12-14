@@ -27,19 +27,35 @@ angular.module('TeacherCtrl', [])
 			var teacher = data.filter(teacherLookup);
 			var count = 0;
 			var currentYearComponents = [];
+			var currentYearMOTPIDs = [];
+			
 			teacher.forEach(function(element) {
 				if (element.FiscalYear === fiscalYear) {	
 					currentYearComponents.push(element);
-					
-					count++;
-					// appends completed observation element to page for every 
-					// observation completed thus far in current fiscal year
-					var observation = d3.select('.completed-observations')
-															.append('div')
-															.classed('col s2 completed-observation', true);
-					observation.append('h5').text(element.MOTPMonth +' '+ element.MOTPDay);
+				};
+				if ((element.FiscalYear === fiscalYear) && (!currentYearMOTPIDs.includes(element.MOTPID))) {	
+					currentYearMOTPIDs.push(element.MOTPID);
 				};
 			});
+			
+			currentYearMOTPIDs.forEach(function(element) {
+				count++;
+				// appends completed observation element to page for every 
+				// observation completed thus far in current fiscal year
+				var completedObservation = d3.select('.completed-observations')
+																		.append('div')
+																		.classed('col s2 completed-observation', true);
+				function findObservation(entry) {
+					return entry.MOTPID === element;
+				};
+				var observation = currentYearComponents.find(findObservation);
+				completedObservation.append('h5')
+														.text(observation.MOTPMonth +' '+ observation.MOTPDay)
+				completedObservation.append('p')
+														.classed('score', true)
+														.text('3.8');
+			});
+
 			function currentFiscalYear(element) {
 				return element.FiscalYear === fiscalYear;
 			};
