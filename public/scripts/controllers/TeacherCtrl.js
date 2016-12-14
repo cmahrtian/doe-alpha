@@ -25,9 +25,11 @@ angular.module('TeacherCtrl', [])
 		d3.csv('../data/Observations.csv', function(data) {
 			// returns array of all observations for teacher since FY 2014
 			var teacher = data.filter(teacherLookup);
-			count = 0;
+			var count = 0;
+			var distinctMOTPID = [];
 			teacher.forEach(function(element) {
-				if (element.FiscalYear === fiscalYear) {
+				if ((element.FiscalYear === fiscalYear) && (!distinctMOTPID.includes(element.MOTPID))) {	
+					distinctMOTPID.push(element.MOTPID);
 					count++;
 					// appends completed observation element to page for every 
 					// observation completed thus far in current fiscal year
