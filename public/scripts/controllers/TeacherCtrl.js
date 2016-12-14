@@ -46,14 +46,22 @@ angular.module('TeacherCtrl', [])
 																		.append('div')
 																		.classed('col s2 completed-observation', true);
 				function findObservation(entry) {
-					return entry.MOTPID === element;
+					return (entry.MOTPID === element) && (entry.Rating > 0);
 				};
 				var observation = currentYearComponents.find(findObservation);
 				completedObservation.append('h5')
 														.text(observation.MOTPMonth +' '+ observation.MOTPDay)
+				var observationComponents = currentYearComponents.filter(findObservation);
+				var sumProduct = 0;
+				var sumOfWeights = 0;
+				observationComponents.forEach(function(entry) {
+					sumProduct += (entry.Rating * entry.MOTPComponentWeight);
+					sumOfWeights += parseFloat(entry.MOTPComponentWeight);
+				});
+				console.log(sumOfWeights);
 				completedObservation.append('p')
 														.classed('score', true)
-														.text('3.8');
+														.text(Math.round(sumProduct/sumOfWeights).toFixed(2));
 			});
 
 			function currentFiscalYear(element) {
