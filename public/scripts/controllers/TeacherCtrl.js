@@ -58,7 +58,6 @@ angular.module('TeacherCtrl', [])
 					sumProduct += (entry.Rating * entry.MOTPComponentWeight);
 					sumOfWeights += parseFloat(entry.MOTPComponentWeight);
 				});
-				console.log(sumOfWeights);
 				completedObservation.append('p')
 														.classed('score', true)
 														.text(Math.round(sumProduct/sumOfWeights).toFixed(2));
