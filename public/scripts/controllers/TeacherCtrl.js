@@ -60,7 +60,7 @@ angular.module('TeacherCtrl', [])
 				});
 				completedObservation.append('p')
 														.classed('score', true)
-														.text(Math.round(sumProduct/sumOfWeights).toFixed(2));
+														.text(Math.round(sumProduct*100/sumOfWeights)/100);
 			});
 
 			function currentFiscalYear(element) {
