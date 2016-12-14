@@ -30,6 +30,7 @@ angular.module('TeacherCtrl', [])
 			teacher.forEach(function(element) {
 				if (element.FiscalYear === fiscalYear) {	
 					currentYearComponents.push(element);
+					
 					count++;
 					// appends completed observation element to page for every 
 					// observation completed thus far in current fiscal year
