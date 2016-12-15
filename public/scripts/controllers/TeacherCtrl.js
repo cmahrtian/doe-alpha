@@ -28,6 +28,7 @@ angular.module('TeacherCtrl', [])
 			var count = 0;
 			var currentYearComponents = [];
 			var currentYearMOTPIDs = [];
+			var currentYearComponentIDs = [];
 			
 			teacher.forEach(function(element) {
 				if (element.FiscalYear === fiscalYear) {	
@@ -35,6 +36,9 @@ angular.module('TeacherCtrl', [])
 				};
 				if ((element.FiscalYear === fiscalYear) && (!currentYearMOTPIDs.includes(element.MOTPID))) {	
 					currentYearMOTPIDs.push(element.MOTPID);
+				};
+				if ((element.FiscalYear === fiscalYear) && (!currentYearComponentIDs.includes(element.MOTPComponentID)) && (element.Rating > 0)) {
+					currentYearComponentIDs.push(element.MOTPComponentID);
 				};
 			});
 			
@@ -70,8 +74,25 @@ angular.module('TeacherCtrl', [])
 			// appends pending observation element to page for every 
 			// observation expected in rest of current fiscal year
 			for (var i = 0; i < expectedObservations - count; i++) {
-				d3.select('.pending-observations').append('div')
-							.classed('col s2 pending-observation', true);
+				d3.select('.pending-observations')
+					.append('div')
+					.classed('col s2 pending-observation', true);
 			};
+			var MOTPNumerator = 0;
+			var MOTPDenominator = 0;	
+			currentYearComponentIDs.forEach(function(element) {
+				function findComponent(entry) {
+					return entry.MOTPComponentID === element;
+				};
+				var components = currentYearComponents.filter(findComponent);
+				// console.log(components);
+				components.forEach(function(entry) {
+					MOTPNumerator += (entry.Rating*entry.MOTPComponentWeight);
+					MOTPDenominator += parseFloat(entry.MOTPComponentWeight);
+				});
+			});
+			d3.select('.current-score p')
+				.text((Math.round(MOTPNumerator*100/MOTPDenominator)/100)
+				.toFixed(1));
 		});
 	});
