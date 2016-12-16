@@ -84,13 +84,17 @@ angular.module('TeacherCtrl', [])
 				function findComponent(entry) {
 					return entry.MOTPComponentID === element;
 				};
+				
 				var components = currentYearComponents.filter(findComponent);
-				// console.log(components);
+				var ratingsSum = 0
 				components.forEach(function(entry) {
-					MOTPNumerator += (entry.Rating*entry.MOTPComponentWeight);
-					MOTPDenominator += parseFloat(entry.MOTPComponentWeight);
+					ratingsSum += parseInt(entry.Rating);
 				});
+				
+				MOTPNumerator += (ratingsSum/components.length)*components[0].MOTPComponentWeight;
+				MOTPDenominator += parseFloat(components[0].MOTPComponentWeight);
 			});
+			
 			d3.select('.current-score p')
 				.text((Math.round(MOTPNumerator*100/MOTPDenominator)/100)
 				.toFixed(1));
