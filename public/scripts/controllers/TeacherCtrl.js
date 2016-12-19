@@ -4,9 +4,11 @@ angular.module('TeacherCtrl', [])
 			jQuery('.dropdown-button').dropdown();
 		}, 0);
 
-		// Test Teacher = Yoli Ann Barrett (P.S. 154)
+		jQuery('.collapsible').collapsible();
+
+		// Test Teacher = Gijulal Pierce (Renaissance School of the Arts)
 		// Figure out alternative way how to delcare as universal variable
-		var employeeID = '0955968';
+		var employeeID = '0371827';
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
@@ -46,15 +48,16 @@ angular.module('TeacherCtrl', [])
 				count++;
 				// appends completed observation element to page for every 
 				// observation completed thus far in current fiscal year
-				var completedObservation = d3.select('.completed-observations')
+				var completedObservation = d3.select('.collapsible.popout')
+																		.append('li')
 																		.append('div')
-																		.classed('col s2 completed-observation', true);
+																		.classed('col s2 completed-observation collapsible-header', true);
 				function findObservation(entry) {
-					return (entry.MOTPID === element) && (entry.Rating > 0);
+					return (entry.MOTPID === element);
 				};
 				var observation = currentYearComponents.find(findObservation);
 				completedObservation.append('h5')
-														.text(observation.MOTPMonth +' '+ observation.MOTPDay)
+														.text(observation.MOTPMonth +' '+ observation.MOTPDay);
 				var observationComponents = currentYearComponents.filter(findObservation);
 				var sumProduct = 0;
 				var sumOfWeights = 0;
@@ -65,6 +68,11 @@ angular.module('TeacherCtrl', [])
 				completedObservation.append('p')
 														.classed('score', true)
 														.text(Math.round(sumProduct*100/sumOfWeights)/100);
+				d3.select('.completed-observations li')
+					.append('div')
+					.classed('collapsible-body', true)
+					.append('p')
+					.text('This is a test');
 			});
 
 			function currentFiscalYear(element) {
