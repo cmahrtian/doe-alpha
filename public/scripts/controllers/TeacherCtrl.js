@@ -50,13 +50,14 @@ angular.module('TeacherCtrl', [])
 				// observation completed thus far in current fiscal year
 				var completedObservation = d3.select('.collapsible.popout')
 																		.append('li')
-																		.append('div')
-																		.classed('col s2 completed-observation collapsible-header', true);
+				completedObservation.append('div')
+														.classed('col s2 completed-observation collapsible-header', true);
 				function findObservation(entry) {
 					return (entry.MOTPID === element);
 				};
 				var observation = currentYearComponents.find(findObservation);
-				completedObservation.append('h5')
+				completedObservation.select('.collapsible-header')
+														.append('h5')
 														.text(observation.MOTPMonth +' '+ observation.MOTPDay);
 				var observationComponents = currentYearComponents.filter(findObservation);
 				var sumProduct = 0;
@@ -65,15 +66,30 @@ angular.module('TeacherCtrl', [])
 					sumProduct += (entry.Rating * entry.MOTPComponentWeight);
 					sumOfWeights += parseFloat(entry.MOTPComponentWeight);
 				});
-				completedObservation.append('p')
+				completedObservation.select('.collapsible-header')
+														.append('p')
 														.classed('score', true)
 														.text(Math.round(sumProduct*100/sumOfWeights)/100);
-				d3.select('.completed-observations li')
-					.append('div')
-					.classed('collapsible-body', true)
-					.append('p')
-					.text('This is a test');
+				completedObservation.append('div')
+														.attr('class', 'collapsible-body')
+														.append('p')
+														.text('This is a test');
 			});
+
+			var completedObservations = d3.selectAll('.completed-observation');
+			// var collapsible = jQuery('ul').classed('collapsible popout', true)
+			// 												.attr('data-collapsible', 'accordion');
+			// collapsible.insertAfter(completedObservations);
+			// completedObservations.insert('li')
+			// 										.append('div')
+			// 										.attr('class', 'collapsible-body')
+			// 										.append('p')
+			// 										.text('This is a test');
+			// d3.selectAll('.completed-observations li')
+			// 		.append('div')
+			// 		.classed('collapsible-body', true)
+			// 		.append('p')
+			// 		.text('This is a test');
 
 			function currentFiscalYear(element) {
 				return element.FiscalYear === fiscalYear;
