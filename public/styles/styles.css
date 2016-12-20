@@ -399,21 +399,27 @@ h3 {
 	border: 3px solid black;
 	width: 980px;
 	margin-top: 10%;
-	margin-left: -131%;
+	margin-left: -184px;
 }
 
+/*observation details (date and evaluator name)*/
 .observation-details {
 	background-color: #616161;
 	font-family: MuseoSans;
 	font-size: 20px;
 	color: white;
-	margin: 3% 5%;
+	margin: 3%;
 	padding: 1% 4%;
 	width: 40%;
 }
 
 .observation-details p {
 	padding: 0;
+}
+
+/*overall evaluation notes*/
+.evaluation-notes {
+	margin-left: 3%;
 }
 
 /*pending observations*/
