@@ -50,8 +50,9 @@ angular.module('TeacherCtrl', [])
 				// observation completed thus far in current fiscal year
 				var completedObservation = d3.select('.collapsible.popout')
 																		.append('li')
+																		.classed('col s2', true);
 				completedObservation.append('div')
-														.classed('col s2 completed-observation collapsible-header', true);
+														.classed('completed-observation collapsible-header', true);
 				function findObservation(entry) {
 					return (entry.MOTPID === element);
 				};
