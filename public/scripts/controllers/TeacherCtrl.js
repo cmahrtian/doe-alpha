@@ -73,24 +73,16 @@ angular.module('TeacherCtrl', [])
 														.text(Math.round(sumProduct*100/sumOfWeights)/100);
 				completedObservation.append('div')
 														.attr('class', 'collapsible-body')
-														.append('p')
-														.text('This is a test');
+														.append('div')
+														.attr('class', 'observation-details')
+														.insert('p')
+														.text(observation.MOTPMonth +' '+ observation.MOTPDay);
+				var evaluator = observation.EvaluatorName.split(' ').reverse().join(' ');
+				console.log(evaluator);
+				completedObservation.select('.observation-details')
+														.insert('p')
+														.text('Evaluator: ' + evaluator);
 			});
-
-			var completedObservations = d3.selectAll('.completed-observation');
-			// var collapsible = jQuery('ul').classed('collapsible popout', true)
-			// 												.attr('data-collapsible', 'accordion');
-			// collapsible.insertAfter(completedObservations);
-			// completedObservations.insert('li')
-			// 										.append('div')
-			// 										.attr('class', 'collapsible-body')
-			// 										.append('p')
-			// 										.text('This is a test');
-			// d3.selectAll('.completed-observations li')
-			// 		.append('div')
-			// 		.classed('collapsible-body', true)
-			// 		.append('p')
-			// 		.text('This is a test');
 
 			function currentFiscalYear(element) {
 				return element.FiscalYear === fiscalYear;

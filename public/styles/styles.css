@@ -356,7 +356,7 @@ h3 {
 	width: 14%;
 }
 
-/*completed observations*/
+/*completed observation card*/
 .row .collapsible.popout li.col.s2 {
 	padding: 0;
 	width: 14%;
@@ -369,6 +369,7 @@ h3 {
 	background-color: #93c0ed;
 	height: 285px;
 	border-radius: 25px;
+	padding-top: 10%;
 }
 
 .completed-observation h5 {
@@ -393,11 +394,26 @@ h3 {
 	background-color: black;
 }
 
+/*completed observation collapsible*/
 .completed-observations .collapsible-body {
 	border: 3px solid black;
 	width: 980px;
 	margin-top: 10%;
 	margin-left: -131%;
+}
+
+.observation-details {
+	background-color: #616161;
+	font-family: MuseoSans;
+	font-size: 20px;
+	color: white;
+	margin: 3% 5%;
+	padding: 1% 4%;
+	width: 40%;
+}
+
+.observation-details p {
+	padding: 0;
 }
 
 /*pending observations*/
