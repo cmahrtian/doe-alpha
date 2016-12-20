@@ -8,7 +8,8 @@ angular.module('TeacherCtrl', [])
 
 		// Test Teacher = Gijulal Pierce (Renaissance School of the Arts)
 		// Figure out alternative way how to delcare as universal variable
-		var employeeID = '0371827';
+		// var employeeID = '0371827';
+		var employeeID = '0804202'
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
@@ -78,10 +79,17 @@ angular.module('TeacherCtrl', [])
 														.insert('p')
 														.text(observation.MOTPMonth +' '+ observation.MOTPDay);
 				var evaluator = observation.EvaluatorName.split(' ').reverse().join(' ');
-				console.log(evaluator);
 				completedObservation.select('.observation-details')
 														.insert('p')
 														.text('Evaluator: ' + evaluator);
+				if (observation.OverallComments != '') {
+					completedObservation.select('.collapsible-body')
+															.append('div')
+															.attr('class', 'evaluation-notes')
+															.append('h5')
+															.text('Evaluation Notes');
+				};
+				console.log(observation.OverallComments);
 			});
 
 			function currentFiscalYear(element) {
