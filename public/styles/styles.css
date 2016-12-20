@@ -346,27 +346,36 @@ h3 {
 /*vertical separating line*/
 .previous-year {
 	border-right: 1px solid gray;
-	height: 300px;
+	height: 280px;
 }
 
 /*completed and pending observations*/
-.row .col.s2.completed-observation, .row .col.s2.pending-observation {
+.collapsible-popout li.col.s2, .row .col.s2.pending-observation {
 	border-radius: 25px;
 	height: 285px;
 	width: 14%;
-	padding: 1.25rem 0.75rem;
 }
 
 /*completed observations*/
+.row .collapsible.popout li.col.s2 {
+	padding: 0;
+	width: 14%;
+	box-shadow: none;
+}
+
 .completed-observation {
 	color: black;
 	text-align: center;
 	background-color: #93c0ed;
+	height: 285px;
+	border-radius: 25px;
 }
 
 .completed-observation h5 {
 	font-family: MuseoSans;
 	font-size: 18px;
+	margin-top: 0;
+	padding-top: 10%;
 }
 
 .completed-observation p.domain {
@@ -382,6 +391,13 @@ h3 {
 .completed-observation hr {
 	height: 1px;
 	background-color: black;
+}
+
+.completed-observations .collapsible-body {
+	border: 3px solid black;
+	width: 980px;
+	margin-top: 10%;
+	margin-left: -131%;
 }
 
 /*pending observations*/
