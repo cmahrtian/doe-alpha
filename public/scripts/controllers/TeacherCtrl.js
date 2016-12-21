@@ -9,7 +9,7 @@ angular.module('TeacherCtrl', [])
 		// Test Teacher = Gijulal Pierce (Renaissance School of the Arts)
 		// Figure out alternative way how to delcare as universal variable
 		// var employeeID = '0371827';
-		var employeeID = '0804202'
+		var employeeID = '0804202';
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
@@ -55,7 +55,9 @@ angular.module('TeacherCtrl', [])
 				completedObservation.append('div')
 														.classed('completed-observation collapsible-header', true);
 				function findObservation(entry) {
-					return (entry.MOTPID === element);
+					// include "&& (entry.Rating > 0)" as part of return statement
+					// down the road
+					return entry.MOTPID === element;
 				};
 				var observation = currentYearComponents.find(findObservation);
 				completedObservation.select('.collapsible-header')
@@ -65,13 +67,21 @@ angular.module('TeacherCtrl', [])
 				var sumProduct = 0;
 				var sumOfWeights = 0;
 				observationComponents.forEach(function(entry) {
-					sumProduct += (entry.Rating * entry.MOTPComponentWeight);
-					sumOfWeights += parseFloat(entry.MOTPComponentWeight);
+					if (entry.Rating > 0) {
+						sumProduct += (entry.Rating * entry.MOTPComponentWeight);
+						sumOfWeights += parseFloat(entry.MOTPComponentWeight);
+					};
 				});
+				var observationScore;
+				if (sumOfWeights === 0) {
+					observationScore = 'N/A';
+				} else {
+					observationScore = Math.round(sumProduct*100/sumOfWeights)/100;
+				};
 				completedObservation.select('.collapsible-header')
 														.append('p')
 														.classed('score', true)
-														.text(Math.round(sumProduct*100/sumOfWeights)/100);
+														.text(observationScore);
 				completedObservation.append('div')
 														.attr('class', 'collapsible-body')
 														.append('div')
@@ -104,16 +114,20 @@ angular.module('TeacherCtrl', [])
 					.classed('col s2 pending-observation', true);
 			};
 			var MOTPNumerator = 0;
-			var MOTPDenominator = 0;	
+			var MOTPDenominator = 0;
+			console.log(currentYearComponentIDs);
 			currentYearComponentIDs.forEach(function(element) {
 				function findComponent(entry) {
-					return entry.MOTPComponentID === element;
+					return (entry.MOTPComponentID === element) && (entry.Rating > 0);
 				};
 				
 				var components = currentYearComponents.filter(findComponent);
+				// console.log(components);
 				var ratingsSum = 0
 				components.forEach(function(entry) {
-					ratingsSum += parseInt(entry.Rating);
+					if (entry.Rating > 0) {
+						ratingsSum += parseInt(entry.Rating);
+					};
 				});
 				
 				MOTPNumerator += (ratingsSum/components.length)*components[0].MOTPComponentWeight;
