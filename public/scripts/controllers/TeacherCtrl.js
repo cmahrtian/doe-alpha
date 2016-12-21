@@ -84,6 +84,7 @@ angular.module('TeacherCtrl', [])
 														.text(observationScore);
 				completedObservation.append('div')
 														.attr('class', 'collapsible-body')
+														.attr('style', 'margin-left: ' + (-184 - (count-1)*162) + 'px')
 														.append('div')
 														.attr('class', 'observation-details')
 														.insert('p')
