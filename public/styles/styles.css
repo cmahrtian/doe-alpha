@@ -417,8 +417,17 @@ h3 {
 }
 
 /*overall evaluation notes*/
-.evaluation-notes {
-	margin-left: 3%;
+.evaluation-notes h5 {
+	font-family: MuseoSans;
+	font-size: 1.8rem;
+	color: #8ad43f;
+	padding: 0 3%;
+}
+
+.evaluation-notes p {
+	font-family: MuseoSlab;
+	font-size: 18px;
+	padding: 2% 3%;
 }
 
 /*pending observations*/

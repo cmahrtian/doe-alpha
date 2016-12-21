@@ -106,6 +106,10 @@ angular.module('TeacherCtrl', [])
 															.attr('class', 'evaluation-notes')
 															.append('h5')
 															.text('Evaluation Notes');
+					completedObservation.select('.evaluation-notes')
+															.append('p')
+															// .attr('class', 'truncate')
+															.text(observation.OverallComments);
 				};
 			});
 
