@@ -88,8 +88,15 @@ angular.module('TeacherCtrl', [])
 														.append('div')
 														.attr('class', 'observation-details')
 														.insert('p')
-														.text(observation.MOTPMonth +' '+ observation.MOTPDay);
-				var evaluator = observation.EvaluatorName.split(' ').reverse().join(' ');
+														.text(observation.MOTPMonth +' '+ observation.MOTPDay +', '+ observation.MOTPYear);
+				if (observation.TimePeriod != '') {
+					completedObservation.select('.observation-details')
+															.insert('p')
+															.text(observation.TimePeriod);
+				};
+				var evaluator = observation.EvaluatorName.split(' ')
+																								.reverse()
+																								.join(' ');
 				completedObservation.select('.observation-details')
 														.insert('p')
 														.text('Evaluator: ' + evaluator);
@@ -100,7 +107,6 @@ angular.module('TeacherCtrl', [])
 															.append('h5')
 															.text('Evaluation Notes');
 				};
-				console.log(observation.OverallComments);
 			});
 
 			function currentFiscalYear(element) {
@@ -116,14 +122,12 @@ angular.module('TeacherCtrl', [])
 			};
 			var MOTPNumerator = 0;
 			var MOTPDenominator = 0;
-			console.log(currentYearComponentIDs);
 			currentYearComponentIDs.forEach(function(element) {
 				function findComponent(entry) {
 					return (entry.MOTPComponentID === element) && (entry.Rating > 0);
 				};
 				
 				var components = currentYearComponents.filter(findComponent);
-				// console.log(components);
 				var ratingsSum = 0
 				components.forEach(function(entry) {
 					if (entry.Rating > 0) {
