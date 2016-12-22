@@ -100,16 +100,20 @@ angular.module('TeacherCtrl', [])
 				completedObservation.select('.observation-details')
 														.insert('p')
 														.text('Evaluator: ' + evaluator);
-				if (observation.OverallComments != '') {
+				if (observation.Comments != '') {
 					completedObservation.select('.collapsible-body')
 															.append('div')
 															.attr('class', 'evaluation-notes')
 															.append('h5')
 															.text('Evaluation Notes');
-					completedObservation.select('.evaluation-notes')
-															.append('p')
-															// .attr('class', 'truncate')
-															.text(observation.OverallComments);
+					var formattedComments = observation.Comments.split(/\r?\n/);
+					formattedComments.forEach(function(entry) {
+						if (entry != '') {
+							completedObservation.select('.evaluation-notes')
+																	.append('p')
+																	.text(entry);
+						};
+					});
 				};
 			});
 
