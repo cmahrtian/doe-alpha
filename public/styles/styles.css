@@ -394,6 +394,11 @@ h3 {
 	background-color: black;
 }
 
+/*pending observations*/
+.pending-observation {
+	border: 2px dashed #616161;
+}
+
 /*completed observation collapsible*/
 .completed-observations .collapsible-body {
 	border: 3px solid black;
@@ -432,15 +437,21 @@ h3 {
 	font-family: MuseoSlab;
 	font-size: 18px;
 	padding: 1% 3%;
-	background: #bdbdbd;
+	background: #e0e0e0;
 }
 
-/*pending observations*/
-.pending-observation {
-	border: 2px dashed #616161;
+/*component scores and descriptors*/
+.component-scores {
+	margin: 0 3%;
 }
 
-/*summary section*/
+.component-scores h5 {
+	font-family: MuseoSans;
+	font-size: 1.8rem;
+	color: #93c0ed;
+}
+
+/*Current Score and Dig In section*/
 .row.motp-summary .col {
 	margin: 0 1%;
 }
