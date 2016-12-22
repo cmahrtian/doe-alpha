@@ -125,6 +125,13 @@ angular.module('TeacherCtrl', [])
 				observationComponents.forEach(function(entry) {
 					var componentScores = completedObservation.select('.component-scores');
 					if (entry.Rating > 0) {
+						componentScores.append('h4')
+													.attr('class', 'component-rating')
+													.style('margin-right', 5*(4 - entry.Rating) + '%')
+													.text(entry.Rating);
+						componentScores.append('div')
+													.attr('class', 'component-bar')
+													.style('width', 5 + 5*(entry.Rating) + '%');
 						componentScores.append('p')
 													.attr('class', 'component-descriptor')
 													.text(entry.MOTPComponentDescription);
