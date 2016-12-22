@@ -451,6 +451,18 @@ h3 {
 	color: #93c0ed;
 }
 
+.component-scores .component-descriptor {
+	font-family: MuseoSlab;
+	font-size: 18px;
+	padding: 0;
+}
+
+.component-scores .component-rationale {
+	font-family: MuseoSans;
+	font-size: 14px;
+	padding: 0 0 3%;
+}
+
 /*Current Score and Dig In section*/
 .row.motp-summary .col {
 	margin: 0 1%;
