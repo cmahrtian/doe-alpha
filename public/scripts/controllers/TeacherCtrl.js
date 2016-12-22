@@ -6,9 +6,8 @@ angular.module('TeacherCtrl', [])
 
 		jQuery('.collapsible').collapsible();
 
-		// Test Teacher = Gijulal Pierce (Renaissance School of the Arts)
+		// Test Teacher = Boris Loach (Renaissance School of the Arts)
 		// Figure out alternative way how to delcare as universal variable
-		// var employeeID = '0371827';
 		var employeeID = '0804202';
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
@@ -55,8 +54,6 @@ angular.module('TeacherCtrl', [])
 				completedObservation.append('div')
 														.classed('completed-observation collapsible-header', true);
 				function findObservation(entry) {
-					// include "&& (entry.Rating > 0)" as part of return statement
-					// down the road
 					return entry.MOTPID === element;
 				};
 				var observation = currentYearComponents.find(findObservation);
@@ -114,6 +111,16 @@ angular.module('TeacherCtrl', [])
 																	.text(entry);
 						};
 					});
+				};
+				for (var i = 0; i < observationComponents.length; i++) {
+					if (observationComponents[i].Rating > 0) {
+						completedObservation.select('.collapsible-body')
+																.append('div')
+																.attr('class', 'component-scores')
+																.append('h5')
+																.text('Component Scores');
+						break;
+					};
 				};
 			});
 
