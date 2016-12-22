@@ -122,6 +122,17 @@ angular.module('TeacherCtrl', [])
 						break;
 					};
 				};
+				observationComponents.forEach(function(entry) {
+					var componentScores = completedObservation.select('.component-scores');
+					if (entry.Rating > 0) {
+						componentScores.append('p')
+													.attr('class', 'component-descriptor')
+													.text(entry.MOTPComponentDescription);
+						componentScores.append('p')
+													.attr('class', 'component-rationale')
+													.text(entry.ComponentRationale);
+					};
+				});
 			});
 
 			function currentFiscalYear(element) {
