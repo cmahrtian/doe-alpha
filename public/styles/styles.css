@@ -417,6 +417,10 @@ h3 {
 }
 
 /*overall evaluation notes*/
+.evaluation-notes {
+	margin: 4% 0;
+}
+
 .evaluation-notes h5 {
 	font-family: MuseoSans;
 	font-size: 1.8rem;
@@ -427,7 +431,8 @@ h3 {
 .evaluation-notes p {
 	font-family: MuseoSlab;
 	font-size: 18px;
-	padding: 2% 3%;
+	padding: 1% 3%;
+	background: #bdbdbd;
 }
 
 /*pending observations*/
