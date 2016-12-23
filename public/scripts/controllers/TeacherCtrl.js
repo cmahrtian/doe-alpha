@@ -103,10 +103,13 @@ angular.module('TeacherCtrl', [])
 															.attr('class', 'evaluation-notes')
 															.append('h5')
 															.text('Evaluation Notes');
+					completedObservation.select('.evaluation-notes')
+															.append('div')
+															.attr('class', 'full-text');
 					var formattedComments = observation.Comments.split(/\r?\n/);
 					formattedComments.forEach(function(entry) {
 						if (entry != '') {
-							completedObservation.select('.evaluation-notes')
+							completedObservation.select('.full-text')
 																	.append('p')
 																	.text(entry);
 						};

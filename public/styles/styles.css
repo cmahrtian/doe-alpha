@@ -433,7 +433,35 @@ h3 {
 	padding: 0 3%;
 }
 
-.evaluation-notes p {
+/*.full-text {
+	overflow: hidden;
+	position: relative;
+	line-height: 1.5em;
+	max-height: 7.5em;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+}	
+
+.full-text:before {
+	content: '...';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-family: MuseoSlab;
+}
+	
+.full-text:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background: #e0e0e0;
+}*/
+
+.evaluation-notes .full-text p {
 	font-family: MuseoSlab;
 	font-size: 18px;
 	padding: 1% 3%;
