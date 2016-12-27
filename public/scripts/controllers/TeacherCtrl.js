@@ -8,7 +8,8 @@ angular.module('TeacherCtrl', [])
 
 		// Test Teacher = Boris Loach (Renaissance School of the Arts)
 		// Figure out alternative way how to delcare as universal variable
-		var employeeID = '0804202';
+		// var employeeID = '0804202';
+		var employeeID = '1518679';
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
