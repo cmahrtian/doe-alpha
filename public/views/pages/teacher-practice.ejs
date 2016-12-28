@@ -1,6 +1,9 @@
+<!-- injection of header partial (in progress) -->
 <!-- <% include('./partials/header.ejs') %> -->
 
+<!-- top navbar -->
 <div class="menu">
+	<!-- preset options for dropdown menus -->
 	<ul id="dropdown1" class="dropdown-content">
 		<li><a href="#!">P-one</a></li>
 		<li><a href="#!">P-two</a></li>
@@ -13,7 +16,9 @@
 	</ul>
 	<nav class="nav-extended">
 		<div class="nav-wrapper">
+			<!-- Growth Explorer logo -->
 			<a href="/home" class="brand-logo"><img src="images/growth_explorer_large.png" class="growth-explorer"></a>
+			<!-- Home/Practice/Learning menu options -->
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="#">Home</a></li>
 				<li class="active"><a class="dropdown-button" href="#" data-activates="dropdown1">Practice<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -23,14 +28,16 @@
 	</nav>
 </div>
 
+<!-- Teaching Practice headline and # of observations completed -->
 <h3>My Teaching Practice</h3>
-
 <div class="card-panel s12 tagline">
 	<p>Myrna - You have completed <span>3 out of 5 of your observations</span> for the 2016-2017 school year.
 	</p>
 </div>
 
+<!-- observation cards (last year's score, YTD completed observations, pending observations) -->
 <div class="row observation-cards">
+	<!-- last year's score/rating -->
 	<div class="col s2 previous-year">
 		<div class="previous-motp">
 			<h5>Last Year's Score</h5>
@@ -38,8 +45,10 @@
 			<p class="rating">Effective</p>
 		</div>
 	</div>
+	<!-- YTD completed observation -->
 	<div class="completed-observations">	
 		<ul class="collapsible popout" data-collapsible="accordion">
+			<!-- TEMPLATE OF COMPLETED OBSERVATION -->
 			<!-- <a href="#">
 				<div class="col s2 completed-observation">
 					<h5>September 18</h5>
@@ -49,36 +58,13 @@
 					<p class="domain">Out of Class:</p>
 					<p class="score">3</p>
 				</div>
-			</a>	
-			<a href="#">
-				<div class="col s2 completed-observation">
-					<h5>October 5</h5>
-					<p class="domain">In-Class:</p>
-					<p class="score">3</p>
-					<hr>
-					<p class="domain">Out of Class:</p>
-					<p class="score">2</p>
-				</div>
-			</a>	
-			<a href="#">
-				<div class="col s2 completed-observation">
-					<h5>October 21</h5>
-					<p class="domain">In-Class:</p>
-					<p class="score">2</p>
-					<hr>
-					<p class="domain">Out of Class:</p>
-					<p class="score">3.5</p>
-				</div>
 			</a> -->
 		</ul>
 	</div>	
+	<!-- YTD remaining/pending observations -->
 	<div class="pending-observations">		
+		<!-- TEMPLATE OF PENDING OBSERVATION -->
 		<!-- <div class="col s2 pending-observation">
-			<h5></h5>
-			<p></p>
-			<p></p>
-		</div>
-		<div class="col s2 pending-observation">
 			<h5></h5>
 			<p></p>
 			<p></p>
@@ -87,14 +73,17 @@
 </div>
 
 <div class="row motp-summary">
+	<!-- tips cloud -->
 	<div class="col s3 tips-cloud">
 		<img src="../images/cloud_2.png">
 		<p>Click on an<br>observation for more<br>details.</p>
 	</div>
+	<!-- YTD MOTP score -->
 	<div class="col s4 current-score">
 		<h4>Current<br>Score</h4>
 		<p>N/A</p>
 	</div>
+	<!-- "Dig In" icon -->
 	<div class="col s4 dig-in">
 		<h3>Dig In</h3>
 		<img src="../images/graph.png">

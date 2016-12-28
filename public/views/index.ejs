@@ -27,13 +27,14 @@
 	<script src="scripts/services/LoginService.js"></script>
 	<script src="scripts/appRoutes.js"></script>
 	<script src="scripts/app.js"></script>
-
 </head>
-	<body ng-app="growthExplorer">
 
-		<div class="container">
-			<div ng-view></div>
-		</div>
-		
-	</body>
+<!-- body falls under purview of "growthExplorer" app -->
+<body ng-app="growthExplorer">
+	<div class="container">
+		<!-- renders view file pertaining to URL -->
+		<div ng-view></div>
+	</div>	
+</body>
+
 </html>

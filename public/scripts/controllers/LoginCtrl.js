@@ -1,4 +1,5 @@
 angular.module('LoginCtrl', [])
 			.controller('LoginController', function($scope) {
-				$scope.tagline = 'Nothing beats a pocket protector!';
+				// placeholder functionality
+        $scope.tagline = 'Nothing beats a pocket protector!';
 			});
