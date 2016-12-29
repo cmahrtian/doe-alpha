@@ -1,14 +1,15 @@
 angular.module('TeacherCtrl', [])
 	.controller('TeacherController', function($scope) {
+		// enables JQuery dynamicism for dropdown menu and collapsible completed
+		// observation card
 		setTimeout(function() {
 			jQuery('.dropdown-button').dropdown();
 		}, 0);
-
 		jQuery('.collapsible').collapsible();
 
-		// Test Teacher = Boris Loach (Renaissance School of the Arts)
+		// Test Teacher = Tiffany Diorio (Renaissance School of the Arts)
 		// Figure out alternative way how to delcare as universal variable
-		var employeeID = '0804202';
+		var employeeID = '1518679';
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
@@ -17,7 +18,7 @@ angular.module('TeacherCtrl', [])
 		// Previous Year's MOTP Score and Rating
 		d3.csv('../data/Teachers.csv', function(data) {
 			// select our teacher
-			var teacher = data.find(teacherLookup);
+			teacher = data.find(teacherLookup);
 			// edit the previous year's MOTP score and rating with teacher data
 			d3.select('.previous-motp .score').text(teacher['Y16_MOTP_Value']);
 			d3.select('.previous-motp .rating').text(teacher['Y16_MOTP_Rating']);
@@ -25,50 +26,56 @@ angular.module('TeacherCtrl', [])
 
 		// Current fiscal year's observations (completed and pending)
 		d3.csv('../data/Observations.csv', function(data) {
-			// returns array of all observations for teacher since FY 2014
-			var teacher = data.filter(teacherLookup);
 			var count = 0;
-			var currentYearComponents = [];
+			// returns array of all observations for teacher in current fiscal year
+			var teacher = data.filter(function(element) {
+				return (element.EmployeeID === employeeID && element.FiscalYear === fiscalYear);
+			});
+
+			// creates arrays of unique MOTPIDs and components that have been
+			// measured at least once in current fiscal year
 			var currentYearMOTPIDs = [];
 			var currentYearComponentIDs = [];
-			
 			teacher.forEach(function(element) {
-				if (element.FiscalYear === fiscalYear) {	
-					currentYearComponents.push(element);
-				};
-				if ((element.FiscalYear === fiscalYear) && (!currentYearMOTPIDs.includes(element.MOTPID))) {	
+				if (!currentYearMOTPIDs.includes(element.MOTPID)) {	
 					currentYearMOTPIDs.push(element.MOTPID);
 				};
-				if ((element.FiscalYear === fiscalYear) && (!currentYearComponentIDs.includes(element.MOTPComponentID)) && (element.Rating > 0)) {
+				if (!currentYearComponentIDs.includes(element.MOTPComponentID) && element.Rating > 0) {
 					currentYearComponentIDs.push(element.MOTPComponentID);
 				};
 			});
 			
+			// appends completed observation element to page for every 
+			// observation completed thus far in current fiscal year	
 			currentYearMOTPIDs.forEach(function(element) {
 				count++;
-				// appends completed observation element to page for every 
-				// observation completed thus far in current fiscal year
 				var completedObservation = d3.select('.collapsible.popout')
 																		.append('li')
 																		.classed('col s2', true);
 				completedObservation.append('div')
 														.classed('completed-observation collapsible-header', true);
+				// adds day and month to completed observation element
 				function findObservation(entry) {
 					return entry.MOTPID === element;
 				};
-				var observation = currentYearComponents.find(findObservation);
+				var observation = teacher.find(findObservation);
 				completedObservation.select('.collapsible-header')
 														.append('h5')
 														.text(observation.MOTPMonth +' '+ observation.MOTPDay);
-				var observationComponents = currentYearComponents.filter(findObservation);
+				// creates array of components specific to the observation
+				var observationComponents = teacher.filter(findObservation);
 				var sumProduct = 0;
 				var sumOfWeights = 0;
+				// calculates sum product and sum of weights of components measured
+				// during the observation
 				observationComponents.forEach(function(entry) {
 					if (entry.Rating > 0) {
 						sumProduct += (entry.Rating * entry.MOTPComponentWeight);
 						sumOfWeights += parseFloat(entry.MOTPComponentWeight);
 					};
 				});
+				// calculates the observation score and appends it to completed
+				// observation element
 				var observationScore;
 				if (sumOfWeights === 0) {
 					observationScore = 'N/A';
@@ -79,6 +86,8 @@ angular.module('TeacherCtrl', [])
 														.append('p')
 														.classed('score', true)
 														.text(observationScore);
+				// add observation day, time period, and evaluator to gray box in top
+				// left corner of collapsible
 				completedObservation.append('div')
 														.attr('class', 'collapsible-body')
 														.attr('style', 'margin-left: ' + (-184 - (count-1)*162) + 'px')
@@ -97,6 +106,8 @@ angular.module('TeacherCtrl', [])
 				completedObservation.select('.observation-details')
 														.insert('p')
 														.text('Evaluator: ' + evaluator);
+				// adds properly formatted evaluator comments (if they exist) to
+				// collapsible body 
 				if (observation.Comments != '') {
 					completedObservation.select('.collapsible-body')
 															.append('div')
@@ -115,6 +126,8 @@ angular.module('TeacherCtrl', [])
 						};
 					});
 				};
+				// creates section for component scores if at least one component was
+				// measured in observation
 				for (var i = 0; i < observationComponents.length; i++) {
 					if (observationComponents[i].Rating > 0) {
 						completedObservation.select('.collapsible-body')
@@ -125,6 +138,8 @@ angular.module('TeacherCtrl', [])
 						break;
 					};
 				};
+				// adds (in order) the component score, bar of corresponding length,
+				// component name/description, and component rationale to collapsible
 				observationComponents.forEach(function(entry) {
 					var componentScores = completedObservation.select('.component-scores');
 					if (entry.Rating > 0) {
@@ -145,38 +160,38 @@ angular.module('TeacherCtrl', [])
 				});
 			});
 
-			function currentFiscalYear(element) {
-				return element.FiscalYear === fiscalYear;
-			};
-			var expectedObservations = teacher.find(currentFiscalYear)['expected_obs'];
-			// appends pending observation element to page for every 
-			// observation expected in rest of current fiscal year
-			for (var i = 0; i < expectedObservations - count; i++) {
+			// appends pending observation element to page for every observation
+			// expected in rest of current fiscal year
+			for (var i = 0; i < teacher[0]['expected_obs'] - count; i++) {
 				d3.select('.pending-observations')
 					.append('div')
 					.classed('col s2 pending-observation', true);
 			};
+			// calculates YTD MOTP score
 			var MOTPNumerator = 0;
 			var MOTPDenominator = 0;
 			currentYearComponentIDs.forEach(function(element) {
 				function findComponent(entry) {
 					return (entry.MOTPComponentID === element) && (entry.Rating > 0);
 				};
-				
-				var components = currentYearComponents.filter(findComponent);
-				var ratingsSum = 0
+				// calculates YTD sum of each component measured in current fiscal year
+				var components = teacher.filter(findComponent);
+				var ratingsSum = 0;
 				components.forEach(function(entry) {
-					if (entry.Rating > 0) {
-						ratingsSum += parseInt(entry.Rating);
-					};
+					ratingsSum += parseInt(entry.Rating);
 				});
-				
+				// adds YTD weighted component average of each component measured in
+				// current fiscal year to YTD MOTP numerator (i.e. sum of weighted
+				// components of measured components)
 				MOTPNumerator += (ratingsSum/components.length)*components[0].MOTPComponentWeight;
+				// adds component weight of each component measured in current fiscal
+				// year to YTD MOTP denominator (i.e. sum of weights of measured
+				// components)
 				MOTPDenominator += parseFloat(components[0].MOTPComponentWeight);
 			});
-			
+			// appends YTD MOTP score to page
 			d3.select('.current-score p')
 				.text((Math.round(MOTPNumerator*100/MOTPDenominator)/100)
-				.toFixed(1));
+				.toFixed(2));
 		});
 	});
