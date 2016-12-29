@@ -48,14 +48,13 @@ img.growth-explorer {
 	font-size: 1.2rem;
 }
 
-a.logon, div.signup {
-	width: 87%;
-	margin-left: .75rem;
+a.btn.logon, .signup a.btn {
+	background-color: #616161;
 	text-transform: none;
 }
 
-a.btn.logon, .signup a.btn {
-	background-color: #616161;
+a.btn.logon {
+	margin-bottom: 3%;
 }
 
 .signup p {
@@ -66,7 +65,7 @@ a.btn.logon, .signup a.btn {
 .signup a.btn {
 	font-weight: normal;
 	font-size: 15px;
-	width: 76.5%;
+	width: 70.5%;
 	text-transform: none;
 }
 
