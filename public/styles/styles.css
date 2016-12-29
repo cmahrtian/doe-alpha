@@ -497,13 +497,14 @@ h3 {
 .component-scores .component-descriptor {
 	font-family: MuseoSlab;
 	font-size: 18px;
+	font-weight: bold;
 	padding: 0;
 	width: 65%;
 }
 
 .component-scores .component-rationale {
 	font-family: MuseoSans;
-	font-size: 14px;
+	font-size: 18px;
 	padding: 0 0 3%;
 	width: 65%;
 }
