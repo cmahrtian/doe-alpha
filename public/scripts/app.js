@@ -1,1 +1,1 @@
-angular.module('growthExplorer', ['ngRoute', 'appRoutes', 'HomeCtrl', 'LoginCtrl', 'TeacherCtrl', 'LoginService']);
+angular.module('growthExplorer', ['ngRoute', 'ngStorage', 'appRoutes', 'HomeCtrl', 'LoginCtrl', 'TeacherCtrl', 'LoginService']);
