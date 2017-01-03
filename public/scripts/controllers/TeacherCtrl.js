@@ -7,9 +7,9 @@ angular.module('TeacherCtrl', [])
 		}, 0);
 		jQuery('.collapsible').collapsible();
 
-		// Test Teacher = Tiffany Diorio (Renaissance School of the Arts)
+		// Test Teacher = Elizabeth Sandoval-Lacy (Brooklyn Transition Center)
 		// Figure out alternative way how to delcare as universal variable
-		var employeeID = '1518679';
+		var employeeID = '0975256';
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
