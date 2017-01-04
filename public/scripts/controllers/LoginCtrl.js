@@ -7,22 +7,19 @@ angular.module('LoginCtrl', [])
 			var email = jQuery('#email').val();
 			var password = jQuery('#password').val();
 			d3.csv('../data/Teachers.csv', function(data) {
-				// saves teacher email address and employee IDs to respective arrays
-				// SAVE AS ARRAY OF OBJECTS TO CONFINE SUCCESSFUL LOGINS TO OBJECTS
-				// WITH BOTH THE RIGHT EMAIL AND EMPLOYEE ID
-				var emailAddresses = data.map(function(teacher) {
-					return teacher.Email;
-				});
-				var employeeIDs = data.map(function(teacher) {
-					return teacher.EmployeeID;
-				});
-				// scans arrays for email address and employee ID input values,
-				// permits access to home page if arrays include input values
-				if (emailAddresses.includes(email) && employeeIDs.includes(password)) {
+				// searches dataset for teacher whose email and EmployeeID match the
+				// input values
+				function matchingCredentials(element) {
+					return element.Email === email && element.EmployeeID === password;
+				};
+				// proceeds to home page if credentials are a match, saves the 
+				// EmployeeID as a session variable (at least it should)
+				if (data.some(matchingCredentials)) {
 					window.location.replace('/home');
 					$scope.$storage = $sessionStorage.$default({
-						employeeID: password
+						employeeID: 'TESTING'
 					});
+				// flashes error message if credentials are not a match
 				} else {
 					alert('Invalid email address and/or user ID');
 				};
