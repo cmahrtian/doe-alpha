@@ -1,9 +1,9 @@
 angular.module('HomeCtrl', [])
-	.controller('HomeController', function($scope, $sessionStorage) {
+	.controller('HomeController', function($scope, Login) {
 		// enables JQuery dynamicism for dropdown menu
     setTimeout(function() {
 			jQuery('.dropdown-button').dropdown();
 		}, 0);
-    $scope.$storage.employeeID = $sessionStorage.employeeID;
-    console.log($sessionStorage.employeeID);
+    // uses Employee ID established during login
+    console.log(Login.getCredentials());
 	});
