@@ -8,12 +8,12 @@ app.service('Login', function() {
 	};
 	
 	return {
+		getCredentials: function() {
+			return credentials;
+		},
 		setCredentials: function(email, employeeID) {
 			credentials.email = email;
 			credentials.employeeID = employeeID;
-		},
-		getCredentials: function() {
-			return credentials;
 		}
 	};
 });

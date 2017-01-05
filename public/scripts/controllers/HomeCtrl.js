@@ -1,5 +1,5 @@
 angular.module('HomeCtrl', [])
-	.controller('HomeController', function($scope, Login) {
+	.controller('HomeController', function($rootScope, Login) {
 		// enables JQuery dynamicism for dropdown menu
     setTimeout(function() {
 			jQuery('.dropdown-button').dropdown();
