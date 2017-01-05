@@ -8,6 +8,7 @@ angular.module('TeacherCtrl', [])
 		jQuery('.collapsible').collapsible();
 
 		// Test Teacher = Elizabeth Sandoval-Lacy (Brooklyn Transition Center)
+		// ESandovalLacy@schools.nyc.gov
 		// Figure out alternative way how to delcare as universal variable
 		var employeeID = '0975256';
 		var fiscalYear = '2017';
