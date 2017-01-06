@@ -1,9 +1,10 @@
 angular.module('HomeCtrl', [])
-	.controller('HomeController', function($rootScope, Login) {
+	.controller('HomeController', ['$scope', 'Login', function($scope, Login) {
 		// enables JQuery dynamicism for dropdown menu
     setTimeout(function() {
 			jQuery('.dropdown-button').dropdown();
 		}, 0);
     // uses Employee ID established during login
-    console.log(Login.getCredentials());
-	});
+    var employeeID = window.localStorage.getItem('employeeID');
+    console.log(employeeID);
+	}]);
