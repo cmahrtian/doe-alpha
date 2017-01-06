@@ -14,7 +14,7 @@ angular.module('LoginCtrl', [])
 				// proceeds to home page if credentials are a match, saves the 
 				// EmployeeID as a session variable (at least it should)
 				if (data.some(matchingCredentials)) {
-					window.localStorage.setItem('employeeID', password);
+					window.sessionStorage.setItem('employeeID', password);
 					// $scope.credentials = Login.getCredentials();
 					// Login.setCredentials(email, password);
 					// console.log($localStorage);
