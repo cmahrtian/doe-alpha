@@ -10,7 +10,7 @@ angular.module('TeacherCtrl', [])
 		// Test Teacher = Elizabeth Sandoval-Lacy (Brooklyn Transition Center)
 		// ESandovalLacy@schools.nyc.gov
 		// Figure out alternative way how to delcare as universal variable
-		var employeeID = window.localStorage.getItem('employeeID');
+		var employeeID = window.sessionStorage.getItem('employeeID');
 		var fiscalYear = '2017';
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;

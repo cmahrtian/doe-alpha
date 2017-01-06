@@ -5,6 +5,6 @@ angular.module('HomeCtrl', [])
 			jQuery('.dropdown-button').dropdown();
 		}, 0);
     // uses Employee ID established during login
-    var employeeID = window.localStorage.getItem('employeeID');
+    var employeeID = window.sessionStorage.getItem('employeeID');
     console.log(employeeID);
 	}]);
