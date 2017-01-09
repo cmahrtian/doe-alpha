@@ -5,6 +5,10 @@ angular.module('HomeCtrl', [])
 			jQuery('.dropdown-button').dropdown();
 		}, 0);
     // uses Employee ID established during login
-    // var employeeID = window.sessionStorage.getItem('employeeID');
-    // console.log(employeeID);
+    
+    // redirects to login page and clears sessionStorage when "Log Off" button
+		// is clicked
+		jQuery('.log-off').click(function() {
+			sessionStorage.clear();
+		})
 	}]);
