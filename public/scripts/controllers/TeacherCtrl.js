@@ -9,13 +9,17 @@ angular.module('TeacherCtrl', [])
 
 		// Test Teacher = Elizabeth Sandoval-Lacy (Brooklyn Transition Center)
 		// ESandovalLacy@schools.nyc.gov
-		// Figure out alternative way how to delcare as universal variable
 		var employeeID = window.sessionStorage.getItem('employeeID');
 		var fiscalYear = '2017';
+		// redirects to login page and clears sessionStorage when "Log Off" button
+		// is clicked
+		jQuery('.log-off').click(function() {
+			sessionStorage.clear();
+		})
+
 		function teacherLookup(element) {
 			return element.EmployeeID === employeeID;
 		};
-
 		// Previous Year's MOTP Score and Rating
 		d3.csv('../data/Teachers.csv', function(data) {
 			// select our teacher
