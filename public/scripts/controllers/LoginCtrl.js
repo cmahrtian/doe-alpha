@@ -9,7 +9,7 @@ angular.module('LoginCtrl', [])
 				// searches dataset for teacher whose email and EmployeeID match the
 				// input values
 				function matchingCredentials(element) {
-					return element.Email === email && element.EmployeeID === password;
+					return element.Email.toUpperCase() === email.toUpperCase() && element.EmployeeID === password;
 				};
 				// proceeds to home page if credentials are a match, saves the 
 				// EmployeeID as a session variable (at least it should)
