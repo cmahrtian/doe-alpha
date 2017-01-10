@@ -216,13 +216,13 @@ i.right {
 
 /*Teacer Practice and Student Learning section*/
 .row.portals {
-	margin: 60px auto;
+	margin: 30px auto;
 }
 
 /*Teacher Practice and Student Learning cards*/
 .row .col.measures {
-	width: 30%;
-	margin-left: 2%;
+	width: 90%;
+	margin: 0 5%;
 }
 
 .measures .card.portal {
@@ -231,23 +231,40 @@ i.right {
 
 .measures .card.portal, .measures .card.weteach {
 	border-radius: 25px;
+	height: 220px;
 }
 
 .measures .card .card-content {
 	padding: 8px;
 	text-align: center;
-	color: white;
+	color: black;
+	width: 50%;
+	float: left;
 }
 
 .measures .card .card-title {
 	font-size: 40px;
 	font-family: MuseoSans;
+	/*width: 50%;
+	float: left;*/
 }
 
-.measures .card .card-content p {
-	margin: 30px 0;
+.card-content img {
+	width: 60%;
+	height: 10%;
+	float: left;
+	margin: 3% 18%;
+}
+
+.measures .card .card-descriptor {
+	width: 50%;
+	float: right;
+}
+
+.measures .card .card-descriptor p {
+	margin: 25px 10px;
 	font-family: MuseoSlab;
-	font-size: 15px;
+	font-size: 25px;
 }
 
 .measures .card .card-action {
