@@ -205,15 +205,6 @@ i.right {
 	margin-left: 0px;
 }
 
-/*Growth Explorer tagline*/
-.card-panel.tagline {
-	text-align: center;
-	font-size: 30px;
-	font-family: MuseoSlab;
-	color: white;
-	background-color: #616161;
-}
-
 /*Teacer Practice and Student Learning section*/
 .row.portals {
 	margin: 30px auto;
@@ -322,6 +313,7 @@ img.weteach {
 h3 {
 	text-align: center;
 	font-family: MuseoSans;
+	font-weight: bold;
 }
 
 .observations-intro {
@@ -329,7 +321,9 @@ h3 {
 }
 
 .tips-cloud {
+	height: 100%;
 	width: 20%;
+	float: left;
 }
 
 .tips-cloud img {
@@ -343,6 +337,16 @@ h3 {
 	font-family: MuseoSlab;
 	text-align: center;
 	top: -110px;
+}
+
+.school-year {
+	width: 80%;
+	float: right;
+}
+
+.school-year h4 {
+	font-family: MuseoSans;
+	margin: 10% 0 0 13%;
 }
 
 /*observation cards*/

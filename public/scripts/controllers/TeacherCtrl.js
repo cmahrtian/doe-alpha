@@ -15,6 +15,7 @@ angular.module('TeacherCtrl', [])
 			window.location.replace('/');
 		} else {
 			fiscalYear = '2017';
+			d3.select('.school-year h4').text(parseInt(fiscalYear)-1 +'-'+ +fiscalYear+ ' Observations')
 		}
 		// redirects to login page and clears sessionStorage when "Log Off" button
 		// is clicked
@@ -47,14 +48,6 @@ angular.module('TeacherCtrl', [])
 				d3.select('.previous-motp .score').text('N/A');
 			}
 		});
-
-		// d3.csv('../data/Teachers.csv', function(data) {
-		// 	// select our teacher
-		// 	teacher = data.find(teacherLookup);
-		// 	// edit the previous year's MOTP score and rating with teacher data
-		// 	d3.select('.previous-motp .score').text(teacher['Y16_MOTP_Value']);
-		// 	d3.select('.previous-motp .rating').text(teacher['Y16_MOTP_Rating']);
-		// });
 
 		// Current fiscal year's observations (completed and pending)
 		d3.csv('../data/Observations.csv', function(data) {
