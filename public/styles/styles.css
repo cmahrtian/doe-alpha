@@ -318,18 +318,31 @@ img.weteach {
 /*TEACHER PRACTICE - PAGE 1*/
 /***********************/
 
-/*Teaching Practice title and observations summary*/
+/*Teaching Practice title, tips cloud, and school year display*/
 h3 {
 	text-align: center;
 	font-family: MuseoSans;
 }
 
-.card-panel.tagline p {
-	margin: 10px;
+.observations-intro {
+	height: 130px;
 }
 
-.card-panel.tagline span {
-	color: #ff9819;
+.tips-cloud {
+	width: 20%;
+}
+
+.tips-cloud img {
+	position: relative;
+	width: 100%;
+}
+
+.tips-cloud p {
+	position: relative;
+	font-size: 15px;
+	font-family: MuseoSlab;
+	text-align: center;
+	top: -110px;
 }
 
 /*observation cards*/
@@ -534,20 +547,6 @@ h3 {
 /*Current Score and Dig In section*/
 .row.motp-summary .col {
 	margin: 0 1%;
-}
-
-/*tips cloud*/
-.motp-summary .tips-cloud img {
-	position: relative;
-	width: 100%;
-}
-
-.motp-summary .tips-cloud p {
-	position: relative;
-	font-size: 18px;
-	font-family: MuseoSlab;
-	text-align: center;
-	top: -130px;
 }
 
 /*current MOTP score*/
