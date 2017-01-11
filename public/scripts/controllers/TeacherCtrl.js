@@ -7,10 +7,15 @@ angular.module('TeacherCtrl', [])
 		}, 0);
 		jQuery('.collapsible').collapsible();
 
-		// Test Teacher = Elizabeth Sandoval-Lacy (Brooklyn Transition Center)
-		// ESandovalLacy@schools.nyc.gov
+		// redirects app to Login page if user is not signed in
+		// otherwise sets fiscal year to 2017
 		var employeeID = window.sessionStorage.getItem('employeeID');
-		var fiscalYear = '2017';
+		var fiscalYear;
+		if (employeeID === null) {
+			window.location.replace('/');
+		} else {
+			fiscalYear = '2017';
+		}
 		// redirects to login page and clears sessionStorage when "Log Off" button
 		// is clicked
 		jQuery('.log-off').click(function() {
