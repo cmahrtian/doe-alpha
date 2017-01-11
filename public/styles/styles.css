@@ -267,6 +267,11 @@ i.right {
 	color: black;
 }
 
+.measures .card .card-descriptor span {
+	color: red;
+	font-weight: bold;
+}
+
 .measures .card .card-action {
 	border-radius: 0 0 25px 25px;
 	padding: 8px;
