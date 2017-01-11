@@ -27,7 +27,7 @@ angular.module('HomeCtrl', [])
 					}).join(' ');
 				}
 				d3.select('nav .brand-logo.right')
-					.text('Hi ' + titleCase(teacher.FirstName));
+					.text('Hi, ' + titleCase(teacher.FirstName));
 			});
 		};	
 	}]);
