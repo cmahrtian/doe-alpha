@@ -352,6 +352,7 @@ h3 {
 /*observation cards*/
 .observation-cards {
 	margin-top: 3%;
+	min-height: 285px;
 }
 
 .row.observation-cards .col.s2 {
@@ -362,30 +363,6 @@ h3 {
 	font-size: 2em;
 	font-family: MuseoSlab;
 	font-weight: bold;
-}
-
-/*previous year's MOTP score and rating*/
-.previous-motp {
-	text-align: center;
-	background-color: #8ad43f;
-	margin-top: 10%; 
-	padding: 1px;
-}
-
-.previous-motp h5 {
-	font-family: MuseoSans;
-}
-
-.previous-motp .rating {
-	font-family: MuseoSlab;
-	font-weight: bold;
-	font-size: 1.5em;
-}
-
-/*vertical separating line*/
-.previous-year {
-	border-right: 1px solid gray;
-	height: 280px;
 }
 
 /*completed and pending observations*/
@@ -548,37 +525,53 @@ h3 {
 	width: 65%;
 }
 
-/*Current Score and Dig In section*/
+/*previous year's score/rating and YTD score*/
+.row.motp-summary {
+	margin: 3% 20%;
+}
+
 .row.motp-summary .col {
 	margin: 0 1%;
+	width: 48%;
+	height: 90px;
+}
+
+/*previous year's MOTP score and rating*/
+.previous-motp {
+	font-size: 20px;
+	font-family: MuseoSans;
+	margin: 0;
+	text-align: center;
+	color: #bdbdbd;
+	background-color: #eeeeee;
+	margin-top: 10%; 
+	padding: 1px;
+	border-radius: 25px;
+}
+
+.previous-motp p {
+	margin: 0;
 }
 
 /*current MOTP score*/
 .motp-summary .current-score {
-	background-color: #616161;
-	color: white;
+	background-color: #ff9819;
+	color: black;
 	font-family: MuseoSans;
 	height: 150px;
 	padding: 2% 3%;
-}
-
-.motp-summary .current-score h4 {
-	position: absolute;
-	margin: 0;
-	padding: 11px 30px 18px 10px;
-	border-right: 1px solid white;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 25px;
 }
 
 .motp-summary .current-score p {
-	float: right;
-	font-size: 43.5px;
 	margin: 0;
-	padding: 20px 18px 16px;
-	border-left: 1px solid white;
 }
 
 /*Dig In icon*/
-.motp-summary .dig-in {
+.dig-in {
 	background: 
 		linear-gradient(135deg, transparent 0px, #8ad43f 0) top left,
 		linear-gradient(225deg, transparent 52px, #8ad43f 0) top right,
@@ -590,11 +583,11 @@ h3 {
 	padding: 3%;
 }
 
-.motp-summary .dig-in h3 {
+.dig-in h3 {
 	position: absolute;
 }
 
-.motp-summary .dig-in img {
+.dig-in img {
 	float: right;
 	width: 35%;
 	margin-right: 15%;

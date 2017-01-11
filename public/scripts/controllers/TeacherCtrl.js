@@ -34,15 +34,17 @@ angular.module('TeacherCtrl', [])
 				teacher.forEach(function(entry) {
 					previousYearScore += parseFloat(entry.Y16_Weighted_Component_Score);
 				});
-				d3.select('.previous-motp .score').text(previousYearScore.toFixed(2));
+				d3.select('.previous-motp #fiscal-year')
+					.text((parseInt(fiscalYear)-2).toString() +'-'+ (parseInt(fiscalYear)-1).toString() + ' Year');
+				d3.select('.previous-motp #score').text(previousYearScore.toFixed(2));
 				if (previousYearScore.toFixed(2) < 1.76) {
-					d3.select('.previous-motp .rating').text('Ineffective')
+					d3.select('.previous-motp #rating').text('Ineffective')
 				} else if (previousYearScore.toFixed(2) >= 1.76 && previousYearScore.toFixed(2) < 2.51) {
-					d3.select('.previous-motp .rating').text('Developing')
+					d3.select('.previous-motp #rating').text('Developing')
 				} else if (previousYearScore.toFixed(2) >= 2.51 && previousYearScore.toFixed(2) < 3.26) {
-					d3.select('.previous-motp .rating').text('Effective')
+					d3.select('.previous-motp #rating').text('Effective')
 				} else {
-					d3.select('.previous-motp .rating').text('Highly Effective')
+					d3.select('.previous-motp #rating').text('Highly Effective')
 				}
 			} else {
 				d3.select('.previous-motp .score').text('N/A');
@@ -115,7 +117,7 @@ angular.module('TeacherCtrl', [])
 				// left corner of collapsible
 				completedObservation.append('div')
 														.attr('class', 'collapsible-body')
-														.attr('style', 'margin-left: ' + (-184 - (count-1)*162) + 'px')
+														.attr('style', 'margin-left: ' + (count-1)*162 + 'px')
 														.append('div')
 														.attr('class', 'observation-details')
 														.insert('p')
@@ -215,7 +217,8 @@ angular.module('TeacherCtrl', [])
 				MOTPDenominator += parseFloat(components[0].MOTPComponentWeight);
 			});
 			// appends YTD MOTP score to page
-			d3.select('.current-score p')
+			d3.select('.current-score')
+				.append('p')
 				.text((Math.round(MOTPNumerator*100/MOTPDenominator)/100)
 				.toFixed(2));
 		});

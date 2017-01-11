@@ -50,21 +50,17 @@
 		<h4></h4>
 	</div>
 </div>
-<!-- <div class="card-panel s12 tagline">
-	<p>Myrna - You have completed <span>3 out of 5 of your observations</span> for the 2016-2017 school year.
-	</p>
-</div> -->
 
 <!-- observation cards (last year's score, YTD completed observations, pending observations) -->
 <div class="row observation-cards">
 	<!-- last year's score/rating -->
-	<div class="col s2 previous-year">
+	<!-- <div class="col s2 previous-year">
 		<div class="previous-motp">
 			<h5>Last Year's Score</h5>
 			<p class="score"></p>
 			<p class="rating"></p>
 		</div>
-	</div>
+	</div> -->
 	<!-- YTD completed observation -->
 	<div class="completed-observations">	
 		<ul class="collapsible popout" data-collapsible="accordion">
@@ -93,14 +89,20 @@
 </div>
 
 <div class="row motp-summary">
+	<!-- previous year's MOTP score and rating -->
+	<div class="col previous-motp">
+		<p id="fiscal-year"></p>
+		<p id="score"></p>
+		<p id="rating"></p>
+	</div>
 	<!-- YTD MOTP score -->
-	<div class="col s4 current-score">
-		<h4>Current<br>Score</h4>
-		<p>N/A</p>
+	<div class="col current-score">
+		<p>Current Score</p>
 	</div>
 	<!-- "Dig In" icon -->
-	<div class="col s4 dig-in">
-		<h3>Dig In</h3>
-		<img src="../images/graph.png">
-	</div>
+</div>
+
+<div class="col s4 dig-in">
+	<h3>Dig In</h3>
+	<img src="../images/graph.png">
 </div>
