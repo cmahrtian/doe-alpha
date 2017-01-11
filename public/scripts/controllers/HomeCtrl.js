@@ -10,5 +10,24 @@ angular.module('HomeCtrl', [])
 		// is clicked
 		jQuery('.log-off').click(function() {
 			sessionStorage.clear();
-		})
+		});
+
+		var employeeID = window.sessionStorage.getItem('employeeID');
+		// redirects app to Login page if user is not signed in
+		if (employeeID === null) {
+			window.location.replace('/');
+		} else {
+			d3.csv('../data/Teachers.csv', function(data) {
+				var teacher = data.find(function(element) {
+					return element.EmployeeID === employeeID
+				});
+				function titleCase(string) {
+					return string.toLowerCase().split(' ').map(function(word) {
+						return word.replace(word[0], word[0].toUpperCase());
+					}).join(' ');
+				}
+				d3.select('nav .brand-logo.right')
+					.text('Welcome ' + titleCase(teacher.FirstName));
+			});
+		};	
 	}]);
