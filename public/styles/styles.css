@@ -219,14 +219,15 @@ i.right {
 	margin: 30px auto;
 }
 
-/*Teacher Practice and Student Learning cards*/
+/*Teacher Practice, Student Learning, and WeTeach cards*/
 .row .col.measures {
 	width: 90%;
 	margin: 0 5%;
 }
 
 .measures .card.portal {
-	background-color: #8ad43f;
+	background-color: #cae3fc;
+	border: 5px solid #93c0ed;
 }
 
 .measures .card.portal, .measures .card.weteach {
@@ -245,8 +246,6 @@ i.right {
 .measures .card .card-title {
 	font-size: 40px;
 	font-family: MuseoSans;
-	/*width: 50%;
-	float: left;*/
 }
 
 .card-content img {
@@ -265,6 +264,7 @@ i.right {
 	margin: 25px 10px;
 	font-family: MuseoSlab;
 	font-size: 25px;
+	color: black;
 }
 
 .measures .card .card-action {
@@ -286,18 +286,19 @@ i.right {
 
 /*WeTeach card*/
 .measures .card.weteach {
-	margin-top: 10%;
-	border: 5px solid #93c0ed;
+	margin-top: 4%;
+	border: 5px solid #ff9819;
+	background-color: #ffd2a6;
 }
 
-.measures .card.weteach .card-content p {
+.measures .card.weteach .card-descriptor p {
 	color: black;
-	font-size: 13px;
-	margin: 3px 0;
+	font-size: 20px;
 }
 
 img.weteach {
 	width: 75%;
+	margin: 7%;
 }
 
 .card.weteach .card-action {
