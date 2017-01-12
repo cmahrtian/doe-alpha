@@ -300,6 +300,8 @@ img.observations {
 img.weteach {
 	width: 75%;
 	margin: 7%;
+	border: 1.5px solid;
+	box-shadow: 1px 1px 5px grey;
 }
 
 .card.weteach .card-action {
