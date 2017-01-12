@@ -117,7 +117,7 @@ angular.module('TeacherCtrl', [])
 				// left corner of collapsible
 				completedObservation.append('div')
 														.attr('class', 'collapsible-body')
-														.attr('style', 'margin-left: ' + (count-1)*162 + 'px')
+														.attr('style', 'margin-left: ' + -(count-1)*162 + 'px')
 														.append('div')
 														.attr('class', 'observation-details')
 														.insert('p')
