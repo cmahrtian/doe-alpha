@@ -570,6 +570,44 @@ h3 {
 	margin: 0;
 }
 
+/*WeTeach icon/carousel*/
+.weteach-carousel {
+	width: 65%;
+	float: left;
+	border: 3px solid #93c0ed;
+	height: 100px;
+	margin-top: 1%;
+}
+
+.weteach-carousel img {
+	height: 75%;
+	float: left;
+	margin: 1.5% 0 0 4%;
+}
+
+.weteach-carousel .weteach-advice {
+	margin: 0.5% 2%;
+	width: 65%;
+	float: right;
+}
+
+.weteach-advice h5 {
+	margin: 1% 0 0;
+	font-family: MuseoSans;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.weteach-advice p {
+	font-family: MuseoSlab;
+	margin: 1% 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
 /*Dig In icon*/
 .dig-in {
 	background: 
@@ -579,16 +617,19 @@ h3 {
 		linear-gradient(45deg, transparent 0px, #8ad43f 0) bottom left;
 	background-size: 51%;
 	background-repeat: no-repeat;
-	height: 150px;
-	padding: 3%;
+	height: 120px;
+	padding: 2%;
+	width: 30%;
+	float: right;
 }
 
 .dig-in h3 {
 	position: absolute;
+	margin: 0.75% 0;
 }
 
 .dig-in img {
 	float: right;
-	width: 35%;
-	margin-right: 15%;
+	width: 30%;
+	margin-right: 16%;
 }
