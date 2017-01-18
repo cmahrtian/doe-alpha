@@ -2,7 +2,7 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var ejs = require('ejs');
+// var ejs = require('ejs');
 var methodOverride = require('method-override');
 
 // configuration ==============================================================
@@ -18,8 +18,8 @@ var port = process.env.PORT || 3000;
 // sequelize.connect(db.url) ???
 
 // set the view engine to ejs
-app.set('views', './public/views');
-app.set('view engine', 'ejs');
+// app.set('views', './public/views');
+// app.set('view engine', 'ejs');
 
 // get all data/stuff of the body (POST) parameters
 // parse application/json
