@@ -13,7 +13,23 @@ angular.module('LoginCtrl', [])
 				};
 				// proceeds to home page if credentials are a match, saves the 
 				// EmployeeID as a session variable (at least it should)
+
 				if (data.some(matchingCredentials)) {
+
+					// this is where our Passport strategy may go
+
+					// app.post('/login', function(req, res, err){
+					// invoke passport authentication
+					// 	passport.authenticate
+
+					// if login works, something happens
+
+					// set up callback for auth or for error
+
+					// if login fails, something happens
+
+					// })
+
 					window.sessionStorage.setItem('employeeID', password);
 					// $scope.credentials = Login.getCredentials();
 					// Login.setCredentials(email, password);
