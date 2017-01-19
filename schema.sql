@@ -41,3 +41,12 @@ CREATE TABLE components (
 	Rating INT NOT NULL,
 	ComponentRationale VARCHAR(3000)
 );
+
+CREATE TABLE yoy_scores (
+	EmployeeID VARCHAR(7) NOT NULL,
+	Component VARCHAR(2),
+	Y16_Mean_Component_Score NUMERIC(4,2),
+	Y16_Weighted_Component_Score NUMERIC(6,4),
+	Y15_Mean_Component_Score NUMERIC(4,2),
+	Y15_Weighted_Component_Score NUMERIC(6,4)
+);

@@ -18,8 +18,8 @@ var port = process.env.PORT || 3000;
 // sequelize.connect(db.url) ???
 
 // set the view engine to ejs
-// app.set('views', './public/views');
-// app.set('view engine', 'ejs');
+app.set('views', './public/views');
+app.set('view engine', 'ejs');
 
 // get all data/stuff of the body (POST) parameters
 // parse application/json
