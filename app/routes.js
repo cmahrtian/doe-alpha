@@ -1,7 +1,7 @@
 // grab the Teacher model
 var Teacher = require('./models/teacher');
 
-module.exports = function(app) {
+module.exports = function(app, passport) {
 	// server routes ============================================================
 	// handle things like API calls, authentication routes
 
@@ -19,8 +19,18 @@ module.exports = function(app) {
 
 	// frontend routes ==========================================================
 	// route to handle all angular requests
-	app.get('*', function(req, res) {
-		// load our public/index.ejs file
+	// app.get('*', function(req, res) {
+	// 	// load our public/index.ejs file
+	// 	res.render('index');
+	// });
+	app.get('/', function(req, res){
 		res.render('index');
 	});
+	app.post('/login', function(req, res){
+		// auth happens here ---
+		// req.body provides the params for the auth flow
+		console.log(req.body);
+		//res.send('login attempted');
+	})
+
 };
