@@ -5,6 +5,8 @@ var bodyParser = require('body-parser');
 // var ejs = require('ejs');
 var methodOverride = require('method-override');
 
+require('dotenv').config()
+
 // configuration ==============================================================
 
 // config files
@@ -13,9 +15,41 @@ var db = require('./config/db');
 // set our port
 var port = process.env.PORT || 3000;
 
+var passport = require('passport');
+var flash = require('connect-flash');
+
 // connect to MySQL database
 // uncomment after entering in credentials in config/db.js
 // sequelize.connect(db.url) ???
+
+
+// local auth config
+var LocalStrategy = require('passport-local').Strategy;
+var mysql = require('mysql');
+var bcrypt = require('bcrypt-nodejs');
+var sql = require('mssql');
+
+//config for SQL Server connection
+var config = {
+	user: process.env.DEVELOPMENT_ID,
+	password: process.env.DEVELOPMENT_SECRET,
+	server: process.env.SERVER,
+	database: process.env.DB_ID
+}
+
+sql.connect(config, function(error){
+
+	if(error){
+		console.log('We are not connected to MSSQL DB :/');
+		console.log(error);
+		//throw error;
+	} else {
+		console.log('connected to MSSQL DB');
+	}
+
+})
+
+var request = new sql.Request([config]);
 
 // set the view engine to ejs
 app.set('views', './public/views');
