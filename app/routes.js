@@ -29,8 +29,9 @@ module.exports = function(app, passport) {
 	app.post('/login', function(req, res){
 		// auth happens here ---
 		// req.body provides the params for the auth flow
-		console.log(req.body);
-		//res.send('login attempted');
+		//console.log(req.body);
+		res.send('login attempted');
+		//res.render('/pages/home');
 	})
 
 };
