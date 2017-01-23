@@ -4,18 +4,35 @@ var app = express();
 var bodyParser = require('body-parser');
 // var ejs = require('ejs');
 var methodOverride = require('method-override');
+var mysql = require('mysql');
+
+require('dotenv').config();
 
 // configuration ==============================================================
 
 // config files
-var db = require('./config/db');
+// var db = require('./config/db');
 
 // set our port
 var port = process.env.PORT || 3000;
 
 // connect to MySQL database
+var connection = mysql.createConnection({
+	host: process.env.HOST,
+	user: process.env.USER,
+	password: process.env.PASSWORD,
+	database: process.env.DATABASE
+});
+
+connection.connect(function(error) {
+	if (error) {
+		console.error('Not connected to SQL database');
+		return;
+	}
+	console.log('Successfully connected to SQL database');
+});
 // uncomment after entering in credentials in config/db.js
-// sequelize.connect(db.url) ???
+// mysql.createConnection(db.url)
 
 // set the view engine to ejs
 app.set('views', './public/views');
