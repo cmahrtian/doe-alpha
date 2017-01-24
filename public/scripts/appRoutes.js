@@ -8,7 +8,7 @@ angular.module('appRoutes', [])
 							controller: 'LoginController'
 						})
 						.when('/home', {
-					// home page
+						// home page
 							templateUrl: 'views/pages/home.ejs',
 							controller: 'HomeController'
 						})
