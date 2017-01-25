@@ -5,8 +5,9 @@ var app = angular.module('growthExplorer', [
 	'appRoutes', 
 	'HomeCtrl', 
 	'LoginCtrl', 
-	'TeacherCtrl', 
-	'LoginService'
+	'TeacherCtrl'
+	// , 
+	// 'LoginService'
 ]);
 
 
