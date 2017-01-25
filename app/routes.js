@@ -1,7 +1,8 @@
 // grab the Teacher model
 var Teacher = require('./models/teacher');
 
-module.exports = function(app) {
+// ESTABLISH CONNECTION
+module.exports = function(app, connection) {
 	// server routes ============================================================
 	// handle things like API calls, authentication routes
 
@@ -23,4 +24,6 @@ module.exports = function(app) {
 		// load our public/index.ejs file
 		res.render('index');
 	});
+
+	// app.post request to database after controller talks to front end
 };

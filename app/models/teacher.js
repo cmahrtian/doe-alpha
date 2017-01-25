@@ -1,15 +1,11 @@
-// grab the sequelize module
-var sequelize = require('sequelize');
+// grab the connection to the database
+var db = require('../config/db.js');
 
 // define our teacher model
-// module.exports allows us to pass this to other files when it is called
-module.exports = function(sequelize, DataTypes) {
-	var Teacher = sequelize.define('Teacher', 
-		{
-			employeeID: DataTypes.INTEGER,
-			firstName: DataTypes.STRING,
-			lastName: DataTypes.STRING,
-			email: DataTypes.STRING
-		}
-	);
+// define teacher model interaction with database
+exports.getAllByUser = function(userID, done) {
+	db.get().query('SELECT * FROM teachers WHERE EmployeeID = ?', userID, function(error, rows) {
+		if (error) return done(error)
+		done(null, rows)
+	});
 }
