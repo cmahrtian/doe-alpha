@@ -1,9 +1,20 @@
 angular.module('HomeCtrl', [])
-	.controller('HomeController', ['$scope', function($scope, Login) {
-		// enables JQuery dynamicism for dropdown menu
+	.controller('HomeController', function($scope,  $http) {
+	
+    $scope.userLogout = function(){
+    	$http({
+    		method: 'get',
+    		url: 'logout',
+    		headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+    	})
+    }
+
+
+    // enables JQuery dynamicism for dropdown menu
     setTimeout(function() {
-			jQuery('.dropdown-button').dropdown();
-		}, 0);
+		jQuery('.dropdown-button').dropdown();
+	}, 0);
+
     // uses Employee ID established during login
     
     // redirects to login page and clears sessionStorage when "Log Off" button
@@ -30,4 +41,4 @@ angular.module('HomeCtrl', [])
 		// 			.text('Hi, ' + titleCase(teacher.FirstName));
 		// 	});
 		// };	
-	}]);
+	});

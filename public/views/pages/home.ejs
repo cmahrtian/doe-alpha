@@ -1,5 +1,5 @@
 <!-- top navbar -->
-<div class="menu" ng-controller="HomeController">
+<div class="menu">
 	<!-- preset options for dropdown menus -->
 	<!-- <ul id="dropdown1" class="dropdown-content">
 		<li><a href="/teacher-practice">Overview</a></li>
@@ -32,7 +32,7 @@
 						<i class="material-icons right">arrow_drop_down</i>
 					</a>
 				</li> -->
-				<li><a class="log-off" href="/">Log Off</a></li>
+				<li><a class="log-off" ng-click="userLogout();" href="/">Log Off</a></li>
 			</ul>
 		</div>
 	</nav>

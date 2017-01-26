@@ -18,6 +18,7 @@ module.exports = function(passport){
 	// serialize and de-serialize user
 	passport.serializeUser(function(user, done){
 		done(null, user.EmployeeID);
+		console.log('THIS IS USER => ' + user);
 		console.log('USER SERIALIZED');
 	});
 

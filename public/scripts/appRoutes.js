@@ -1,6 +1,6 @@
 angular.module('appRoutes', [])
-			.config(['$routeProvider', '$locationProvider', 
-				function($routeProvider, $locationProvider) {
+			.config(['$routeProvider',  
+				function($routeProvider) {
 					$routeProvider
 					// login page that will use the LoginController
 						.when('/', {
@@ -18,6 +18,6 @@ angular.module('appRoutes', [])
 						});
 					$locationProvider.html5Mode({
 						enabled: true,
-						requireBase: false
+						requireBase: true
 					});		
 				}]);
