@@ -17,13 +17,15 @@ module.exports = function(passport){
 
 	// serialize and de-serialize user
 	passport.serializeUser(function(user, done){
-		done(null, user.id);
+		done(null, user.EmployeeID);
+		console.log('USER SERIALIZED');
 	});
 
-	passport.deserializeUser(function(id, done){
-		connection.query(process.env.SERIALIZE_QUERY + id, function(err, rows){
+	passport.deserializeUser(function(EmployeeID, done){
+		connection.query(process.env.SERIALIZE_QUERY + EmployeeID, function(err, rows){
 			done(err, rows[0]);
 		});
+		console.log('USER DE-SERIALIZED');
 	})
 
 
@@ -35,32 +37,31 @@ module.exports = function(passport){
 		} else {
 			console.log('connected to DB');
 		}	
-
 			// define local login strategy
 			passport.use('local-login', 
 				new LocalStrategy({
-					usernameField: 'email',
+					usernameField: 'username',
 					passwordField: 'password',
 					passReqToCallback: true
 				}, 
 				function(req, username, password, done){
 					var preparedQuery = process.env.LOGIN_QUERY;
-
 					// query from our connection pool
-					connection.query(preparedQuery + "'"+ username +"'" + ";", function(err, rows){
+					connection.query(preparedQuery + connection.escape(username), function(err, rows){
 						if(err){
 							console.log('error in DB QUERY');	
 							return done(err);			
 						} if (!rows.length){
+							console.log('NO USER FOUND');
 							return done(null, false, req.flash('loginMessage', 'NO USER FOUND') );
-						} if (!bcrypt.compareSync(username, rows[0].email)){
-							return done(null, false, req.flash('loginMessage', 'WRONG PASSWORD'));
+						} if (username !== rows[0].Email){
+							console.log('WRONG PASSWORD')
+							return done(null, false, req.flash('loginMessage', 'WRONG user'));
+						} else {
+							console.log('RIGHT USER')
+							return done(null, rows[0]);
 						}
-						return done(null, rows[0]);
-						// pass results to callback
-						// else {
-						// 	callback(rows[0]);
-						// }
+						
 					});
 				}
 			));			
