@@ -1,5 +1,4 @@
-angular.module('TeacherCtrl', [])
-	.controller('TeacherController', function($scope) {
+app.controller('TeacherController', function($scope) {
 		// enables JQuery dynamicism for dropdown menu and collapsible completed
 		// observation card
 		setTimeout(function() {

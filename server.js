@@ -13,12 +13,17 @@ var flash = require('connect-flash');
 var path = require('path');
 
 require('dotenv').config()
-
 require('./config/auth')(passport);
 
 // set the view engine to ejs
 app.set('views', './public/views');
 app.set('view engine', 'ejs');
+
+app.use(session({
+	secret:process.env.SESSION_SECRET,
+	resave: true,
+	saveUninitialized: true
+}));
 
 
 app.use(passport.initialize());
@@ -47,15 +52,6 @@ app.use(express.static(path.join(__dirname + '/public')));
 
 app.use(morgan('dev'));
 app.use(cookieParser());
-
-
-app.use(session({
-	secret:process.env.SESSION_SECRET,
-	resave: true,
-	saveUninitialized: true
-}));
-
-
 // routes =====================================================================
 require('./app/routes')(app, passport); // configure our routes
 
@@ -65,6 +61,3 @@ app.listen(port);
 
 // shoutout to the user
 console.log('Magic happens on port ' + port);
-
-// expose app
-// exports = module.exports = app;

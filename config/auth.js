@@ -13,26 +13,31 @@ var pool = mysql.createPool({
 	});
 
 module.exports = function(passport){
-	// serialize and de-serialize user
-	passport.serializeUser(function(user, done){
-		done(null, user.EmployeeID);
-		console.log('THIS IS USER => ' + user);
-		console.log('USER SERIALIZED');
-	});
-	passport.deserializeUser(function(EmployeeID, done){
-		connection.query(process.env.SERIALIZE_QUERY + connection.escape(EmployeeID), function(err, rows){
-			done(err, rows[0]);
-		});
-		console.log('USER DE-SERIALIZED');
-	})
-	// open up a connection 
+
+	// open up a connection as part of auth flow
 	pool.getConnection(function(err, connection){
 		// check if the connection is open
 		if (err) {
 			 console.log('not connected');
 		} else {
 			console.log('connected to DB');
-		}	
+		}
+
+		// serialize and de-serialize user
+		passport.serializeUser(function(user, done){
+			done(null, user.EmployeeID);
+			console.log('THIS IS USER => ' + user);
+			console.log('USER SERIALIZED');
+		});
+
+
+		passport.deserializeUser(function(EmployeeID, done){
+				connection.query(process.env.SERIALIZE_QUERY + connection.escape(EmployeeID), function(err, rows, done){
+					done(null);
+			});
+			console.log('USER DE-SERIALIZED');
+		})
+
 		// define local login strategy
 		passport.use('local-login', 
 			new LocalStrategy({
@@ -42,17 +47,16 @@ module.exports = function(passport){
 			}, 
 			function(req, username, password, done){
 				var preparedQuery = process.env.LOGIN_QUERY;
-				// query from our connection pool and authenticate return
+				// query from our connection pool
 				connection.query(preparedQuery + connection.escape(username), function(err, rows){
 					if(err){
-						console.log('error in DB QUERY');	
 						return done(err);			
 					} if (!rows.length){
 						console.log('NO USER FOUND');
-						return done(null, false, req.flash('loginMessage', 'NO USER FOUND') );
+						return done(null, false );
 					} if (username !== rows[0].Email){
 						console.log('WRONG PASSWORD')
-						return done(null, false, req.flash('loginMessage', 'WRONG user'));
+						return done(null, false);
 					} else {
 						console.log('RIGHT USER')
 						return done(null, rows[0]);
