@@ -7,11 +7,26 @@ module.exports = function(app, passport) {
 	});
 
 	// server routes ============================================================
-	// handle things like API calls, authentication routes
 	app.post('/login', 
-		passport.authenticate('local-login', { failureRedirect:'/' }), 
-		function(req, res){	
-			console.log(req.body);
-			res.redirect('/home');
+		passport.authenticate('local-login', {
+			successRedirect:'/home', 
+			failureRedirect:'/', 
+			failureFlash: true
+		}), function(req, res){	
+			console.log('LOGGING IN');
+			if (req.body.remember){
+				console.log('REMEMBER');
+				req.session.cookie.maxAge = 1000*60*3;
+			} else {
+				console.log('DO NOT REMEMBER');
+				req.session.cookie.expires = false;
+			}
 		});
+
+	app.get('/logout', function(req,res){
+		console.log('logging out');
+		req.logout();
+		res.redirect('/');
+	})
+
 };

@@ -10,7 +10,7 @@ angular.module('LoginCtrl', [])
 				headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
 			}).success(function(response){
 				console.log('success');
-				//$location.path('/home');
+				$location.path('/home');
 			}).error(function(response){
 				console.log('error');
 				console.log(response);
