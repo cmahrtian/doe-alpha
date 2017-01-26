@@ -1,5 +1,5 @@
 angular.module('LoginCtrl', [])
-	.controller('LoginController', function($scope, $http, md5, $location) {
+	.controller('LoginController', function($scope, $http, md5, $location, $rootScope) {
 		// determines ability to log in after clicking "Log In" button
 		$scope.user = {};
 		$scope.userlogin = function(){			
@@ -9,11 +9,11 @@ angular.module('LoginCtrl', [])
 				data: $.param($scope.user),
 				headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
 			}).success(function(response){
-				console.log('success');
-				$location.path('/home');
+				$rootScope.message = 'AUTH WORKS';
+				$location.url('/home');
 			}).error(function(response){
-				console.log('error');
-				console.log(response);
+				$rootScope.message = 'AUTH FAILED';
+				$location.url('/');
 			})
 		}
 		
