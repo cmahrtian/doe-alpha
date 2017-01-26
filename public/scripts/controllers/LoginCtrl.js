@@ -1,13 +1,10 @@
-angular.module('LoginCtrl', [])
-	.controller('LoginController', function($scope, $http, md5, $location, $rootScope) {
+app.controller('LoginController', function($scope, $http, md5, $location, $rootScope) {
 		// determines ability to log in after clicking "Log In" button
 		$scope.user = {};
 		$scope.userlogin = function(){			
-			$http({
-				method:'post',
-				url:'/login',
-				data: $.param($scope.user),
-				headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+			$http.post('/login', {	
+				username: $scope.user.username,
+				password: $scope.user.password,
 			}).success(function(response){
 				$rootScope.message = 'AUTH WORKS';
 				$location.url('/home');

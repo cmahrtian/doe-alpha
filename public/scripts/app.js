@@ -1,26 +1,20 @@
 var app = angular.module('growthExplorer', [
 	'angular-md5', 
 	'ngRoute', 
-	'HomeCtrl', 
-	'LoginCtrl', 
-	'TeacherCtrl',
 	'ngResource',
-	// 'LoginService'
 ]).config(function($routeProvider, $locationProvider, $httpProvider){
 
 	var checkLoggedin = function($q, $timeout, $http, $location, $rootScope){
 		var deferred = $q.defer();
 		$http.get('/home').success(function(user){
-			console.log('we are in /home');
 			if(user !== '0'){	
 				deferred.resolve();
 			} else {
 				$rootScope.message = 'NOT LOGGED IN';
-				deferred.reject();
+				//deferred.reject();
 				$location.url('/login');
 			}
 		});
-	
 		return deferred.promise;
 	};
 
@@ -33,6 +27,9 @@ var app = angular.module('growthExplorer', [
 				if (response.status === 401){
 					$location.url('/');
 					return $q.reject(response);
+				} else if (response.status === 400){
+					$location.url('/');
+					return $q.reject(response);
 				}
 			}
 		}
@@ -41,12 +38,12 @@ var app = angular.module('growthExplorer', [
 	// login page that will use the LoginController
 		.when('/', {
 			templateUrl: 'views/pages/login.ejs',
-			controller: 'LoginController'
+			controller: 'LoginCtrl',
 		})
 		.when('/home', {
 		// home page
 			templateUrl: 'views/pages/home.ejs',
-			controller: 'HomeController',
+			controller: 'HomeCtrl',
 			resolve: {
 				loggedin: checkLoggedin
 			}
@@ -58,7 +55,8 @@ var app = angular.module('growthExplorer', [
 		.otherwise({
 			redirectTo: '/'
 		})
-	
+
+
 })
 
 .run(function($rootScope, $http){
@@ -69,39 +67,30 @@ var app = angular.module('growthExplorer', [
 	}
 })
 
+app.controller('LoginCtrl', function($scope, $rootScope, $http, $location){
+	$scope.user = {};
+	$scope.userlogin = function(){			
+		$http.post('/login', {	
+			username: $scope.user.username,
+			password: $scope.user.password,
+		}).success(function(response){
+			$rootScope.message = 'AUTH WORKS';
+			$location.url('/home');
+		}).error(function(response){
+			$rootScope.message = 'AUTH FAILED';
+			$location.url('/');
+		})
+	}
+})
 
-// app.factory('Login', function($localStorage) {
-// 	$localStorage = $localStorage.$default({
-// 		credentials: {
-// 			email: '',
-// 			employeeID: ''
-// 		}
-// 	});
-// 	return {
-// 		getCredentials: function() {
-// 			return $localStorage.credentials;
-// 		},
-// 		setCredentials: function(email, employeeID) {
-// 			$localStorage.credentials.email = email;
-// 			$localStorage.credentials.employeeID = employeeID;
-// 		}
-// 	};
-// });
 
-// app.service('Login', function() {
-// TBD login code
-// 	var credentials = {
-// 		email: '',
-// 		employeeID: ''
-// 	};
-	
-// 	return {
-// 		getCredentials: function() {
-// 			return credentials;
-// 		},
-// 		setCredentials: function(email, employeeID) {
-// 			credentials.email = email;
-// 			credentials.employeeID = employeeID;
-// 		}
-// 	};
-// });
+app.controller('HomeCtrl', function($scope, $rootScope, $http, $location){
+	  $scope.userLogout = function(){
+    	$http({
+    		method: 'post',
+    		url: 'logout',
+    		headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+    	})
+    }
+
+})
