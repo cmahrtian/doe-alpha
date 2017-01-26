@@ -5,16 +5,16 @@
 <div class="row">
 	<!-- Login Form -->
 	<div class="login-form"  >	
-		<form class="col s12" method="post" ng-submit="userlogin(reqParams)" action="/login">
+		<form class="col s12" method="post" ng-submit="userlogin(user)" action="/login">
 			<div class="row">
 				<div class="input-field col s11">
-					<input id="email" type="email" name="email" class="validate" ng-model="reqParams.email" />
+					<input id="email" type="email" name="email" class="validate" ng-model="user.username" />
 					<label for="email">Email</label>
 				</div>
 			</div>
 			<div class="row">
 				<div class="input-field col s11">
-					<input id="password" type="password" name="password" class="validate" ng-model="reqParams.password" />
+					<input id="password" type="password" name="password" class="validate" ng-model="user.password" />
 					<label for="password">EmployeeID</label>
 				</div>
 			</div>

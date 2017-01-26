@@ -1,12 +1,11 @@
 var app = angular.module('growthExplorer', [
 	'angular-md5', 
 	'ngRoute', 
-	'ngStorage', 
 	'appRoutes', 
 	'HomeCtrl', 
 	'LoginCtrl', 
-	'TeacherCtrl',
-	 'LoginService'
+	'TeacherCtrl'
+	// 'LoginService'
 ]);
 
 
