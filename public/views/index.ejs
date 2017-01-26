@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="scripts/vendor/d3.v3.min.js"></script>
 	<script type="text/javascript" src="scripts/vendor/ngStorage.min.js"></script>
 	<script type="text/javascript" src="scripts/vendor/angular-md5.min.js"></script>
+	<script type="text/javascript" src="scripts/vendor/angular-resource.min.js"></script>
 	
 	<!-- Angular custom -->
 	<script src="scripts/controllers/HomeCtrl.js"></script>
@@ -29,13 +30,13 @@
 	<script src="scripts/appRoutes.js"></script>
 	<script src="scripts/app.js"></script>
 </head>
-
-<!-- body falls under purview of "growthExplorer" app -->
-<body ng-app="growthExplorer">
-	<div class="container">
-		<!-- renders view file pertaining to URL -->
-		<div ng-view></div>
-	</div>	
-</body>
+	<!-- body falls under purview of "growthExplorer" app -->
+	<body ng-app="growthExplorer">
+		<p> {{ message }}</p>
+		<div class="container">
+			<!-- renders view file pertaining to URL -->
+			<div ng-view></div>
+		</div>	
+	</body>
 
 </html>
