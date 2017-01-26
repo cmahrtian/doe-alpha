@@ -188,12 +188,28 @@ angular.module('TeacherCtrl', [])
 			});
 
 			// appends pending observation element to page for every observation
-			// expected in rest of current fiscal year
-			for (var i = 0; i < teacher[0]['expected_obs'] - count; i++) {
-				d3.select('.pending-observations')
-					.append('div')
-					.classed('col s2 pending-observation', true);
-			};
+			// expected in rest of current fiscal year	
+			if (teacher.length > 0) {	
+				for (var i = 0; i < teacher[0]['expected_obs'] - count; i++) {
+					d3.select('.pending-observations')
+						.append('div')
+						.classed('col s2 pending-observation', true);
+				};
+			}	else {
+				d3.csv('../data/Observation_Selections.csv', function(data) {
+					var observationSelection = data.find(function(element) {
+						if (element.EmployeeID === employeeID && element.FiscalYear === fiscalYear) {
+							return element.expected_obs;
+						};
+					})
+					for (var i = 0; i < observationSelection.expected_obs; i++) {
+						d3.select('.pending-observations')
+						.append('div')
+						.classed('col s2 pending-observation', true);
+					};
+				})
+			}
+			
 			// calculates YTD MOTP score
 			var MOTPNumerator = 0;
 			var MOTPDenominator = 0;
@@ -217,9 +233,14 @@ angular.module('TeacherCtrl', [])
 				MOTPDenominator += parseFloat(components[0].MOTPComponentWeight);
 			});
 			// appends YTD MOTP score to page
+			if (teacher.length > 0) {
+				var currentScore = (Math.round(MOTPNumerator*100/MOTPDenominator)/100)
+														.toFixed(2);
+			} else {
+				var currentScore = 'N/A';
+			};
 			d3.select('.current-score')
 				.append('p')
-				.text((Math.round(MOTPNumerator*100/MOTPDenominator)/100)
-				.toFixed(2));
+				.text(currentScore);
 		});
 	});
