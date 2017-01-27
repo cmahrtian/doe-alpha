@@ -28,8 +28,6 @@ module.exports = function(passport){
 			done(null, user);
 			console.log('USER SERIALIZED');
 		});
-
-
 		passport.deserializeUser(function(user, done){
 			done(null, user);
 			console.log('USER DE-SERIALIZED');
@@ -44,7 +42,7 @@ module.exports = function(passport){
 			}, 
 			function(req, username, password, done){
 				var preparedQuery = process.env.LOGIN_QUERY;
-				// query from our connection pool
+				// query from our connection pool, return user if exists
 				connection.query(preparedQuery + connection.escape(username), function(err, rows){
 					if(err){
 						return done(err);			
@@ -56,6 +54,7 @@ module.exports = function(passport){
 						return done(null, false);
 					} else {
 						console.log('RIGHT USER')
+						// return user object
 						var user = { id: rows[0].EmployeeID, username: rows[0].Email }
 						return done(null, user);
 					}					
