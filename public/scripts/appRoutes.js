@@ -5,25 +5,28 @@ angular.module('appRoutes', [])
 					// login page that will use the LoginController
 						.when('/', {
 							templateUrl: 'views/pages/login.ejs',
-							controller: 'LoginController'
+							controller: 'LoginCtrl',
 						})
 						.when('/home', {
-						// home page
 							templateUrl: 'views/pages/home.ejs',
-							controller: 'HomeController',
+							controller: 'HomeCtrl',
 							resolve: {
-								loggedin: checkLoggedin
+								loggedin: checkLoggedinHome
 							}
 						})
 						.when('/teacher-practice', {
 							templateUrl: 'views/pages/teacher-practice.ejs',
-							controller: 'TeacherController'
+							controller: 'TeachCtrl',
+							resolve: {
+								loggedin: checkLoggedinTeacher
+							}
 						})
 						.otherwise({
 							redirectTo: '/'
-						})
+						});
+
 					$locationProvider.html5Mode({
 						enabled: true,
 						requireBase: true
-					});		
+					});	
 				}]);
