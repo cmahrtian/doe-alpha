@@ -1,10 +1,12 @@
-app.controller('HomeController', function($scope,  $http) {
+app.controller('HomeController', function($scope,  $http, $location) {
 	
     $scope.userLogout = function(){
     	$http({
-    		method: 'get',
+    		method: 'post',
     		url: 'logout',
     		headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+    	}).success(function(){
+    		$location.url('/');
     	})
     }
 

@@ -25,6 +25,8 @@ app.use(session({
 	saveUninitialized: true
 }));
 
+// set the static files location; e.g. "/public/img" will be "/img" for users
+app.use(express.static(path.join(__dirname + '/public')));
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -35,25 +37,23 @@ app.use(flash());
 app.use(bodyParser.urlencoded({
 	extended: true
 }));
-app.use(bodyParser.json());
 
 
 
-// parse application/vnd.api+json as json
-app.use(bodyParser.json({
-	type: 'application/vnd.api+json'
-}));
+// // parse application/vnd.api+json as json
+// app.use(bodyParser.json({
+// 	type: 'application/vnd.api+json'
+// }));
 
-// override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
+// // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(methodOverride('X-HTTP-Method-Override'));
 
-// set the static files location; e.g. "/public/img" will be "/img" for users
-app.use(express.static(path.join(__dirname + '/public')));
+
 
 app.use(morgan('dev'));
 app.use(cookieParser());
 // routes =====================================================================
-require('./app/routes')(app, passport); // configure our routes
+require('./app/server-routes')(app, passport); // configure server-side routes
 
 
 // start app ==================================================================
