@@ -10,9 +10,9 @@ var app = angular.module('growthExplorer', [
 			if(user !== '0'){	
 				deferred.resolve();
 			} else {
-				$rootScope.message = 'NOT LOGGED IN';
+				$rootScope.message = 'NOT LOGGED IN, CANNOT PROCEED';
 				//deferred.reject();
-				$location.url('/login');
+				$location.url('/');
 			}
 		});
 		return deferred.promise;
@@ -35,13 +35,11 @@ var app = angular.module('growthExplorer', [
 		}
 	});
 	$routeProvider
-	// login page that will use the LoginController
 		.when('/', {
 			templateUrl: 'views/pages/login.ejs',
 			controller: 'LoginCtrl',
 		})
 		.when('/home', {
-		// home page
 			templateUrl: 'views/pages/home.ejs',
 			controller: 'HomeCtrl',
 			resolve: {
@@ -54,8 +52,12 @@ var app = angular.module('growthExplorer', [
 		})
 		.otherwise({
 			redirectTo: '/'
-		})
+		});
 
+	$locationProvider.html5Mode({
+		enabled: true,
+		requireBase: true
+	});
 
 })
 
@@ -74,6 +76,7 @@ app.controller('LoginCtrl', function($scope, $rootScope, $http, $location){
 			username: $scope.user.username,
 			password: $scope.user.password,
 		}).success(function(response){
+			console.log('SUCCESS ');
 			$rootScope.message = 'AUTH WORKS';
 			$location.url('/home');
 		}).error(function(response){

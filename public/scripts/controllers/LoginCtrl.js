@@ -1,14 +1,17 @@
 app.controller('LoginController', function($scope, $http, md5, $location, $rootScope) {
 		// determines ability to log in after clicking "Log In" button
 		$scope.user = {};
-		$scope.userlogin = function(){			
-			$http.post('/login', {	
-				username: $scope.user.username,
-				password: $scope.user.password,
+
+		$scope.userlogin = function(){	
+			$http({
+				method: '/post',
+				url: '/login',
+				data: $.param($scope.user)
 			}).success(function(response){
 				$rootScope.message = 'AUTH WORKS';
 				$location.url('/home');
-			}).error(function(response){
+			}).error(function(err, response){
+				console.log(err);
 				$rootScope.message = 'AUTH FAILED';
 				$location.url('/');
 			})

@@ -25,23 +25,20 @@ module.exports = function(passport){
 
 		// serialize and de-serialize user
 		passport.serializeUser(function(user, done){
-			done(null, user.EmployeeID);
-			console.log('THIS IS USER => ' + user);
+			done(null, user);
 			console.log('USER SERIALIZED');
 		});
 
 
-		passport.deserializeUser(function(EmployeeID, done){
-				connection.query(process.env.SERIALIZE_QUERY + connection.escape(EmployeeID), function(err, rows, done){
-					done(null);
-			});
+		passport.deserializeUser(function(user, done){
+			done(null, user);
 			console.log('USER DE-SERIALIZED');
 		})
 
 		// define local login strategy
 		passport.use('local-login', 
 			new LocalStrategy({
-				usernameField: 'username',
+				usernameField: 'email',
 				passwordField: 'password',
 				passReqToCallback: true
 			}, 
@@ -59,7 +56,8 @@ module.exports = function(passport){
 						return done(null, false);
 					} else {
 						console.log('RIGHT USER')
-						return done(null, rows[0]);
+						var user = { id: rows[0].EmployeeID, username: rows[0].Email }
+						return done(null, user);
 					}					
 				});
 			}
