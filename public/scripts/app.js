@@ -4,19 +4,34 @@ var app = angular.module('growthExplorer', [
 	'ngResource',
 ]).config(function($routeProvider, $locationProvider, $httpProvider){
 
-	var checkLoggedin = function($q, $timeout, $http, $location, $rootScope){
+	var checkLoggedinHome = function($q, $timeout, $http, $location, $rootScope){
 		var deferred = $q.defer();
 		$http.get('/home').success(function(user){
 			if(user !== '0'){	
 				deferred.resolve();
 			} else {
 				$rootScope.message = 'NOT LOGGED IN, CANNOT PROCEED';
-				//deferred.reject();
+				deferred.reject();
 				$location.url('/');
 			}
 		});
 		return deferred.promise;
 	};
+
+	var checkLoggedinTeacher = function($q, $timeout, $http, $location, $rootScope){
+		var deferred = $q.defer();
+		$http.get('/teacher-practice').success(function(user){
+			if(user !== '0'){	
+				deferred.resolve();
+			} else {
+				$rootScope.message = 'NOT LOGGED IN, CANNOT PROCEED';
+				deferred.reject();
+				$location.url('/');
+			}
+		});
+		return deferred.promise;
+	};
+
 
 	$httpProvider.interceptors.push(function($q, $location){
 		return {
@@ -30,7 +45,7 @@ var app = angular.module('growthExplorer', [
 				} else if (response.status === 400){
 					$location.url('/');
 					return $q.reject(response);
-				}
+				} 
 			}
 		}
 	});
@@ -43,12 +58,15 @@ var app = angular.module('growthExplorer', [
 			templateUrl: 'views/pages/home.ejs',
 			controller: 'HomeCtrl',
 			resolve: {
-				loggedin: checkLoggedin
+				loggedin: checkLoggedinHome
 			}
 		})
 		.when('/teacher-practice', {
 			templateUrl: 'views/pages/teacher-practice.ejs',
-			controller: 'TeacherController'
+			controller: 'TeachCtrl',
+			resolve: {
+				loggedin: checkLoggedinTeacher
+			}
 		})
 		.otherwise({
 			redirectTo: '/'
@@ -75,25 +93,38 @@ app.controller('LoginCtrl', function($scope, $rootScope, $http, $location){
 		$http.post('/login', {	
 			username: $scope.user.username,
 			password: $scope.user.password,
-		}).success(function(response){
-			console.log('SUCCESS ');
+			headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+		}).then(function success(response){
+			return response;
 			$rootScope.message = 'AUTH WORKS';
 			$location.url('/home');
-		}).error(function(response){
+		}).catch(function error(response){
 			$rootScope.message = 'AUTH FAILED';
 			$location.url('/');
 		})
 	}
-})
+});
 
 
 app.controller('HomeCtrl', function($scope, $rootScope, $http, $location){
+
 	  $scope.userLogout = function(){
     	$http({
     		method: 'post',
-    		url: 'logout',
-    		headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+    		url: 'logout',		
+    	}).then(function success(){
+    		$location.url('/');
     	})
     }
+});
 
-})
+app.controller('TeachCtrl' , function($scope, $rootScope, $http, $location){
+	  $scope.userLogout = function(){
+    	$http({
+    		method: 'post',
+    		url: 'logout',		
+    	}).then(function success(){
+    		$location.url('/');
+    	});
+    }
+});

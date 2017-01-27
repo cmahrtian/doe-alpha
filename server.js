@@ -48,8 +48,6 @@ app.use(bodyParser.urlencoded({
 // // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(methodOverride('X-HTTP-Method-Override'));
 
-
-
 app.use(morgan('dev'));
 app.use(cookieParser());
 // routes =====================================================================
