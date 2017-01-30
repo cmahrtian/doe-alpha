@@ -1,4 +1,4 @@
-var app = angular.module('growthExplorer', ['ngRoute', 'ngStorage', 'appRoutes', 'HomeCtrl', 'LoginCtrl', 'TeacherCtrl']);
+var app = angular.module('growthExplorer', ['ngRoute', 'ngStorage', 'appRoutes', 'HomeCtrl', 'LoginCtrl', 'TeacherCtrl', 'StudentCtrl', 'LoginService']);
 
 // app.factory('Login', function($localStorage) {
 // 	$localStorage = $localStorage.$default({
