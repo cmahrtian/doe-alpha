@@ -4,7 +4,7 @@ var app = angular.module('growthExplorer', [
 	'ngResource',
 ]).config(function($routeProvider, $locationProvider, $httpProvider){
 
-	var checkLoggedinHome = function($q, $timeout, $http, $location, $rootScope){
+	var checkLoggedin = function($q, $timeout, $http, $location, $rootScope){
 		var deferred = $q.defer();
 		$http.get('/home').success(function(user){
 			if(user !== '0'){	
@@ -18,19 +18,19 @@ var app = angular.module('growthExplorer', [
 		return deferred.promise;
 	};
 
-	var checkLoggedinTeacher = function($q, $timeout, $http, $location, $rootScope){
-		var deferred = $q.defer();
-		$http.get('/teacher-practice').success(function(user){
-			if(user !== '0'){	
-				deferred.resolve();
-			} else {
-				$rootScope.message = 'NOT LOGGED IN, CANNOT PROCEED';
-				deferred.reject();
-				$location.url('/');
-			}
-		});
-		return deferred.promise;
-	};
+	// var checkLoggedinTeacher = function($q, $timeout, $http, $location, $rootScope){
+	// 	var deferred = $q.defer();
+	// 	$http.get('/teacher-practice').success(function(user){
+	// 		if(user !== '0'){	
+	// 			deferred.resolve();
+	// 		} else {
+	// 			$rootScope.message = 'NOT LOGGED IN, CANNOT PROCEED';
+	// 			deferred.reject();
+	// 			$location.url('/');
+	// 		}
+	// 	});
+	// 	return deferred.promise;
+	// };
 
 
 	$httpProvider.interceptors.push(function($q, $location){
@@ -58,14 +58,14 @@ var app = angular.module('growthExplorer', [
 			templateUrl: 'views/pages/home.ejs',
 			controller: 'HomeCtrl',
 			resolve: {
-				loggedin: checkLoggedinHome
+				loggedin: checkLoggedin
 			}
 		})
 		.when('/teacher-practice', {
 			templateUrl: 'views/pages/teacher-practice.ejs',
 			controller: 'TeachCtrl',
 			resolve: {
-				loggedin: checkLoggedinTeacher
+				loggedin: checkLoggedin
 			}
 		})
 		.otherwise({
@@ -90,15 +90,17 @@ var app = angular.module('growthExplorer', [
 app.controller('LoginCtrl', function($scope, $rootScope, $http, $location){
 	$scope.user = {};
 	$scope.userlogin = function(){			
-		$http.post('/login', {	
-			username: $scope.user.username,
-			password: $scope.user.password,
+		$http({
+			method: 'post',
+			url: '/login',
+			data: $.param($scope.user),
 			headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
-		}).then(function success(response){
-			return response;
+		}).then(function success(user){
+			//return user;
 			$rootScope.message = 'AUTH WORKS';
 			$location.url('/home');
 		}).catch(function error(response){
+			console.log(response);
 			$rootScope.message = 'AUTH FAILED';
 			$location.url('/');
 		})
