@@ -21,6 +21,10 @@ angular.module('appRoutes', [])
 				.when('/teacher-practice/components', {
 					templateUrl: 'views/pages/components.ejs',
 					controller: 'TeacherController'
+				})
+				.when('/student-learning', {
+					templateUrl: 'views/pages/student-learning.ejs',
+					controller: 'StudentController'
 				});
 			$locationProvider.html5Mode({
 				enabled: true,
