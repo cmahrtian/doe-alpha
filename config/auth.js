@@ -5,12 +5,12 @@ var bcrypt = require('bcrypt-nodejs');
 // config for MYSQL
 // create a pool of connections  
 var pool = mysql.createPool({
-		host: process.env.SERVER,
-		user: process.env.DEVELOPMENT_ID,
-		password: process.env.DEVELOPMENT_SECRET,
-		database: process.env.DB_ID,
-		connectionLimit: 10 
-	});
+	host: process.env.SERVER,
+	user: process.env.DEVELOPMENT_ID,
+	password: process.env.DEVELOPMENT_SECRET,
+	database: process.env.DB_ID,
+	connectionLimit: 10 
+});
 
 module.exports = function(passport){
 
@@ -36,7 +36,7 @@ module.exports = function(passport){
 		// define local login strategy
 		passport.use('local-login', 
 			new LocalStrategy({
-				usernameField: 'email',
+				usernameField: 'username',
 				passwordField: 'password',
 				passReqToCallback: true
 			}, 

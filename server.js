@@ -15,6 +15,9 @@ var path = require('path');
 require('dotenv').config()
 require('./config/auth')(passport);
 
+// // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
+app.use(methodOverride('X-HTTP-Method-Override'));
+
 // set the view engine to ejs
 app.set('views', './public/views');
 app.set('view engine', 'ejs');
@@ -38,15 +41,10 @@ app.use(bodyParser.urlencoded({
 	extended: true
 }));
 
-
-
 // // parse application/vnd.api+json as json
-// app.use(bodyParser.json({
-// 	type: 'application/vnd.api+json'
-// }));
-
-// // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
-app.use(methodOverride('X-HTTP-Method-Override'));
+app.use(bodyParser.json({
+	type: 'application/*+json'
+}));
 
 app.use(morgan('dev'));
 app.use(cookieParser());
