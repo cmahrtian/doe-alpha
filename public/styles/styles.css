@@ -620,9 +620,9 @@ h3 {
 	background: 
 		linear-gradient(135deg, transparent 0px, #8ad43f 0) top left,
 		linear-gradient(225deg, transparent 52px, #8ad43f 0) top right,
-		linear-gradient(315deg, transparent 52px, #8ad43f 0) bottom right,
+		linear-gradient(315deg, transparent 51px, #8ad43f 0) bottom right,
 		linear-gradient(45deg, transparent 0px, #8ad43f 0) bottom left;
-	background-size: 51%;
+	background-size: 50.5%;
 	background-repeat: no-repeat;
 	height: 120px;
 	padding: 2%;
@@ -632,6 +632,7 @@ h3 {
 
 .dig-in h3 {
 	position: absolute;
+	color: black;
 	margin: 0.75% 0;
 }
 
