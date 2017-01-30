@@ -4,23 +4,21 @@ module.exports = function(app, passport) {
 		res.render('index');
 	});
 
-	// two routes with auth 
-
 	app.get('/home', function(req, res){
 		res.send(req.isAuthenticated() ? req.user : '0');
 	});
 
 	app.get('/teacher-practice', function(req, res){
-		console.log(req.isAuthenticated());
 		res.send(req.isAuthenticated() ? req.user : '0');
 	});
 	
 
 	// server routes ============================================================
 	
-
 	// authenticate
 	app.post('/login', passport.authenticate('local-login'), function(req, res){
+		console.log(req.body);
+		console.log(req);
 		res.send(req.user);
 	});
 

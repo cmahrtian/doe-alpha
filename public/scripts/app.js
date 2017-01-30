@@ -18,21 +18,6 @@ var app = angular.module('growthExplorer', [
 		return deferred.promise;
 	};
 
-	// var checkLoggedinTeacher = function($q, $timeout, $http, $location, $rootScope){
-	// 	var deferred = $q.defer();
-	// 	$http.get('/teacher-practice').success(function(user){
-	// 		if(user !== '0'){	
-	// 			deferred.resolve();
-	// 		} else {
-	// 			$rootScope.message = 'NOT LOGGED IN, CANNOT PROCEED';
-	// 			deferred.reject();
-	// 			$location.url('/');
-	// 		}
-	// 	});
-	// 	return deferred.promise;
-	// };
-
-
 	$httpProvider.interceptors.push(function($q, $location){
 		return {
 			response: function(response){
@@ -96,7 +81,6 @@ app.controller('LoginCtrl', function($scope, $rootScope, $http, $location){
 			data: $.param($scope.user),
 			headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
 		}).then(function success(user){
-			//return user;
 			$rootScope.message = 'AUTH WORKS';
 			$location.url('/home');
 		}).catch(function error(response){
