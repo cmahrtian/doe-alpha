@@ -1,11 +1,10 @@
 <!-- top navbar -->
 <div class="menu" ng-controller="HomeController">
 	<!-- preset options for dropdown menus -->
-	<!-- <ul id="dropdown1" class="dropdown-content">
+	<ul id="dropdown1" class="dropdown-content">
 		<li><a href="/teacher-practice">Overview</a></li>
-		<li><a href="#">Ratings</a></li>
-		<li><a href="#">Components</a></li>
-	</ul> -->
+		<li><a href="/teacher-practice/components">Components</a></li>
+	</ul>
 	<!-- <ul id="dropdown2" class="dropdown-content">
 		<li><a href="#!">T-one</a></li>
 		<li><a href="#!">T-two</a></li>
@@ -21,17 +20,17 @@
 			<!-- Home/Practice/Learning menu options -->
 			<ul id="nav-mobile" class="right">
 				<li class="active"><a href="/home">Home</a></li>
+				<li> 
+					<a class="dropdown-button" data-activates="dropdown1">Practice
+						<i class="material-icons right">arrow_drop_down</i>
+					</a>	
+				</li>
 				<li>
-					<!-- eventually re-add class="dropdown-button" and data-activates="dropdown1" -->
-					<a href="/teacher-practice">Practice
+					<!-- add class="dropdown-button" and data-activates="dropdown2" later on down the road-->
+					<a href="/student-learning">Learning
 						<!-- <i class="material-icons right">arrow_drop_down</i> -->
 					</a>
 				</li>
-				<!-- <li>
-					<a class="dropdown-button" href="#" data-activates="dropdown2">Learning
-						<i class="material-icons right">arrow_drop_down</i>
-					</a>
-				</li> -->
 				<li><a class="log-off" href="/">Log Off</a></li>
 			</ul>
 		</div>
@@ -86,7 +85,7 @@
 
 	<!-- WeTeach card -->
 	<div class="col measures">
-		<a href="https://www.weteachnyc.org/">
+		<a href="https://www.weteachnyc.org/" target="_blank">
 			<div class="card weteach">
 				<div class="card-content">
 					<img src="../images/weteach.png" class="weteach">
