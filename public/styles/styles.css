@@ -19,6 +19,11 @@
 	margin-top: 1%;
 }
 
+/*nav bar*/
+ul.right ul.dropdown-content a {
+	font-size: 1.2rem;
+}
+
 /***********************/
 /*LOGIN PAGE*/
 /***********************/

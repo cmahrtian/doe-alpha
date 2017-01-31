@@ -1,11 +1,10 @@
 <!-- top navbar -->
 <div class="menu">
 	<!-- preset options for dropdown menus -->
-	<!-- <ul id="dropdown1" class="dropdown-content">
+	<ul id="dropdown1" class="dropdown-content">
 		<li><a href="/teacher-practice">Overview</a></li>
-		<li><a href="#">Ratings</a></li>
-		<li><a href="#">Components</a></li>
-	</ul> -->
+		<li><a href="/teacher-practice/components">Components</a></li>
+	</ul>
 	<!-- <ul id="dropdown2" class="dropdown-content">
 		<li><a href="#">T-one</a></li>
 		<li><a href="#">T-two</a></li>
@@ -20,15 +19,16 @@
 				<li><a href="/home">Home</a></li>
 				<li class="active">
 					<!-- eventually re-add class="dropdown-button" and data-activates="dropdown1" -->
-					<a href="/teacher-practice">Practice
+					<a class="dropdown-button" data-activates="dropdown1">Practice
+						<i class="material-icons right">arrow_drop_down</i>
+					</a>
+				</li>
+				<li>
+					<!-- add class="dropdown-button" and data-activates="dropdown2" later on down the road-->
+					<a href="/student-learning">Learning
 						<!-- <i class="material-icons right">arrow_drop_down</i> -->
 					</a>
 				</li>
-				<!-- <li>
-					<a class="dropdown-button" href="#" data-activates="dropdown2">Learning
-						<i class="material-icons right">arrow_drop_down</i>
-					</a>
-				</li> -->
 				<li><a class="log-off" href="/">Log Off</a></li>
 			</ul>
 		</div>
