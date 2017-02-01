@@ -50,3 +50,13 @@ CREATE TABLE yoy_scores (
 	Y15_Mean_Component_Score NUMERIC(4,2),
 	Y15_Weighted_Component_Score NUMERIC(6,4)
 );
+
+CREATE TABLE yoy_motp_measurements (
+	EmployeeID VARCHAR(7) NOT NULL,
+	Y16_MOTP_Value NUMERIC(3,2),
+	Y16_MOTP_Rating VARCHAR(16),
+	Y16_Offline VARCHAR(1),
+	Y15_MOTP_Value NUMERIC(3,2),
+	Y15_MOTP_Rating VARCHAR(16),
+	Y15_Offline VARCHAR(1)
+);
