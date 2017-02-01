@@ -160,22 +160,21 @@ angular.module('TeacherCtrl', [])
 				};
 				// adds (in order) the component score, bar of corresponding length,
 				// component name/description, and component rationale to collapsible
+				console.log(observationComponents);
 				observationComponents.forEach(function(entry) {
 					var componentScores = completedObservation.select('.component-scores');
 					if (entry.Rating > 0) {
-						componentScores.append('h4')
+						componentScores.append('h2')
 													.attr('class', 'component-rating')
-													.style('margin-right', 5*(4 - entry.Rating) + '%')
 													.text(entry.Rating);
-						componentScores.append('div')
-													.attr('class', 'component-bar')
-													.style('width', 5 + 5*(entry.Rating) + '%');
 						componentScores.append('p')
 													.attr('class', 'component-descriptor')
 													.text(entry.MOTPComponentDescription);
 						componentScores.append('p')
 													.attr('class', 'component-rationale')
 													.text(entry.ComponentRationale);
+						componentScores.append('hr');
+						console.log(observationComponents.indexOf(entry));
 					};
 				});
 			});

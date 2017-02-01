@@ -81,12 +81,6 @@ img.laptop {
 	margin-left: 4%;
 }
 
-/*divider*/
-hr {
-	height: 6px;
-	background-color: #616161;
-}
-
 /*task cards*/
 .row.tasks {
 	margin: 3% 17%;
@@ -507,19 +501,18 @@ h3 {
 	color: #93c0ed;
 }
 
-.component-scores .component-bar {
+/*.component-scores .component-bar {
 	float: right;
 	margin-top: 6px;
 	padding: 12px;
 	background-color: #ff9819;
-}
+}*/
 
 .component-scores .component-rating {
 	width: 5%;
 	float: right;
 	font-weight: bold;
 	margin-top: 0;
-	padding-left: 2%;
 }
 
 .component-scores .component-descriptor {
@@ -533,8 +526,16 @@ h3 {
 .component-scores .component-rationale {
 	font-family: MuseoSans;
 	font-size: 18px;
-	padding: 0 0 3%;
-	width: 65%;
+	padding: 0;
+	width: 90%;
+}
+
+/*divider*/
+hr {
+	height: 2px;
+	width: 50%;
+	background-color: #616161;
+	margin: 16px auto;
 }
 
 /*previous year's score/rating and YTD score*/
