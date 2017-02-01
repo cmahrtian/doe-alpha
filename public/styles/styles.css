@@ -117,7 +117,7 @@ a.btn.logon {
 	font-size: 16px;
 }
 
-/*FAQs/Contact footer*/
+/*teacher testimonials*/
 footer.page-footer {
 	padding-top: 12px;
 	background-color: white;
@@ -127,14 +127,6 @@ footer.page-footer {
 .page-footer .container {
 	width: 870px;
 }
-
-/*.page-footer .s6 {
-	border-right: 5px solid #93c0ed;
-}
-
-.page-footer .row .col.s5 {
-	margin-left: 3%;
-}*/
 
 .page-footer h4 {
 	font-family: MuseoSans;
@@ -159,18 +151,24 @@ footer.page-footer {
 	font-size: 18px;
 }
 
-/*.page-footer p, .page-footer span {
-	font-family: MuseoSlab;
+/*contact email address*/
+.contact-info {
+	width: 45%;
+	margin: 4% auto;
+	text-align: center;
+	padding: 2%;
+	border: 4px solid #616161;
 }
 
-.page-footer li {
-	font-size: 18px;
-	padding-bottom: 15px;
+.contact-info i {
+	margin-left: 6%;
 }
 
-.page-footer i.small {
-	float: left;
-}*/
+.contact-info a {
+	float: right;
+	font-size: 20px;
+	margin-right: 10%;
+}
 
 /***********************/
 /*HOME PAGE*/
