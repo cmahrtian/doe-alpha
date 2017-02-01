@@ -83,13 +83,6 @@ a.btn.logon {
 	text-transform: none;
 }
 
-/*MacBook image*/
-img.laptop {
-	width: 46%;
-	margin-top: -0.5%;
-	margin-left: 4%;
-}
-
 /*task cards*/
 .row.tasks {
 	margin: 3% 17%;
@@ -135,20 +128,38 @@ footer.page-footer {
 	width: 870px;
 }
 
-.page-footer .s6 {
+/*.page-footer .s6 {
 	border-right: 5px solid #93c0ed;
 }
 
 .page-footer .row .col.s5 {
 	margin-left: 3%;
-}
+}*/
 
-.page-footer h5 {
+.page-footer h4 {
 	font-family: MuseoSans;
 	font-weight: bold;
+	text-align: center;
 }
 
-.page-footer p, .page-footer span {
+.page-footer .col.s5 {
+	margin: 0 4%;
+}
+
+.page-footer .col.s5 p {
+	text-align: center;
+	font-family: MuseoSans;
+}
+
+.page-footer .col.s5 p.testimonial {
+	font-size: 22px;
+}
+
+.page-footer .col.s5 p.testifier {
+	font-size: 18px;
+}
+
+/*.page-footer p, .page-footer span {
 	font-family: MuseoSlab;
 }
 
@@ -159,7 +170,7 @@ footer.page-footer {
 
 .page-footer i.small {
 	float: left;
-}
+}*/
 
 /***********************/
 /*HOME PAGE*/
